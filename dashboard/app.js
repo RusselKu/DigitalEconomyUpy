@@ -1,23 +1,27 @@
-// Digital Economy Intelligence Lab - Dashboard Logic
-document.addEventListener('DOMContentLoaded', async () => {
+// ==========================================================================
+// AGTECH DIGITAL ECONOMY INTELLIGENCE - DASHBOARD SCRIPT
+// ==========================================================================
 
-  // Dataset oficial integrado (Año 2023)
-  const rawData = [
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Dataset oficial consolidado (Año 2023)
+  const countriesData = [
     {
-      country_iso3: "MEX",
-      country_name: "México",
+      iso3: "MEX",
+      name: "México",
       flag: "🇲🇽",
       region: "América Latina",
-      IT_NET_BBND: 20.75,
-      IT_NET_SECR: 412.12,
-      IT_NET_USER: 81.18,
-      ITU_PRICE_BASKET: 1.95,
-      ICT_SERV_EXP: 2.92,
-      DIGIT_DELIV_EXP: 24.50,
-      RD_EXP_GDP: 0.27,
-      PATENT_RES_PM: 8.80,
-      DRS: 26.57,
-      DRS_RANK: 4,
+      income: "Upper-middle income",
+      raw: {
+        IT_NET_BBND: 20.75,
+        IT_NET_SECR: 412.12,
+        IT_NET_USER: 81.18,
+        ITU_PRICE_BASKET: 1.95,
+        ICT_SERV_EXP: 2.92,
+        DIGIT_DELIV_EXP: 24.50,
+        RD_EXP_GDP: 0.27,
+        PATENT_RES_PM: 8.80
+      },
       norm: {
         IT_NET_BBND: 44.92,
         IT_NET_SECR: 0.06,
@@ -27,23 +31,32 @@ document.addEventListener('DOMContentLoaded', async () => {
         DIGIT_DELIV_EXP: 0.00,
         RD_EXP_GDP: 0.00,
         PATENT_RES_PM: 3.77
+      },
+      drs: 26.57,
+      rank: 4,
+      profile: {
+        strength: "Penetración de usuarios (81.2%) y asequibilidad de canasta básica (1.95% INB).",
+        gap: "Mínima inversión en I+D (0.27% PIB) y casi nula exportación de servicios digitales (24.5%).",
+        agtechRole: "Gran potencial de escala por volumen de producción agrícola en Sinaloa y Bajío, pero dependiente de tecnología importada.",
+        aiReadiness: "Media-Baja en backend; necesita infraestructura de centros de datos y talento local."
       }
     },
     {
-      country_iso3: "NLD",
-      country_name: "Países Bajos",
+      iso3: "NLD",
+      name: "Países Bajos",
       flag: "🇳🇱",
       region: "Europa",
-      IT_NET_BBND: 43.26,
-      IT_NET_SECR: 194962.90,
-      IT_NET_USER: 97.01,
-      ITU_PRICE_BASKET: 0.82,
-      ICT_SERV_EXP: 9.62,
-      DIGIT_DELIV_EXP: 58.40,
-      RD_EXP_GDP: 2.27,
-      PATENT_RES_PM: 118.50,
-      DRS: 92.14,
-      DRS_RANK: 1,
+      income: "High income",
+      raw: {
+        IT_NET_BBND: 43.26,
+        IT_NET_SECR: 194962.90,
+        IT_NET_USER: 97.01,
+        ITU_PRICE_BASKET: 0.82,
+        ICT_SERV_EXP: 9.62,
+        DIGIT_DELIV_EXP: 58.40,
+        RD_EXP_GDP: 2.27,
+        PATENT_RES_PM: 118.50
+      },
       norm: {
         IT_NET_BBND: 100.00,
         IT_NET_SECR: 100.00,
@@ -53,23 +66,32 @@ document.addEventListener('DOMContentLoaded', async () => {
         DIGIT_DELIV_EXP: 85.39,
         RD_EXP_GDP: 100.00,
         PATENT_RES_PM: 100.00
+      },
+      drs: 92.14,
+      rank: 1,
+      profile: {
+        strength: "Líder absoluto en servidores seguros (194k/1M), I+D (2.27%) y patentes (118.5/1M).",
+        gap: "Ninguna brecha estructural significativa en la escala analizada.",
+        agtechRole: "2º exportador agroalimentario mundial; líder indiscutible en agricultura de precisión en invernaderos y biotecnología.",
+        aiReadiness: "Sobresaliente; hub europeo de datos con capacidad de cómputo y gobernanza avanzada."
       }
     },
     {
-      country_iso3: "KEN",
-      country_name: "Kenia",
+      iso3: "KEN",
+      name: "Kenia",
       flag: "🇰🇪",
       region: "África Subsahariana",
-      IT_NET_BBND: 2.39,
-      IT_NET_SECR: 297.13,
-      IT_NET_USER: 32.07,
-      ITU_PRICE_BASKET: 10.40,
-      ICT_SERV_EXP: 10.67,
-      DIGIT_DELIV_EXP: 39.20,
-      RD_EXP_GDP: 0.80,
-      PATENT_RES_PM: 4.50,
-      DRS: 15.42,
-      DRS_RANK: 5,
+      income: "Lower-middle income",
+      raw: {
+        IT_NET_BBND: 2.39,
+        IT_NET_SECR: 297.13,
+        IT_NET_USER: 32.07,
+        ITU_PRICE_BASKET: 10.40,
+        ICT_SERV_EXP: 10.67,
+        DIGIT_DELIV_EXP: 39.20,
+        RD_EXP_GDP: 0.80,
+        PATENT_RES_PM: 4.50
+      },
       norm: {
         IT_NET_BBND: 0.00,
         IT_NET_SECR: 0.00,
@@ -79,23 +101,32 @@ document.addEventListener('DOMContentLoaded', async () => {
         DIGIT_DELIV_EXP: 37.03,
         RD_EXP_GDP: 26.50,
         PATENT_RES_PM: 0.00
+      },
+      drs: 15.42,
+      rank: 5,
+      profile: {
+        strength: "Pionero mundial en dinero móvil (M-Pesa) e inclusión financiera para pequeños agricultores.",
+        gap: "Baja conectividad fija (2.39 subs/100) y alto costo relativo de la canasta TIC (10.4% INB).",
+        agtechRole: "Soluciones móviles SMS/USSD de alertas de precios agrícolas y microseguros climáticos.",
+        aiReadiness: "Emergente; ecosistema 'Silicon Savannah' con alta adopción móvil pero baja infraestructura de cómputo."
       }
     },
     {
-      country_iso3: "ARG",
-      country_name: "Argentina",
+      iso3: "ARG",
+      name: "Argentina",
       flag: "🇦🇷",
       region: "América Latina",
-      IT_NET_BBND: 25.36,
-      IT_NET_SECR: 5451.20,
-      IT_NET_USER: 89.23,
-      ITU_PRICE_BASKET: 2.90,
-      ICT_SERV_EXP: 15.87,
-      DIGIT_DELIV_EXP: 64.20,
-      RD_EXP_GDP: 0.60,
-      PATENT_RES_PM: 9.20,
-      DRS: 55.72,
-      DRS_RANK: 3,
+      income: "Upper-middle income",
+      raw: {
+        IT_NET_BBND: 25.36,
+        IT_NET_SECR: 5451.20,
+        IT_NET_USER: 89.23,
+        ITU_PRICE_BASKET: 2.90,
+        ICT_SERV_EXP: 15.87,
+        DIGIT_DELIV_EXP: 64.20,
+        RD_EXP_GDP: 0.60,
+        PATENT_RES_PM: 9.20
+      },
       norm: {
         IT_NET_BBND: 56.20,
         IT_NET_SECR: 2.65,
@@ -105,23 +136,32 @@ document.addEventListener('DOMContentLoaded', async () => {
         DIGIT_DELIV_EXP: 100.00,
         RD_EXP_GDP: 16.50,
         PATENT_RES_PM: 4.12
+      },
+      drs: 55.72,
+      rank: 3,
+      profile: {
+        strength: "Líder regional en exportaciones de servicios digitalmente entregables (64.2%) y software TIC (15.9%).",
+        gap: "Baja inversión relativa en I+D frente a países de la OCDE y restricciones de divisas.",
+        agtechRole: "Potencia en startups de AgTech, siembra directa y plataformas de mapeo satelital pampeanas.",
+        aiReadiness: "Alta en talento de desarrollo y modelos matemáticos; media en infraestructura de datacenters locales."
       }
     },
     {
-      country_iso3: "NZL",
-      country_name: "Nueva Zelanda",
+      iso3: "NZL",
+      name: "Nueva Zelanda",
       flag: "🇳🇿",
       region: "Asia-Pacífico",
-      IT_NET_BBND: 37.85,
-      IT_NET_SECR: 18993.65,
-      IT_NET_USER: 93.33,
-      ITU_PRICE_BASKET: 0.98,
-      ICT_SERV_EXP: 6.95,
-      DIGIT_DELIV_EXP: 44.80,
-      RD_EXP_GDP: 1.55,
-      PATENT_RES_PM: 63.80,
-      DRS: 60.91,
-      DRS_RANK: 2,
+      income: "High income",
+      raw: {
+        IT_NET_BBND: 37.85,
+        IT_NET_SECR: 18993.65,
+        IT_NET_USER: 93.33,
+        ITU_PRICE_BASKET: 0.98,
+        ICT_SERV_EXP: 6.95,
+        DIGIT_DELIV_EXP: 44.80,
+        RD_EXP_GDP: 1.55,
+        PATENT_RES_PM: 63.80
+      },
       norm: {
         IT_NET_BBND: 86.77,
         IT_NET_SECR: 9.60,
@@ -131,48 +171,196 @@ document.addEventListener('DOMContentLoaded', async () => {
         DIGIT_DELIV_EXP: 51.13,
         RD_EXP_GDP: 64.00,
         PATENT_RES_PM: 52.02
+      },
+      drs: 60.91,
+      rank: 2,
+      profile: {
+        strength: "Alta asequibilidad TIC (0.98% INB), 1.55% PIB en I+D y 63.8 patentes por millón.",
+        gap: "Exportaciones de servicios TIC moderadas debido a fuerte orientación a commodities lácteos.",
+        agtechRole: "Digitalización total de la industria lechera y ganadera con sensores de pasturas y trazabilidad animal.",
+        aiReadiness: "Alta; infraestructura institucional sólida y modelos de IA aplicados a la productividad del campo."
       }
     }
   ];
 
-  // 1. Populate Table
-  const tableBody = document.getElementById('tableBody');
-  rawData.forEach(d => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td class="country-cell">${d.flag} ${d.country_name}</td>
-      <td>${d.region}</td>
-      <td>${d.IT_NET_BBND.toFixed(2)}</td>
-      <td>${d.IT_NET_SECR.toLocaleString('es-MX', {maximumFractionDigits: 1})}</td>
-      <td>${d.IT_NET_USER.toFixed(1)}%</td>
-      <td>${d.ITU_PRICE_BASKET.toFixed(2)}%</td>
-      <td>${d.ICT_SERV_EXP.toFixed(2)}%</td>
-      <td>${d.DIGIT_DELIV_EXP.toFixed(1)}%</td>
-      <td>${d.RD_EXP_GDP.toFixed(2)}%</td>
-      <td>${d.PATENT_RES_PM.toFixed(1)}</td>
-      <td><span class="score-badge">${d.DRS.toFixed(2)}</span></td>
-    `;
-    tableBody.appendChild(tr);
+  // Metadatos de los 8 indicadores
+  const indicatorsMeta = [
+    { code: 'IT_NET_BBND', label: 'Banda Ancha Fija', category: 'Infraestructura', dir: 1, unit: 'subs/100 hab' },
+    { code: 'IT_NET_SECR', label: 'Servidores Seguros', category: 'Infraestructura', dir: 1, unit: 'serv/1M hab' },
+    { code: 'IT_NET_USER', label: 'Usuarios Internet', category: 'Acceso/Uso', dir: 1, unit: '% pob' },
+    { code: 'ITU_PRICE_BASKET', label: 'Asequibilidad Canasta TIC', category: 'Asequibilidad', dir: -1, unit: '% INB p.c. [Inv]' },
+    { code: 'ICT_SERV_EXP', label: 'Exp. Servicios TIC', category: 'Act. Económica', dir: 1, unit: '% serv' },
+    { code: 'DIGIT_DELIV_EXP', label: 'Serv. Digitales Entregables', category: 'Act. Económica', dir: 1, unit: '% serv' },
+    { code: 'RD_EXP_GDP', label: 'Gasto en I+D', category: 'Innovación', dir: 1, unit: '% PIB' },
+    { code: 'PATENT_RES_PM', label: 'Patentes Residentes', category: 'Innovación', dir: 1, unit: 'pat/1M hab' }
+  ];
+
+  // Estado de pesos para el simulador
+  let currentWeights = {
+    IT_NET_BBND: 0.125,
+    IT_NET_SECR: 0.125,
+    IT_NET_USER: 0.125,
+    ITU_PRICE_BASKET: 0.125,
+    ICT_SERV_EXP: 0.125,
+    DIGIT_DELIV_EXP: 0.125,
+    RD_EXP_GDP: 0.125,
+    PATENT_RES_PM: 0.125
+  };
+
+  let selectedSpotlightCountry = countriesData.find(c => c.iso3 === 'MEX');
+  let selectedRadarPeer = countriesData.find(c => c.iso3 === 'ARG');
+
+  // 1. Render Country Quick Pills
+  const pillsContainer = document.getElementById('countryPillsContainer');
+  countriesData.forEach(country => {
+    const pill = document.createElement('button');
+    pill.className = `country-pill ${country.iso3 === 'MEX' ? 'active' : ''}`;
+    pill.dataset.iso = country.iso3;
+    pill.innerHTML = `<span>${country.flag}</span> <span>${country.name}</span> <small style="color:var(--emerald-400)">(${country.drs.toFixed(1)} pts)</small>`;
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.country-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      setSpotlightCountry(country.iso3);
+    });
+    pillsContainer.appendChild(pill);
   });
 
-  // 2. Render DRS Ranking Bar Chart
-  const drsCtx = document.getElementById('drsRankingChart').getContext('2d');
-  const sortedData = [...rawData].sort((a, b) => b.DRS - a.DRS);
+  // KPI card click handlers
+  document.querySelectorAll('.kpi-card[data-country]').forEach(card => {
+    card.addEventListener('click', () => {
+      const iso = card.dataset.country;
+      if (iso) {
+        document.querySelectorAll('.country-pill').forEach(p => {
+          p.classList.toggle('active', p.dataset.iso === iso);
+        });
+        setSpotlightCountry(iso);
+      }
+    });
+  });
 
-  new Chart(drsCtx, {
+  // 2. Set Spotlight Country Function
+  function setSpotlightCountry(iso) {
+    const country = countriesData.find(c => c.iso3 === iso);
+    if (!country) return;
+    selectedSpotlightCountry = country;
+
+    document.getElementById('spotlightBadge').innerHTML = `${country.flag} ${country.name.toUpperCase()}`;
+    
+    // Metrics grid
+    const metricsContainer = document.getElementById('spotlightMetrics');
+    metricsContainer.innerHTML = `
+      <div class="spot-stat">
+        <div class="spot-stat-label">DRS Score (Puntaje)</div>
+        <div class="spot-stat-value" style="color:var(--emerald-400)">${country.drs.toFixed(2)} pts <small>(Rank #${country.rank})</small></div>
+      </div>
+      <div class="spot-stat">
+        <div class="spot-stat-label">Usuarios de Internet</div>
+        <div class="spot-stat-value">${country.raw.IT_NET_USER.toFixed(1)}%</div>
+      </div>
+      <div class="spot-stat">
+        <div class="spot-stat-label">Servidores Seguros / 1M</div>
+        <div class="spot-stat-value">${country.raw.IT_NET_SECR.toLocaleString()}</div>
+      </div>
+      <div class="spot-stat">
+        <div class="spot-stat-label">Gasto en I+D (% PIB)</div>
+        <div class="spot-stat-value">${country.raw.RD_EXP_GDP.toFixed(2)}%</div>
+      </div>
+    `;
+
+    // Analysis
+    const analysisContainer = document.getElementById('spotlightAnalysis');
+    analysisContainer.innerHTML = `
+      <p><strong><i class="fa-solid fa-circle-check" style="color:var(--emerald-400)"></i> Fortaleza Clave:</strong> ${country.profile.strength}</p>
+      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-triangle-exclamation" style="color:var(--rose-500)"></i> Brecha Principal:</strong> ${country.profile.gap}</p>
+      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-seedling" style="color:var(--cyan-400)"></i> Rol en AgTech:</strong> ${country.profile.agtechRole}</p>
+      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-brain" style="color:var(--violet-400)"></i> Preparación IA:</strong> ${country.profile.aiReadiness}</p>
+    `;
+  }
+  setSpotlightCountry('MEX');
+
+  // 3. Tab Navigation Logic
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      tabContents.forEach(c => c.classList.remove('active'));
+
+      btn.classList.add('active');
+      const targetId = btn.dataset.tab;
+      document.getElementById(targetId).classList.add('active');
+    });
+  });
+
+  // 4. Render Main Table
+  const mainTableBody = document.getElementById('mainTableBody');
+  countriesData.forEach(d => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><strong>${d.flag} ${d.name}</strong></td>
+      <td>${d.region}</td>
+      <td>${d.raw.IT_NET_BBND.toFixed(2)}</td>
+      <td>${d.raw.IT_NET_SECR.toLocaleString('es-MX', {maximumFractionDigits: 1})}</td>
+      <td>${d.raw.IT_NET_USER.toFixed(1)}%</td>
+      <td>${d.raw.ITU_PRICE_BASKET.toFixed(2)}%</td>
+      <td>${d.raw.ICT_SERV_EXP.toFixed(2)}%</td>
+      <td>${d.raw.DIGIT_DELIV_EXP.toFixed(1)}%</td>
+      <td>${d.raw.RD_EXP_GDP.toFixed(2)}%</td>
+      <td>${d.raw.PATENT_RES_PM.toFixed(1)}</td>
+      <td><span class="drs-pill">${d.drs.toFixed(2)}</span></td>
+    `;
+    mainTableBody.appendChild(tr);
+  });
+
+  // 5. Render Dimensions List
+  function updateDimensionsList(peerIso) {
+    const peer = countriesData.find(c => c.iso3 === peerIso);
+    const mex = countriesData.find(c => c.iso3 === 'MEX');
+    const listContainer = document.getElementById('dimensionsList');
+    listContainer.innerHTML = '';
+
+    indicatorsMeta.forEach(ind => {
+      const mexVal = mex.raw[ind.code];
+      const peerVal = peer.raw[ind.code];
+      
+      const item = document.createElement('div');
+      item.className = 'dim-item';
+      item.innerHTML = `
+        <div class="dim-info">
+          <span class="dim-title">${ind.label}</span>
+          <span class="dim-source">${ind.category} · ${ind.unit}</span>
+        </div>
+        <div class="dim-values">
+          <span class="mex-val">MEX: ${typeof mexVal === 'number' ? (ind.code === 'IT_NET_SECR' ? mexVal.toLocaleString() : mexVal.toFixed(2)) : mexVal}</span> | 
+          <span class="peer-val">${peer.iso3}: ${typeof peerVal === 'number' ? (ind.code === 'IT_NET_SECR' ? peerVal.toLocaleString() : peerVal.toFixed(2)) : peerVal}</span>
+        </div>
+      `;
+      listContainer.appendChild(item);
+    });
+  }
+  updateDimensionsList('ARG');
+
+  // 6. Charts Setup (Chart.js)
+  // Chart 1: DRS Ranking
+  const drsCtx = document.getElementById('drsChart').getContext('2d');
+  const sortedByDrs = [...countriesData].sort((a, b) => b.drs - a.drs);
+  
+  const drsChart = new Chart(drsCtx, {
     type: 'bar',
     data: {
-      labels: sortedData.map(d => `${d.flag} ${d.country_name}`),
+      labels: sortedByDrs.map(c => `${c.flag} ${c.name}`),
       datasets: [{
-        label: 'DRS Score',
-        data: sortedData.map(d => d.DRS),
-        backgroundColor: sortedData.map(d => 
-          d.country_iso3 === 'NLD' ? '#10b981' :
-          d.country_iso3 === 'MEX' ? '#ef4444' :
-          d.country_iso3 === 'ARG' ? '#3b82f6' :
-          d.country_iso3 === 'NZL' ? '#8b5cf6' : '#f59e0b'
+        label: 'Digital Readiness Score',
+        data: sortedByDrs.map(c => c.drs),
+        backgroundColor: sortedByDrs.map(c => 
+          c.iso3 === 'NLD' ? '#10b981' :
+          c.iso3 === 'MEX' ? '#f43f5e' :
+          c.iso3 === 'ARG' ? '#3b82f6' :
+          c.iso3 === 'NZL' ? '#8b5cf6' : '#f59e0b'
         ),
-        borderRadius: 8
+        borderRadius: 8,
+        barThickness: 28
       }]
     },
     options: {
@@ -201,42 +389,44 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  // 3. Render Radar Chart (Dimensional Comparison)
+  // Chart 2: Radar Chart
   const radarCtx = document.getElementById('radarChart').getContext('2d');
-  const categories = [
-    'Banda Ancha Fija', 'Servidores Seguros', 'Usuarios Internet',
-    'Asequibilidad TIC', 'Export. Serv. TIC', 'Serv. Digitalizables',
-    'Gasto I+D', 'Patentes Residentes'
+  const radarLabels = indicatorsMeta.map(i => i.label);
+
+  const getRadarValues = (country) => [
+    country.norm.IT_NET_BBND,
+    country.norm.IT_NET_SECR,
+    country.norm.IT_NET_USER,
+    country.norm.ITU_PRICE_BASKET,
+    country.norm.ICT_SERV_EXP,
+    country.norm.DIGIT_DELIV_EXP,
+    country.norm.RD_EXP_GDP,
+    country.norm.PATENT_RES_PM
   ];
 
-  const mexData = rawData.find(d => d.country_iso3 === 'MEX');
-  let selectedPeer = rawData.find(d => d.country_iso3 === 'ARG');
+  const mexData = countriesData.find(c => c.iso3 === 'MEX');
 
-  const getRadarDataset = (country, color, label) => ({
-    label: label,
-    data: [
-      country.norm.IT_NET_BBND,
-      country.norm.IT_NET_SECR,
-      country.norm.IT_NET_USER,
-      country.norm.ITU_PRICE_BASKET,
-      country.norm.ICT_SERV_EXP,
-      country.norm.DIGIT_DELIV_EXP,
-      country.norm.RD_EXP_GDP,
-      country.norm.PATENT_RES_PM
-    ],
-    backgroundColor: color.replace('1)', '0.2)'),
-    borderColor: color,
-    pointBackgroundColor: color,
-    borderWidth: 2
-  });
-
-  let radarChart = new Chart(radarCtx, {
+  const radarChart = new Chart(radarCtx, {
     type: 'radar',
     data: {
-      labels: categories,
+      labels: radarLabels,
       datasets: [
-        getRadarDataset(mexData, 'rgba(239, 68, 68, 1)', 'México 🇲🇽'),
-        getRadarDataset(selectedPeer, 'rgba(59, 130, 246, 1)', `${selectedPeer.country_name} ${selectedPeer.flag}`)
+        {
+          label: 'México 🇲🇽',
+          data: getRadarValues(mexData),
+          backgroundColor: 'rgba(244, 63, 94, 0.2)',
+          borderColor: 'rgba(244, 63, 94, 1)',
+          pointBackgroundColor: 'rgba(244, 63, 94, 1)',
+          borderWidth: 2.5
+        },
+        {
+          label: `${selectedRadarPeer.name} ${selectedRadarPeer.flag}`,
+          data: getRadarValues(selectedRadarPeer),
+          backgroundColor: 'rgba(59, 130, 246, 0.2)',
+          borderColor: 'rgba(59, 130, 246, 1)',
+          pointBackgroundColor: 'rgba(59, 130, 246, 1)',
+          borderWidth: 2.5
+        }
       ]
     },
     options: {
@@ -251,41 +441,47 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       },
       plugins: {
-        legend: {
-          labels: { color: '#fff', font: { size: 12 } }
-        }
+        legend: { labels: { color: '#fff', font: { size: 12 } } }
       }
     }
   });
 
-  document.getElementById('peerSelect').addEventListener('change', (e) => {
-    const iso = e.target.value;
-    selectedPeer = rawData.find(d => d.country_iso3 === iso);
-    radarChart.data.datasets[1] = getRadarDataset(
-      selectedPeer,
-      iso === 'NLD' ? 'rgba(16, 185, 129, 1)' :
-      iso === 'ARG' ? 'rgba(59, 130, 246, 1)' :
-      iso === 'NZL' ? 'rgba(139, 92, 246, 1)' : 'rgba(245, 158, 11, 1)',
-      `${selectedPeer.country_name} ${selectedPeer.flag}`
-    );
+  document.getElementById('radarPeerSelect').addEventListener('change', (e) => {
+    const peerIso = e.target.value;
+    selectedRadarPeer = countriesData.find(c => c.iso3 === peerIso);
+    
+    radarChart.data.datasets[1] = {
+      label: `${selectedRadarPeer.name} ${selectedRadarPeer.flag}`,
+      data: getRadarValues(selectedRadarPeer),
+      backgroundColor: peerIso === 'NLD' ? 'rgba(16, 185, 129, 0.2)' :
+                       peerIso === 'ARG' ? 'rgba(59, 130, 246, 0.2)' :
+                       peerIso === 'NZL' ? 'rgba(139, 92, 246, 0.2)' : 'rgba(245, 158, 11, 0.2)',
+      borderColor: peerIso === 'NLD' ? 'rgba(16, 185, 129, 1)' :
+                   peerIso === 'ARG' ? 'rgba(59, 130, 246, 1)' :
+                   peerIso === 'NZL' ? 'rgba(139, 92, 246, 1)' : 'rgba(245, 158, 11, 1)',
+      pointBackgroundColor: peerIso === 'NLD' ? 'rgba(16, 185, 129, 1)' :
+                            peerIso === 'ARG' ? 'rgba(59, 130, 246, 1)' :
+                            peerIso === 'NZL' ? 'rgba(139, 92, 246, 1)' : 'rgba(245, 158, 11, 1)',
+      borderWidth: 2.5
+    };
     radarChart.update();
+    updateDimensionsList(peerIso);
   });
 
-  // 4. Render Scatter Plot (R&D vs Digital Services Exports)
+  // Chart 3: Scatter Plot
   const scatterCtx = document.getElementById('scatterChart').getContext('2d');
   new Chart(scatterCtx, {
     type: 'scatter',
     data: {
-      datasets: rawData.map(d => ({
-        label: `${d.flag} ${d.country_name}`,
-        data: [{ x: d.RD_EXP_GDP, y: d.DIGIT_DELIV_EXP }],
-        backgroundColor: 
-          d.country_iso3 === 'NLD' ? '#10b981' :
-          d.country_iso3 === 'MEX' ? '#ef4444' :
-          d.country_iso3 === 'ARG' ? '#3b82f6' :
-          d.country_iso3 === 'NZL' ? '#8b5cf6' : '#f59e0b',
-        pointRadius: 10,
-        pointHoverRadius: 13
+      datasets: countriesData.map(c => ({
+        label: `${c.flag} ${c.name}`,
+        data: [{ x: c.raw.RD_EXP_GDP, y: c.raw.DIGIT_DELIV_EXP }],
+        backgroundColor: c.iso3 === 'NLD' ? '#10b981' :
+                         c.iso3 === 'MEX' ? '#f43f5e' :
+                         c.iso3 === 'ARG' ? '#3b82f6' :
+                         c.iso3 === 'NZL' ? '#8b5cf6' : '#f59e0b',
+        pointRadius: 11,
+        pointHoverRadius: 15
       }))
     },
     options: {
@@ -298,15 +494,13 @@ document.addEventListener('DOMContentLoaded', async () => {
           ticks: { color: '#cbd5e1' }
         },
         y: {
-          title: { display: true, text: 'Servicios Digitalmente Entregables (%)', color: '#94a3b8', font: { weight: 'bold' } },
+          title: { display: true, text: 'Servicios Digitalmente Entregables (% Exportaciones)', color: '#94a3b8', font: { weight: 'bold' } },
           grid: { color: 'rgba(255,255,255,0.05)' },
           ticks: { color: '#cbd5e1' }
         }
       },
       plugins: {
-        legend: {
-          labels: { color: '#fff' }
-        },
+        legend: { labels: { color: '#fff' } },
         tooltip: {
           callbacks: {
             label: (ctx) => `${ctx.dataset.label}: I+D = ${ctx.raw.x}% | Serv. Digitales = ${ctx.raw.y}%`
@@ -314,6 +508,93 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       }
     }
+  });
+
+  // 7. Interactive DRS Simulator Logic
+  const simulatorDrawer = document.getElementById('simulatorDrawer');
+  const drawerBackdrop = document.getElementById('drawerBackdrop');
+  const btnToggleSimulator = document.getElementById('btnToggleSimulator');
+  const btnCloseDrawer = document.getElementById('btnCloseDrawer');
+  const slidersContainer = document.getElementById('slidersContainer');
+  const simRankingList = document.getElementById('simRankingList');
+
+  btnToggleSimulator.addEventListener('click', () => {
+    simulatorDrawer.classList.add('open');
+    drawerBackdrop.classList.add('open');
+  });
+
+  const closeDrawer = () => {
+    simulatorDrawer.classList.remove('open');
+    drawerBackdrop.classList.remove('open');
+  };
+
+  btnCloseDrawer.addEventListener('click', closeDrawer);
+  drawerBackdrop.addEventListener('click', closeDrawer);
+
+  // Render Sliders
+  indicatorsMeta.forEach(ind => {
+    const group = document.createElement('div');
+    group.className = 'slider-group';
+    group.innerHTML = `
+      <div class="slider-label-row">
+        <span>${ind.label}</span>
+        <span id="label_val_${ind.code}">12.5%</span>
+      </div>
+      <input type="range" id="slider_${ind.code}" min="0" max="100" value="12.5" step="0.5">
+    `;
+    slidersContainer.appendChild(group);
+
+    const slider = group.querySelector(`#slider_${ind.code}`);
+    slider.addEventListener('input', (e) => {
+      document.getElementById(`label_val_${ind.code}`).innerText = `${parseFloat(e.target.value).toFixed(1)}%`;
+      recalculateSimulatedDRS();
+    });
+  });
+
+  function recalculateSimulatedDRS() {
+    let sumWeights = 0;
+    indicatorsMeta.forEach(ind => {
+      const val = parseFloat(document.getElementById(`slider_${ind.code}`).value);
+      currentWeights[ind.code] = val;
+      sumWeights += val;
+    });
+
+    // Normalize weights to sum to 1.0
+    const normWeights = {};
+    indicatorsMeta.forEach(ind => {
+      normWeights[ind.code] = sumWeights > 0 ? currentWeights[ind.code] / sumWeights : 0.125;
+    });
+
+    const simScores = countriesData.map(c => {
+      let score = 0;
+      indicatorsMeta.forEach(ind => {
+        score += c.norm[ind.code] * normWeights[ind.code];
+      });
+      return { ...c, simDrs: score };
+    });
+
+    simScores.sort((a, b) => b.simDrs - a.simDrs);
+
+    simRankingList.innerHTML = '';
+    simScores.forEach((c, idx) => {
+      const item = document.createElement('div');
+      item.className = 'sim-rank-item';
+      item.innerHTML = `
+        <span><strong>#${idx + 1}</strong> ${c.flag} ${c.name}</span>
+        <span style="color:var(--emerald-400); font-weight:bold;">${c.simDrs.toFixed(2)} pts</span>
+      `;
+      simRankingList.appendChild(item);
+    });
+  }
+  recalculateSimulatedDRS();
+
+  document.getElementById('btnResetWeights').addEventListener('click', () => {
+    indicatorsMeta.forEach(ind => {
+      const slider = document.getElementById(`slider_${ind.code}`);
+      slider.value = 12.5;
+      document.getElementById(`label_val_${ind.code}`).innerText = '12.5%';
+    });
+    recalculateSimulatedDRS();
   });
 
 });
