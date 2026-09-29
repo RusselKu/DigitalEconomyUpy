@@ -27,6 +27,7 @@ DigitalEconomyUpy/
 ├── 🔹 PARTE I: Digital Economy Intelligence Lab
 │   ├── data/
 │   │   ├── raw/                          # Untouched official raw downloads (JSON/CSV)
+│   │   │   └── official/                 # Original source tables (ITU, UNCTAD, WIPO)
 │   │   └── processed/
 │   │       ├── digital_economy_clean.csv # Clean dataset (5 economies x 8 indicators)
 │   │       └── digital_readiness_score.csv # Normalized scores and DRS ranking

@@ -1,0 +1,6 @@
+Economy_Code,Economy_Label,Indicator_Code,Indicator_Label,Year,Value,Unit,Source
+ARG,Argentina,US_DDS_SHARE,Digitally deliverable services as share of total service exports,2023,64.20,%,UNCTADstat Data Centre
+KEN,Kenya,US_DDS_SHARE,Digitally deliverable services as share of total service exports,2023,39.20,%,UNCTADstat Data Centre
+MEX,Mexico,US_DDS_SHARE,Digitally deliverable services as share of total service exports,2023,24.50,%,UNCTADstat Data Centre
+NLD,Netherlands,US_DDS_SHARE,Digitally deliverable services as share of total service exports,2023,58.40,%,UNCTADstat Data Centre
+NZL,New Zealand,US_DDS_SHARE,Digitally deliverable services as share of total service exports,2023,44.80,%,UNCTADstat Data Centre

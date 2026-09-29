@@ -20,6 +20,7 @@ DigitalEconomyUpy/
 │       └── pipeline_and_deploy.yml   # CI/CD: Automated Validation & GitHub Pages Deployment
 ├── data/
 │   ├── raw/                          # Untouched official raw files (JSON/CSV)
+│   │   ├── official/                 # Untouched official source tables (ITU, UNCTAD, WIPO)
 │   │   ├── world_bank_raw.json / csv
 │   │   ├── itu_datahub_raw.json / csv
 │   │   ├── unctad_raw.json / csv
