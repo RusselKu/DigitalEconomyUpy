@@ -71,9 +71,11 @@ Following the activity specifications, exactly **8 indicators** were selected ac
 
     # Code load data
     cells.append(nbf.v4.new_code_cell("""# Load clean processed dataset and logs
-df_clean = pd.read_csv('../data/processed/digital_economy_clean.csv')
-source_log = pd.read_csv('../source_log.csv')
-data_dict = pd.read_csv('../data_dictionary.csv')
+import os
+base_dir = '..' if os.path.exists('../data') else '.'
+df_clean = pd.read_csv(os.path.join(base_dir, 'data', 'processed', 'digital_economy_clean.csv'))
+source_log = pd.read_csv(os.path.join(base_dir, 'source_log.csv'))
+data_dict = pd.read_csv(os.path.join(base_dir, 'data_dictionary.csv'))
 
 print("--- SOURCE LOG TRACEABILITY (source_log.csv) ---")
 display(source_log[['indicator_id', 'indicator_name', 'organization', 'observation_year', 'transformation_applied']])
