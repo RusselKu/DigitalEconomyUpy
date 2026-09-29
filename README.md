@@ -60,8 +60,9 @@ DigitalEconomyUpy/
 │
 ├── ⚙️ Scripts & Automation Pipeline
 │   └── scripts/
-│       ├── 01_fetch_data.py              # Automated API data acquisition
+│       ├── 01_fetch_data.py              # Automated API & raw data acquisition
 │       ├── 02_process_data.py            # Data cleaning & DRS score computation
+│       ├── 03_validate_provenance.py     # Cell-by-cell data provenance audit
 │       └── 04_generate_notebook.py       # Jupyter notebook generator
 │
 ├── requirements.txt                      # Python dependencies
@@ -109,9 +110,10 @@ cd DigitalEconomyUpy
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Execute data pipeline
+# 3. Execute data pipeline & provenance audit
 python scripts/01_fetch_data.py
 python scripts/02_process_data.py
+python scripts/03_validate_provenance.py
 
 # 4. Open Interactive Dashboard (Parte I)
 # Open dashboard/index.html in any browser

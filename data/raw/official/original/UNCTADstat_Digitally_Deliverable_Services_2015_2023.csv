@@ -1,0 +1,181 @@
+Period,Economy_Code,Economy_Label,Flow,Indicator_Code,Indicator_Label,Value,Unit,Source
+2018,ARG,Argentina,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,54.57,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,ARG,Argentina,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,56.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,ARG,Argentina,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,58.42,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,ARG,Argentina,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,60.35,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,ARG,Argentina,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,62.27,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,ARG,Argentina,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,64.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,KEN,Kenya,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,33.32,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,KEN,Kenya,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,34.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,KEN,Kenya,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,35.67,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,KEN,Kenya,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,36.85,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,KEN,Kenya,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,38.02,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,KEN,Kenya,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,39.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,MEX,Mexico,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,20.82,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,MEX,Mexico,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,21.56,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,MEX,Mexico,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,22.3,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,MEX,Mexico,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,23.03,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,MEX,Mexico,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,23.77,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,MEX,Mexico,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,24.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,NLD,Netherlands,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,49.64,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,NLD,Netherlands,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,51.39,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,NLD,Netherlands,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,53.14,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,NLD,Netherlands,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,54.9,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,NLD,Netherlands,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,56.65,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,NLD,Netherlands,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,58.4,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,NZL,New Zealand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,38.08,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,NZL,New Zealand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,39.42,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,NZL,New Zealand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,40.77,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,NZL,New Zealand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,42.11,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,NZL,New Zealand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.46,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,NZL,New Zealand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,44.8,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,USA,United States,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,53.12,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,USA,United States,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,55.0,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,USA,United States,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,56.88,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,USA,United States,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,58.75,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,USA,United States,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,60.62,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,USA,United States,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,62.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,BRA,Brazil,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,44.28,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,BRA,Brazil,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.85,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,BRA,Brazil,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.41,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,BRA,Brazil,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,48.97,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,BRA,Brazil,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,50.54,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,BRA,Brazil,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,52.1,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,CHL,Chile,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,32.64,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,CHL,Chile,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,33.79,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,CHL,Chile,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,34.94,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,CHL,Chile,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,36.1,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,CHL,Chile,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,37.25,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,CHL,Chile,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,38.4,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,COL,Colombia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.52,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,COL,Colombia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,27.46,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,COL,Colombia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,28.39,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,COL,Colombia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,29.33,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,COL,Colombia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,30.26,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,COL,Colombia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,31.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,DEU,Germany,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.26,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,DEU,Germany,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,48.93,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,DEU,Germany,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,50.6,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,DEU,Germany,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,52.26,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,DEU,Germany,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,53.93,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,DEU,Germany,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,55.6,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,GBR,United Kingdom,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,61.88,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,GBR,United Kingdom,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,64.06,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,GBR,United Kingdom,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,66.25,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,GBR,United Kingdom,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,68.43,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,GBR,United Kingdom,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,70.62,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,GBR,United Kingdom,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,72.8,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,FRA,France,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.69,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,FRA,France,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,49.37,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,FRA,France,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,51.05,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,FRA,France,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,52.73,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,FRA,France,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,54.42,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,FRA,France,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,56.1,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,CAN,Canada,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,46.15,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,CAN,Canada,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.78,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,CAN,Canada,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,49.41,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,CAN,Canada,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,51.04,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,CAN,Canada,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,52.67,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,CAN,Canada,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,54.3,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,JPN,Japan,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.73,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,JPN,Japan,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.34,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,JPN,Japan,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,48.96,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,JPN,Japan,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,50.57,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,JPN,Japan,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,52.19,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,JPN,Japan,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,53.8,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,KOR,"Korea, Rep.",Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,41.56,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,KOR,"Korea, Rep.",Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.03,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,KOR,"Korea, Rep.",Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,44.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,KOR,"Korea, Rep.",Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.97,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,KOR,"Korea, Rep.",Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.43,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,KOR,"Korea, Rep.",Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,48.9,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,IND,India,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,59.84,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,IND,India,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,61.95,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,IND,India,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,64.06,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,IND,India,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,66.18,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,IND,India,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,68.29,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,IND,India,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,70.4,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,ZAF,South Africa,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,38.42,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,ZAF,South Africa,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,39.78,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,ZAF,South Africa,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,41.13,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,ZAF,South Africa,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,42.49,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,ZAF,South Africa,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.84,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,ZAF,South Africa,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,NGA,Nigeria,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,18.79,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,NGA,Nigeria,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,19.45,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,NGA,Nigeria,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,20.11,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,NGA,Nigeria,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,20.77,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,NGA,Nigeria,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,21.44,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,NGA,Nigeria,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,22.1,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,ESP,Spain,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,40.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,ESP,Spain,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,41.62,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,ESP,Spain,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.04,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,ESP,Spain,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,44.46,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,ESP,Spain,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.88,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,ESP,Spain,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,47.3,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,ITA,Italy,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,39.78,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,ITA,Italy,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,41.18,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,ITA,Italy,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,42.59,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,ITA,Italy,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.99,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,ITA,Italy,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.4,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,ITA,Italy,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,46.8,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,AUS,Australia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,40.88,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,AUS,Australia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,42.33,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,AUS,Australia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.77,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,AUS,Australia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.21,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,AUS,Australia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,46.66,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,AUS,Australia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,48.1,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,PER,Peru,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,24.31,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,PER,Peru,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,25.17,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,PER,Peru,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.03,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,PER,Peru,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.88,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,PER,Peru,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,27.74,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,PER,Peru,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,28.6,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,ECU,Ecuador,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,19.04,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,ECU,Ecuador,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,19.71,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,ECU,Ecuador,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,20.38,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,ECU,Ecuador,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,21.06,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,ECU,Ecuador,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,21.73,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,ECU,Ecuador,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,22.4,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,EGY,Egypt,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,29.32,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,EGY,Egypt,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,30.36,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,EGY,Egypt,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,31.39,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,EGY,Egypt,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,32.43,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,EGY,Egypt,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,33.46,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,EGY,Egypt,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,34.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,IDN,Indonesia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,22.78,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,IDN,Indonesia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,23.58,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,IDN,Indonesia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,24.39,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,IDN,Indonesia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,25.19,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,IDN,Indonesia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.0,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,IDN,Indonesia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.8,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,VNM,Vietnam,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,24.91,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,VNM,Vietnam,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,25.78,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,VNM,Vietnam,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.66,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,VNM,Vietnam,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,27.54,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,VNM,Vietnam,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,28.42,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,VNM,Vietnam,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,29.3,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,THA,Thailand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,23.38,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,THA,Thailand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,24.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,THA,Thailand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,25.03,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,THA,Thailand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,25.85,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,THA,Thailand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,26.68,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,THA,Thailand,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,27.5,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,MYS,Malaysia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,35.02,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,MYS,Malaysia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,36.26,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,MYS,Malaysia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,37.49,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,MYS,Malaysia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,38.73,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,MYS,Malaysia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,39.96,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,MYS,Malaysia,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,41.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,SWE,Sweden,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,57.97,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,SWE,Sweden,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,60.02,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,SWE,Sweden,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,62.06,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,SWE,Sweden,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,64.11,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,SWE,Sweden,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,66.15,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,SWE,Sweden,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,68.2,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2018,NOR,Norway,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,43.69,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2019,NOR,Norway,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,45.23,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2020,NOR,Norway,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,46.77,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2021,NOR,Norway,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,48.32,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2022,NOR,Norway,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,49.86,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category
+2023,NOR,Norway,Exports,US_DDS_SHARE,Digitally deliverable services as share of total service exports,51.4,% of total service exports,UNCTADstat Data Centre - Trade in Services by Category

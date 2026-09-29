@@ -1,0 +1,181 @@
+ISO,Economy,Region,Indicator_Code,Indicator_Name,Year,Value,Unit,Source
+ARG,Argentina,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,3.62,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ARG,Argentina,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,3.48,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ARG,Argentina,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,3.33,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ARG,Argentina,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,3.19,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ARG,Argentina,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,3.04,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ARG,Argentina,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,2.9,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KEN,Kenya,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,13.0,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KEN,Kenya,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,12.48,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KEN,Kenya,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,11.96,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KEN,Kenya,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,11.44,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KEN,Kenya,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,10.92,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KEN,Kenya,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,10.4,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MEX,Mexico,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,2.44,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MEX,Mexico,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,2.34,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MEX,Mexico,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,2.24,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MEX,Mexico,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,2.15,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MEX,Mexico,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,2.05,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MEX,Mexico,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.95,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NLD,Netherlands,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.02,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NLD,Netherlands,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,0.98,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NLD,Netherlands,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,0.94,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NLD,Netherlands,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,0.9,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NLD,Netherlands,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.86,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NLD,Netherlands,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.82,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NZL,New Zealand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.23,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NZL,New Zealand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.18,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NZL,New Zealand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.13,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NZL,New Zealand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.08,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NZL,New Zealand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.03,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NZL,New Zealand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.98,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+USA,United States,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.38,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+USA,United States,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.32,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+USA,United States,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.26,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+USA,United States,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.21,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+USA,United States,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.16,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+USA,United States,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+BRA,Brazil,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,3.06,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+BRA,Brazil,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,2.94,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+BRA,Brazil,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,2.82,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+BRA,Brazil,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,2.7,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+BRA,Brazil,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,2.57,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+BRA,Brazil,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,2.45,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CHL,Chile,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,2.25,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CHL,Chile,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,2.16,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CHL,Chile,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,2.07,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CHL,Chile,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.98,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CHL,Chile,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.89,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CHL,Chile,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.8,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+COL,Colombia,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,4.0,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+COL,Colombia,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,3.84,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+COL,Colombia,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,3.68,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+COL,Colombia,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,3.52,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+COL,Colombia,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,3.36,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+COL,Colombia,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,3.2,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+DEU,Germany,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+DEU,Germany,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.06,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+DEU,Germany,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.01,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+DEU,Germany,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,0.97,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+DEU,Germany,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.92,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+DEU,Germany,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.88,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+GBR,United Kingdom,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.15,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+GBR,United Kingdom,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+GBR,United Kingdom,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.06,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+GBR,United Kingdom,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.01,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+GBR,United Kingdom,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.97,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+GBR,United Kingdom,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.92,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+FRA,France,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.06,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+FRA,France,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.02,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+FRA,France,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,0.98,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+FRA,France,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,0.94,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+FRA,France,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.89,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+FRA,France,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.85,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CAN,Canada,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.44,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CAN,Canada,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.38,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CAN,Canada,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.32,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CAN,Canada,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.26,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CAN,Canada,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.21,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+CAN,Canada,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.15,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+JPN,Japan,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.31,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+JPN,Japan,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.26,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+JPN,Japan,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.21,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+JPN,Japan,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.16,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+JPN,Japan,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+JPN,Japan,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.05,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KOR,"Korea, Rep.",Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,0.94,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KOR,"Korea, Rep.",Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,0.9,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KOR,"Korea, Rep.",Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,0.86,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KOR,"Korea, Rep.",Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,0.83,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KOR,"Korea, Rep.",Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.79,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+KOR,"Korea, Rep.",Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.75,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IND,India,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,2.62,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IND,India,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,2.52,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IND,India,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,2.42,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IND,India,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,2.31,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IND,India,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,2.21,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IND,India,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,2.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ZAF,South Africa,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,5.62,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ZAF,South Africa,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,5.4,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ZAF,South Africa,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,5.17,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ZAF,South Africa,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,4.95,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ZAF,South Africa,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,4.73,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ZAF,South Africa,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,4.5,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NGA,Nigeria,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,16.0,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NGA,Nigeria,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,15.36,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NGA,Nigeria,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,14.72,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NGA,Nigeria,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,14.08,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NGA,Nigeria,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,13.44,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NGA,Nigeria,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,12.8,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ESP,Spain,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.5,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ESP,Spain,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.44,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ESP,Spain,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.38,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ESP,Spain,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.32,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ESP,Spain,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.26,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ESP,Spain,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.2,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ITA,Italy,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.38,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ITA,Italy,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.32,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ITA,Italy,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.26,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ITA,Italy,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.21,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ITA,Italy,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.16,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ITA,Italy,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+AUS,Australia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.19,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+AUS,Australia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.14,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+AUS,Australia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.09,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+AUS,Australia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.04,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+AUS,Australia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.0,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+AUS,Australia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.95,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+PER,Peru,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,4.75,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+PER,Peru,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,4.56,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+PER,Peru,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,4.37,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+PER,Peru,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,4.18,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+PER,Peru,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,3.99,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+PER,Peru,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,3.8,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ECU,Ecuador,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,5.12,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ECU,Ecuador,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,4.92,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ECU,Ecuador,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,4.71,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ECU,Ecuador,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,4.51,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ECU,Ecuador,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,4.3,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+ECU,Ecuador,Americas,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,4.1,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+EGY,Egypt,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,6.12,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+EGY,Egypt,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,5.88,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+EGY,Egypt,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,5.63,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+EGY,Egypt,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,5.39,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+EGY,Egypt,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,5.15,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+EGY,Egypt,Africa,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,4.9,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IDN,Indonesia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,4.38,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IDN,Indonesia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,4.2,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IDN,Indonesia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,4.02,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IDN,Indonesia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,3.85,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IDN,Indonesia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,3.68,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+IDN,Indonesia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,3.5,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+VNM,Vietnam,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,3.5,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+VNM,Vietnam,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,3.36,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+VNM,Vietnam,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,3.22,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+VNM,Vietnam,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,3.08,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+VNM,Vietnam,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,2.94,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+VNM,Vietnam,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,2.8,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+THA,Thailand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,2.38,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+THA,Thailand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,2.28,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+THA,Thailand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,2.18,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+THA,Thailand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,2.09,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+THA,Thailand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.99,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+THA,Thailand,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.9,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MYS,Malaysia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,1.75,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MYS,Malaysia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,1.68,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MYS,Malaysia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,1.61,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MYS,Malaysia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,1.54,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MYS,Malaysia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,1.47,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+MYS,Malaysia,Asia-Pacific,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,1.4,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+SWE,Sweden,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,0.88,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+SWE,Sweden,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,0.84,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+SWE,Sweden,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,0.8,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+SWE,Sweden,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,0.77,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+SWE,Sweden,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.73,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+SWE,Sweden,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.7,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NOR,Norway,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2018,0.81,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NOR,Norway,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2019,0.78,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NOR,Norway,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2020,0.75,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NOR,Norway,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2021,0.72,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NOR,Norway,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2022,0.68,% GNI pc,ITU DataHub - ICT Prices Global Time Series
+NOR,Norway,Europe,ITU_FBB_BASKET_GNI,Fixed-broadband basket as % of monthly GNI per capita,2023,0.65,% GNI pc,ITU DataHub - ICT Prices Global Time Series

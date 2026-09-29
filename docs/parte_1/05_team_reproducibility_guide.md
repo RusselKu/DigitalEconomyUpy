@@ -42,8 +42,9 @@ DigitalEconomyUpy/
 │       ├── 04_strategic_diagnosis_and_gaps.md
 │       └── 05_team_reproducibility_guide.md
 ├── scripts/
-│   ├── 01_fetch_data.py              # Automated API acquisition
+│   ├── 01_fetch_data.py              # Automated API & raw data acquisition
 │   ├── 02_process_data.py            # Data cleaning & DRS computation
+│   ├── 03_validate_provenance.py     # Cell-by-cell data provenance & traceability audit
 │   └── 04_generate_notebook.py       # Notebook generator
 ├── source_log.csv                    # Official traceability register
 ├── data_dictionary.csv               # Formal data dictionary
@@ -66,13 +67,16 @@ pip install -r requirements.txt
 
 ### Step 2: Run the full data pipeline
 ```bash
-# 1. Fetch raw data from official APIs (World Bank, ITU, UNCTAD, WIPO)
+# 1. Fetch raw data from official APIs & raw official files (World Bank, ITU, UNCTAD, WIPO)
 python scripts/01_fetch_data.py
 
 # 2. Process data and calculate Digital Readiness Score (DRS)
 python scripts/02_process_data.py
 
-# 3. Regenerate and execute the reproducible Jupyter notebook
+# 3. Audit and validate 100% data provenance against official files
+python scripts/03_validate_provenance.py
+
+# 4. Regenerate and execute the reproducible Jupyter notebook
 python scripts/04_generate_notebook.py
 python -m jupyter nbconvert --to notebook --execute --inplace notebooks/Digital_Economy_Analysis.ipynb
 ```
