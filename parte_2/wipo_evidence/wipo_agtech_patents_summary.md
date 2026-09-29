@@ -1,5 +1,8 @@
 # WIPO PATENTSCOPE Evidence & Patent Analysis
 ## Activity 2 · Part II: From Data to Digital Transformation
+**Team 3: Agriculture** | **Economies:** Mexico 🇲🇽, Netherlands 🇳🇱, Kenya 🇰🇪, Argentina 🇦🇷, New Zealand 🇳🇿
+
+---
 
 ### Official Databases Consulted
 1. **WIPO IP Statistics Data Center:** [https://www3.wipo.int/ipstats/](https://www3.wipo.int/ipstats/) *(Used for macro-level national aggregate indicators: Resident patent applications per million population)*.
@@ -30,3 +33,4 @@
 2. **Relevance to Proposed AgTech Solution:**
    - The proposed precision irrigation algorithm combines soil tension sensors with satellite evapotranspiration data ($ET_c$), fitting squarely into **IPC Class G05D 7/00** and **A01G 25/16**.
    - Resident patenting in Mexico is heavily led by public research institutes (e.g., IMTA), whereas in the Netherlands and New Zealand, patenting is driven by private AgTech spinoffs and corporate leaders (Priva, CropX).
+3. **Traceability File:** See full query log with direct search parameters in [wipo_patent_query_log.csv](file:///c:/Users/russe/Documents/github_repo/DigitalEconomyUpy/parte_2/wipo_evidence/wipo_patent_query_log.csv).

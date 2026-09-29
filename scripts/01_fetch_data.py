@@ -56,93 +56,127 @@ def fetch_data():
     pd.DataFrame(wb_records).to_csv(os.path.join(raw_dir, 'world_bank_raw.csv'), index=False, encoding='utf-8')
     print(f"  -> World Bank: {len(wb_records)} records saved to data/raw/world_bank_raw.csv")
 
-    # 2. ITU DataHub (Read from official untouched download in data/raw/official/)
-    print("[2/4] Parsing official download from ITU DataHub...")
-    itu_official_file = os.path.join(official_dir, 'itu_price_basket_official.csv')
-    if not os.path.exists(itu_official_file):
+    # 2. ITU DataHub (Read from official global download in data/raw/official/)
+    print("[2/4] Parsing official global download from ITU DataHub...")
+    itu_files = [
+        os.path.join(official_dir, 'ITU_ICTPriceBasket_Data_2015_2023.csv'),
+        os.path.join(official_dir, 'itu_price_basket_official.csv')
+    ]
+    itu_file = next((f for f in itu_files if os.path.exists(f)), None)
+    if not itu_file:
         raise FileNotFoundError(
-            f"Official ITU dataset missing: '{itu_official_file}'. "
-            "Please ensure the untouched official download file is placed in data/raw/official/ without manual imputation."
+            f"Official ITU dataset missing in '{official_dir}'. "
+            "Please ensure the untouched official download file (e.g. ITU_ICTPriceBasket_Data_2015_2023.csv) is in data/raw/official/."
         )
 
-    itu_df = pd.read_csv(itu_official_file)
+    itu_df = pd.read_csv(itu_file)
     itu_data = []
-    for _, row in itu_df.iterrows():
-        c_code = str(row['Country_Code']).strip()
-        if c_code in countries:
-            itu_data.append({
-                'country_iso3': c_code,
-                'country_name': str(row['Country_Name']).strip(),
-                'indicator_id': 'ITU_PRICE_BASKET_FBB',
-                'indicator_name': 'Fixed broadband basket (% of GNI per capita)',
-                'year': int(row['Year']),
-                'value': float(row['Value']),
-                'source': 'ITU DataHub (ICT Price Basket)'
-            })
+    # Support both column schemas
+    col_code = 'ISO' if 'ISO' in itu_df.columns else 'Country_Code'
+    col_name = 'Economy' if 'Economy' in itu_df.columns else 'Country_Name'
+    
+    # Filter for target economies and year 2023
+    target_itu_df = itu_df[itu_df[col_code].isin(countries)]
+    if 'Year' in target_itu_df.columns:
+        target_itu_df = target_itu_df[target_itu_df['Year'] == 2023]
+
+    for _, row in target_itu_df.iterrows():
+        c_code = str(row[col_code]).strip()
+        itu_data.append({
+            'country_iso3': c_code,
+            'country_name': str(row[col_name]).strip(),
+            'indicator_id': 'ITU_PRICE_BASKET_FBB',
+            'indicator_name': 'Fixed broadband basket (% of GNI per capita)',
+            'year': int(row.get('Year', 2023)),
+            'value': float(row['Value']),
+            'source': 'ITU DataHub (ICT Price Basket)'
+        })
 
     with open(os.path.join(raw_dir, 'itu_datahub_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(itu_data, f, indent=2, ensure_ascii=False)
     pd.DataFrame(itu_data).to_csv(os.path.join(raw_dir, 'itu_datahub_raw.csv'), index=False, encoding='utf-8')
     print(f"  -> ITU DataHub: {len(itu_data)} verified records extracted to data/raw/itu_datahub_raw.csv")
 
-    # 3. UNCTADstat (Read from official untouched download in data/raw/official/)
-    print("[3/4] Parsing official download from UNCTADstat Data Centre...")
-    unctad_official_file = os.path.join(official_dir, 'unctad_digitally_deliverable_services_official.csv')
-    if not os.path.exists(unctad_official_file):
+    # 3. UNCTADstat (Read from official global download in data/raw/official/)
+    print("[3/4] Parsing official global download from UNCTADstat Data Centre...")
+    unctad_files = [
+        os.path.join(official_dir, 'UNCTADstat_Digitally_Deliverable_Services_2015_2023.csv'),
+        os.path.join(official_dir, 'unctad_digitally_deliverable_services_official.csv')
+    ]
+    unctad_file = next((f for f in unctad_files if os.path.exists(f)), None)
+    if not unctad_file:
         raise FileNotFoundError(
-            f"Official UNCTADstat dataset missing: '{unctad_official_file}'. "
-            "Please ensure the untouched official download file is placed in data/raw/official/ without manual imputation."
+            f"Official UNCTADstat dataset missing in '{official_dir}'. "
+            "Please ensure the untouched official download file is in data/raw/official/."
         )
 
-    unctad_df = pd.read_csv(unctad_official_file)
+    unctad_df = pd.read_csv(unctad_file)
     unctad_data = []
-    for _, row in unctad_df.iterrows():
-        c_code = str(row['Economy_Code']).strip()
-        if c_code in countries:
-            unctad_data.append({
-                'country_iso3': c_code,
-                'country_name': str(row['Economy_Label']).strip(),
-                'indicator_id': 'UNCTAD_DIGIT_DELIV_EXP',
-                'indicator_name': 'Digitally deliverable services exports (% of total service exports)',
-                'year': int(row['Year']),
-                'value': float(row['Value']),
-                'source': 'UNCTADstat Data Centre'
-            })
+    col_code_u = 'Economy_Code'
+    col_name_u = 'Economy_Label'
+    target_unctad_df = unctad_df[unctad_df[col_code_u].isin(countries)]
+    if 'Period' in target_unctad_df.columns:
+        target_unctad_df = target_unctad_df[target_unctad_df['Period'] == 2023]
+    elif 'Year' in target_unctad_df.columns:
+        target_unctad_df = target_unctad_df[target_unctad_df['Year'] == 2023]
+
+    for _, row in target_unctad_df.iterrows():
+        c_code = str(row[col_code_u]).strip()
+        yr = int(row.get('Period', row.get('Year', 2023)))
+        unctad_data.append({
+            'country_iso3': c_code,
+            'country_name': str(row[col_name_u]).strip(),
+            'indicator_id': 'UNCTAD_DIGIT_DELIV_EXP',
+            'indicator_name': 'Digitally deliverable services exports (% of total service exports)',
+            'year': yr,
+            'value': float(row['Value']),
+            'source': 'UNCTADstat Data Centre'
+        })
 
     with open(os.path.join(raw_dir, 'unctad_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(unctad_data, f, indent=2, ensure_ascii=False)
     pd.DataFrame(unctad_data).to_csv(os.path.join(raw_dir, 'unctad_raw.csv'), index=False, encoding='utf-8')
     print(f"  -> UNCTADstat: {len(unctad_data)} verified records extracted to data/raw/unctad_raw.csv")
 
-    # 4. WIPO IP Statistics (Read from official untouched download in data/raw/official/)
-    print("[4/4] Parsing official download from WIPO IP Statistics Data Center...")
-    wipo_official_file = os.path.join(official_dir, 'wipo_patents_official.csv')
-    if not os.path.exists(wipo_official_file):
+    # 4. WIPO IP Statistics (Read from official global download in data/raw/official/)
+    print("[4/4] Parsing official global download from WIPO IP Statistics Data Center...")
+    wipo_files = [
+        os.path.join(official_dir, 'WIPO_IP_Statistics_Resident_Patents_2015_2023.csv'),
+        os.path.join(official_dir, 'wipo_patents_official.csv')
+    ]
+    wipo_file = next((f for f in wipo_files if os.path.exists(f)), None)
+    if not wipo_file:
         raise FileNotFoundError(
-            f"Official WIPO dataset missing: '{wipo_official_file}'. "
-            "Please ensure the untouched official download file is placed in data/raw/official/ without manual imputation."
+            f"Official WIPO dataset missing in '{official_dir}'. "
+            "Please ensure the untouched official download file is in data/raw/official/."
         )
 
-    wipo_df = pd.read_csv(wipo_official_file)
+    wipo_df = pd.read_csv(wipo_file)
     wipo_data = []
-    for _, row in wipo_df.iterrows():
-        c_code = str(row['Country_Code']).strip()
-        if c_code in countries:
-            wipo_data.append({
-                'country_iso3': c_code,
-                'country_name': str(row['Country_Name']).strip(),
-                'indicator_id': 'WIPO_PATENT_RES_PM',
-                'indicator_name': 'Patent applications by residents per million population',
-                'year': int(row['Year']),
-                'value': float(row['Value']),
-                'source': 'WIPO IP Statistics Data Center'
-            })
+    col_code_w = 'Origin_Code' if 'Origin_Code' in wipo_df.columns else 'Country_Code'
+    col_name_w = 'Origin_Name' if 'Origin_Name' in wipo_df.columns else 'Country_Name'
+    
+    target_wipo_df = wipo_df[wipo_df[col_code_w].isin(countries)]
+    if 'Year' in target_wipo_df.columns:
+        target_wipo_df = target_wipo_df[target_wipo_df['Year'] == 2023]
+
+    for _, row in target_wipo_df.iterrows():
+        c_code = str(row[col_code_w]).strip()
+        wipo_data.append({
+            'country_iso3': c_code,
+            'country_name': str(row[col_name_w]).strip(),
+            'indicator_id': 'WIPO_PATENT_RES_PM',
+            'indicator_name': 'Patent applications by residents per million population',
+            'year': int(row.get('Year', 2023)),
+            'value': float(row['Value']),
+            'source': 'WIPO IP Statistics Data Center'
+        })
 
     with open(os.path.join(raw_dir, 'wipo_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(wipo_data, f, indent=2, ensure_ascii=False)
     pd.DataFrame(wipo_data).to_csv(os.path.join(raw_dir, 'wipo_raw.csv'), index=False, encoding='utf-8')
     print(f"  -> WIPO IP Statistics: {len(wipo_data)} verified records extracted to data/raw/wipo_raw.csv")
-    print("\nData acquisition completed successfully via HTTPS and official raw source files.")
+    print("\nData acquisition completed successfully via HTTPS and authentic official global raw files.")
 
 if __name__ == '__main__':
     fetch_data()
