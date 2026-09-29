@@ -2,6 +2,7 @@
 > **Activity 2 · Part I | Comparative Diagnosis of Digital Economy Readiness**  
 > **Assigned Economies:** Mexico 🇲🇽, Netherlands 🇳🇱, Kenya 🇰🇪, Argentina 🇦🇷, New Zealand 🇳🇿  
 > **Official Sources:** World Bank (WDI API), ITU DataHub, UNCTADstat, WIPO IP Statistics
+> When haces tus momos en github
 
 ---
 
