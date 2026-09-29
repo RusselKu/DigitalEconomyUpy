@@ -8,8 +8,8 @@
 * **Creación de Valor:** Soluciona el desperdicio de agua y fertirriego mediante recomendaciones automatizadas de riego prescriptivo basadas en telemetría IoT y modelos evapotranspirativos. Dirigido a agroexportadores de alto valor (aguacate, berries, tomate, cítricos) y distritos de riego tecnificados.
 * **Entrega de Valor:** El agrónomo o productor accede al valor a través de una aplicación web/móvil responsiva (*AgTech Command Center*) y alertas push/SMS enviadas directamente al regador de campo.
 * **Captura de Valor:** Modelo híbrido **B2B SaaS (Software as a Service) + Data-driven On-Demand**:
-  - *Suscripción mensual/anual por hectárea monitoreada:* **$12 USD/ha/mes** *(Supuesto financiero proyectado por el equipo de trabajo para viabilidad comercial)* para acceso a plataforma y analítica prescriptiva.
-  - *Venta/Arrendamiento de nodos IoT y sensores de suelo:* **$180 USD por nodo sensor** *(Supuesto de costo de hardware estimado por el equipo)* con mantenimiento preventivo incluido.
+  - *Suscripción mensual/anual por hectárea monitoreada:* **$12 USD/ha/mes** *(Supuesto de diseño del equipo, no validado con fuente oficial)* para acceso a plataforma y analítica prescriptiva.
+  - *Venta/Arrendamiento de nodos IoT y sensores de suelo:* **$180 USD por nodo sensor** *(Supuesto de diseño del equipo, no validado con fuente oficial)* con mantenimiento preventivo incluido.
 
 ---
 

@@ -18,10 +18,10 @@
 
 | Elemento | Pregunta Guía | Definición de la Propuesta (AgTech Riego de Precisión) |
 |---|---|---|
-| **Problema** | *¿Qué situación se busca resolver?* | El desperdicio del $35\%$ de agua de riego y la degradación por salinización en zonas agrícolas con estrés hídrico en México. |
-| **Evidencia** | *¿Qué datos muestran que el problema es relevante?* | El $76\%$ del agua en México se consume en agricultura (CONAGUA), con una eficiencia de conducción e infiltración inferior al $45\%$, sumado al déficit de servidores ($412/1\text{M}$) para computar decisiones. |
+| **Problema** | *¿Qué situación se busca resolver?* | El desperdicio del $35\%$ de agua de riego *(Supuesto de diseño del equipo, no validado con fuente oficial)* y la degradación por salinización en zonas agrícolas con estrés hídrico en México. |
+| **Evidencia** | *¿Qué datos muestran que el problema es relevante?* | El $76\%$ del agua en México se consume en agricultura *(Fuente oficial: CONAGUA)*, con una eficiencia de conducción e infiltración inferior al $45\%$ *(Fuente oficial: CONAGUA / FAO)*, sumado al déficit de servidores ($412/1\text{M}$) para computar decisiones. |
 | **Estrategia** | *¿Cómo se obtendrían y analizarían los datos?* | Ingesta de telemetría IoT de humedad de suelo vía LoRaWAN, combinada con evapotranspiración satelital $ET_c$ procesada mediante redes neuronales LSTM. |
 | **Decisión** | *¿Qué decisión permitiría mejorar?* | Transición del riego por calendario fijo al riego prescriptivo por pulso de humedad ajustado a la ventana metabólica del cultivo. |
-| **Valor** | *¿Quién obtiene beneficio?* | Los agroexportadores reducen costos operativos un $20\%$, aumentan el rendimiento por hectárea y los distritos de riego conservan acuíferos regionales. |
-| **Modelo de Negocio** | *¿Cómo podría sostenerse?* | Modelo B2B SaaS de suscripción por hectárea monitoreada (\$12 USD/ha/mes) + arrendamiento de sensores de suelo con mantenimiento integrado. |
+| **Valor** | *¿Quién obtiene beneficio?* | Los agroexportadores reducen costos operativos un $20\%$ *(Supuesto de diseño del equipo, no validado con fuente oficial)*, aumentan el rendimiento por hectárea y los distritos de riego conservan acuíferos regionales. |
+| **Modelo de Negocio** | *¿Cómo podría sostenerse?* | Modelo B2B SaaS de suscripción por hectárea monitoreada (\$12 USD/ha/mes, *Supuesto de diseño del equipo, no validado con fuente oficial*) + arrendamiento de sensores de suelo con mantenimiento integrado. |
 | **Limitaciones** | *¿Qué factores podrían hacer que no funcione?* | Deficiencias en conectividad rural (falta de cobertura celular/LoRaWAN), alta resistencia cultural al cambio por parte de regadores tradicionales y corrosión acelerada de hardware en suelo salino. |

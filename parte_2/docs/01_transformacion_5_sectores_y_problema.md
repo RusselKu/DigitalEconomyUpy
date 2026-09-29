@@ -20,8 +20,8 @@
 * **Problema Concreto:** Ineficiencia hídrica y degradación salina por sobre-riego en el cultivo de aguacate y hortalizas de exportación en regiones de estrés hídrico de México.
 * **Fenómeno Observado:** Estrés hídrico subclínico y desbalance nutricional por drenaje profundo de fertilizantes antes de manifestación sintomática foliar.
 * **Actor Decisor:** Gerente Agrónomo / Administrador de Distrito de Riego.
-* **Información Requerida:** Series de humedad volumétrica de suelo a tres profundidades ($15\text{cm}$, $30\text{cm}$, $60\text{cm}$), imágenes espectrales de evapotranspiración real ($ET_c$) y curvas de retención hídrica.
-* **Consecuencia Económica / Social:** Reducción del $25\%$ en consumo de agua por tonelada cosechada, prevención de pérdidas de \$45,000 USD/ha por salinización y protección de mantos acuíferos sobreexplotados.
+* **Información Requerida:** Series de humedad volumétrica de suelo a tres profundidades ($15\text{cm}$, $30\text{cm}$, $60\text{cm}$, *Supuesto de diseño del equipo, no validado con fuente oficial*), imágenes espectrales de evapotranspiración real ($ET_c$) y curvas de retención hídrica.
+* **Consecuencia Económica / Social:** Reducción del $25\%$ en consumo de agua por tonelada cosechada *(Supuesto de diseño del equipo, no validado con fuente oficial)*, prevención de pérdidas de \$45,000 USD/ha por salinización *(Supuesto de diseño del equipo, no validado con fuente oficial)* y protección de mantos acuíferos sobreexplotados.
 
 ---
 
@@ -31,7 +31,7 @@ $$\text{Fenómeno} \longrightarrow \text{Captura} \longrightarrow \text{Datos} \
 
 1. **Fenómeno:** Transpiración del cultivo y percolación de humedad en la zona radicular.
 2. **Captura:** Sensores de capacitancia en suelo y telemetría LoRaWAN hacia microestaciones solares.
-3. **Datos:** Lecturas cuantitativas cada 15 minutos en formato JSON almacenadas en base de datos de series temporales.
+3. **Datos:** Lecturas cuantitativas cada 15 minutos en formato JSON almacenadas en base de datos de series temporales *(Supuesto de diseño del equipo, no validado con fuente oficial)*.
 4. **Análisis:** Modelo hidrológico de balance hídrico combinado con algoritmos de clasificación de estrés vegetativo.
 5. **Decisión:** Determinación de lámina de riego óptima (litros/planta) ajustada al pronóstico de evapotranspiración de las siguientes 48 horas.
 6. **Acción:** Apertura automatizada de electroválvulas de fertirriego por microaspersión dirigida.
@@ -55,7 +55,7 @@ $$\text{Fenómeno} \longrightarrow \text{Captura} \longrightarrow \text{Datos} \
 
 $$\text{Datos} \longrightarrow \text{Información} \longrightarrow \text{Análisis} \longrightarrow \text{Hallazgo} \longrightarrow \text{Decisión} \longrightarrow \text{Acción}$$
 
-* **Dato Capturado:** Tensión matricial de agua en suelo ($-\psi_m = 45\text{ kPa}$).
-* **Transformación a Información:** Conversión a porcentaje de agotamiento del agua disponible en la zona radicular ($62\%$ del límite de marchitamiento permanente).
+* **Dato Capturado:** Tensión matricial de agua en suelo ($-\psi_m = 45\text{ kPa}$, *Supuesto de diseño del equipo, no validado con fuente oficial*).
+* **Transformación a Información:** Conversión a porcentaje de agotamiento del agua disponible en la zona radicular ($62\%$ del límite de marchitamiento permanente, *Supuesto de diseño del equipo, no validado con fuente oficial*).
 * **Hallazgo Relevante:** El cultivo ingresó en fase de estrés hídrico moderado durante la etapa sintética crítica de llenado de fruto.
 * **Decisión Cambiada:** En lugar de regar por calendario fijo (lunes y jueves), se adelanta el pulso de riego a la noche actual evitando pérdidas de calibre en fruto.

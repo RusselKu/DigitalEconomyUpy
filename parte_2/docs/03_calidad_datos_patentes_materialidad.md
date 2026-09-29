@@ -9,7 +9,7 @@
 * **Representatividad:** Sesgo de muestreo al entrenar modelos algorítmicos exclusivamente con granjas tecnificadas de exportación del norte de México, reduciendo la efectividad del algoritmo en suelos arcillosos del sur/centro.
 * **Privacidad:** Exposición no autorizada de mapas de rendimiento de cultivos e itinerarios de cosecha que podrían ser explotados por intermediarios para manipular precios de compra en finca.
 * **Sesgo:** Algoritmos prescriptivos que favorecen la aplicación de agroquímicos sintéticos de marcas patrocinadoras sobre soluciones biológicas sustentables.
-* **Ejemplo de Correlación Falaz vs. Causalidad:** Se observa una fuerte correlación positiva (**$r = 0.89$**, *correlación ilustrativa propuesta en el modelo del equipo para evaluar sesgos analíticos*) entre la cantidad de datos LoRaWAN transmitidos por hectárea y el rendimiento total de aguacate por tonelada. Sin embargo, no es la transmisión de datos la que hace crecer los frutos (causalidad), sino que los productores de mayor capacidad financiera invierten simultáneamente en más sensores y en fertilizantes solubles de mayor calidad.
+* **Ejemplo de Correlación Falaz vs. Causalidad:** Se observa una fuerte correlación positiva (**$r = 0.89$**, *Supuesto de diseño del equipo, no validado con fuente oficial*) entre la cantidad de datos LoRaWAN transmitidos por hectárea y el rendimiento total de aguacate por tonelada. Sin embargo, no es la transmisión de datos la que hace crecer los frutos (causalidad), sino que los productores de mayor capacidad financiera invierten simultáneamente en más sensores y en fertilizantes solubles de mayor calidad.
 
 ---
 
@@ -35,6 +35,6 @@
 La economía digital requiere una infraestructura física intensiva con costos materiales y energéticos concretos:
 
 * **Elementos Físicos Necesarios:** Sensores de capacitancia TDR en acero inoxidable, microcontroladores ARM, radiobases LoRaWAN, baterías de litio, módulos fotovoltaicos, servidores en datacenters y cables subterráneos.
-* **Costo Material:** Reemplazo periódico de sondas de suelo degradadas por corrosión química y fertilizantes solubles (**$180 USD por nodo sensor** cada 24 meses, *supuesto de costo de hardware estimado por el equipo*).
+* **Costo Material:** Reemplazo periódico de sondas de suelo degradadas por corrosión química y fertilizantes solubles (**$180 USD por nodo sensor** cada 24 meses, *Supuesto de diseño del equipo, no validado con fuente oficial*).
 * **Costo Energético:** Consumo continuo de energía eléctrica en datacenters para procesamiento de imágenes de satélite NDVI y entrenamiento de modelos de Deep Learning en clústeres GPU.
 * **Externalidad Ambiental:** Generación de e-waste (basura electrónica con metales pesados como litio, cobalto y cobre) al desechar sensores y baterías al final de su vida útil en zonas rurales.
