@@ -1,6 +1,6 @@
 country_iso3,country_name,region,income_group,IT_NET_BBND,IT_NET_SECR,IT_NET_USER,ITU_PRICE_BASKET,ICT_SERV_EXP,DIGIT_DELIV_EXP,RD_EXP_GDP,PATENT_RES_PM
-MEX,México,América Latina,Upper-middle income,20.75,412.12,81.18,1.95,2.92,24.5,0.27,8.8
-NLD,Países Bajos,Europa,High income,43.26,194962.87,97.01,0.82,9.62,58.4,2.27,118.5
-KEN,Kenia,África Subsahariana,Lower-middle income,2.39,297.13,32.07,10.4,10.67,39.2,0.8,4.5
-ARG,Argentina,América Latina,Upper-middle income,25.36,5451.2,89.23,2.9,15.87,64.2,0.6,9.2
-NZL,Nueva Zelanda,Asia-Pacífico,High income,37.85,18993.65,93.33,0.98,6.95,44.8,1.55,63.8
+MEX,Mexico,Latin America,Upper-middle income,20.75,412.12,81.18,1.95,2.92,24.5,0.27,8.8
+NLD,Netherlands,Europe,High income,43.26,194962.87,97.01,0.82,9.62,58.4,2.27,118.5
+KEN,Kenya,Sub-Saharan Africa,Lower-middle income,2.39,297.13,32.07,10.4,10.67,39.2,0.8,4.5
+ARG,Argentina,Latin America,Upper-middle income,25.36,5451.2,89.23,2.9,15.87,64.2,0.6,9.2
+NZL,New Zealand,Asia-Pacific,High income,37.85,18993.65,93.33,0.98,6.95,44.8,1.55,63.8

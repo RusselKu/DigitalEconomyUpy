@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgTech & Digital Economy Intelligence | Equipo 3: Agricultura</title>
+  <title>AgTech & Digital Economy Intelligence | Team 3: Agriculture</title>
   
-  <!-- Meta SEO & Description -->
-  <meta name="description" content="Diagnóstico comparativo del desarrollo de la economía digital y AgTech para México, Países Bajos, Kenia, Argentina y Nueva Zelanda con datos oficiales de Banco Mundial, ITU, UNCTAD y WIPO.">
+  <!-- SEO & Meta -->
+  <meta name="description" content="Comparative diagnosis of digital economy and AgTech readiness for Mexico, Netherlands, Kenya, Argentina, and New Zealand using official data from World Bank, ITU, UNCTAD, and WIPO.">
   
   <!-- Google Fonts: Inter & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,20 +34,20 @@
       </div>
       <div class="brand-info">
         <div class="brand-badge-wrapper">
-          <span class="badge-team"><i class="fa-solid fa-layer-group"></i> EQUIPO 3 · AGRICULTURA</span>
-          <span class="badge-official"><i class="fa-solid fa-shield-halved"></i> DATOS OFICIALES 2023</span>
+          <span class="badge-team"><i class="fa-solid fa-layer-group"></i> TEAM 3 · AGRICULTURE</span>
+          <span class="badge-official"><i class="fa-solid fa-shield-halved"></i> OFFICIAL DATA 2023</span>
         </div>
         <h1>AgTech Digital Readiness Intelligence</h1>
-        <p>Diagnóstico Estratégico de Economía Digitalizada & Agricultura de Precisión</p>
+        <p>Comparative Strategic Diagnosis of Digitalized Economy & Precision Agriculture</p>
       </div>
     </div>
     
     <div class="nav-controls">
       <button id="btnToggleSimulator" class="btn-control primary">
-        <i class="fa-solid fa-sliders"></i> Simulador DRS
+        <i class="fa-solid fa-sliders"></i> DRS Simulator
       </button>
       <a href="../data/processed/digital_economy_clean.csv" download class="btn-control secondary">
-        <i class="fa-solid fa-file-arrow-down"></i> Exportar CSV
+        <i class="fa-solid fa-file-arrow-down"></i> Export Clean CSV
       </a>
     </div>
   </header>
@@ -55,8 +55,8 @@
   <div class="dashboard-layout">
 
     <!-- Interactive Country Quick-Selector Bar -->
-    <section class="country-pills-bar" aria-label="Selector Rápido de Países">
-      <div class="pills-title"><i class="fa-solid fa-earth-americas"></i> Economías Asignadas:</div>
+    <section class="country-pills-bar" aria-label="Quick Country Selector">
+      <div class="pills-title"><i class="fa-solid fa-earth-americas"></i> Assigned Economies:</div>
       <div class="pills-container" id="countryPillsContainer">
         <!-- Injected via JavaScript -->
       </div>
@@ -66,64 +66,64 @@
     <section class="kpi-grid">
       <div class="kpi-card leader-card" data-country="NLD">
         <div class="kpi-top">
-          <span class="kpi-pill"><i class="fa-solid fa-crown"></i> LÍDER GLOBAL</span>
+          <span class="kpi-pill"><i class="fa-solid fa-crown"></i> GLOBAL LEADER</span>
           <span class="kpi-score">92.14 <small>pts</small></span>
         </div>
-        <div class="kpi-country">Países Bajos 🇳🇱</div>
+        <div class="kpi-country">Netherlands 🇳🇱</div>
         <div class="kpi-detail">
-          <span><i class="fa-solid fa-server"></i> 194.9k Servidores/1M</span>
-          <span><i class="fa-solid fa-flask"></i> 2.27% I+D en PIB</span>
+          <span><i class="fa-solid fa-server"></i> 194.9k Secure Servers/1M</span>
+          <span><i class="fa-solid fa-flask"></i> 2.27% R&D in GDP</span>
         </div>
-        <div class="kpi-tagline">Ecosistema AgTech de frontera y hub europeo de datos.</div>
+        <div class="kpi-tagline">Frontier AgTech ecosystem & European datacenter hub.</div>
       </div>
 
       <div class="kpi-card focus-card active" data-country="MEX">
         <div class="kpi-top">
-          <span class="kpi-pill focus"><i class="fa-solid fa-crosshairs"></i> ENFOQUE MÉXICO</span>
+          <span class="kpi-pill focus"><i class="fa-solid fa-crosshairs"></i> MEXICO FOCUS</span>
           <span class="kpi-score">26.57 <small>pts</small></span>
         </div>
-        <div class="kpi-country">México 🇲🇽 (4º Lugar)</div>
+        <div class="kpi-country">Mexico 🇲🇽 (Rank #4)</div>
         <div class="kpi-detail">
-          <span><i class="fa-solid fa-users"></i> 81.2% Usuarios Internet</span>
-          <span><i class="fa-solid fa-wallet"></i> 1.95% Costo Canasta TIC</span>
+          <span><i class="fa-solid fa-users"></i> 81.2% Internet Users</span>
+          <span><i class="fa-solid fa-wallet"></i> 1.95% ICT Basket Cost</span>
         </div>
-        <div class="kpi-tagline">Fuerte adopción de usuarios, pero bajo I+D (0.27%) y patentes.</div>
+        <div class="kpi-tagline">Strong consumer adoption, but low R&D (0.27%) & domestic IP.</div>
       </div>
 
       <div class="kpi-card benchmark-card" data-country="ARG">
         <div class="kpi-top">
-          <span class="kpi-pill benchmark"><i class="fa-solid fa-chart-line"></i> BENCHMARK LATAM</span>
+          <span class="kpi-pill benchmark"><i class="fa-solid fa-chart-line"></i> REGIONAL PEER</span>
           <span class="kpi-score">55.72 <small>pts</small></span>
         </div>
-        <div class="kpi-country">Argentina 🇦🇷 (3º Lugar)</div>
+        <div class="kpi-country">Argentina 🇦🇷 (Rank #3)</div>
         <div class="kpi-detail">
-          <span><i class="fa-solid fa-cloud-arrow-up"></i> 64.2% Serv. Digitales</span>
-          <span><i class="fa-solid fa-laptop-code"></i> 15.9% Serv. TIC</span>
+          <span><i class="fa-solid fa-cloud-arrow-up"></i> 64.2% Digital Services</span>
+          <span><i class="fa-solid fa-laptop-code"></i> 15.9% ICT Services</span>
         </div>
-        <div class="kpi-tagline">Líder en exportación de software y servicios del conocimiento.</div>
+        <div class="kpi-tagline">Leader in software & knowledge-based services exports.</div>
       </div>
 
       <div class="kpi-card gap-card">
         <div class="kpi-top">
-          <span class="kpi-pill warning"><i class="fa-solid fa-triangle-exclamation"></i> BRECHA CRÍTICA</span>
+          <span class="kpi-pill warning"><i class="fa-solid fa-triangle-exclamation"></i> CRITICAL GAP</span>
           <span class="kpi-score">412 vs 194k</span>
         </div>
-        <div class="kpi-country">Infraestructura de Backend</div>
+        <div class="kpi-country">Backend Infrastructure</div>
         <div class="kpi-detail">
-          <span><i class="fa-solid fa-microchip"></i> Servidores Seguros/1M</span>
-          <span><i class="fa-solid fa-lightbulb"></i> 8.8 Patentes Residentes</span>
+          <span><i class="fa-solid fa-microchip"></i> Secure Servers/1M pop</span>
+          <span><i class="fa-solid fa-lightbulb"></i> 8.8 Resident Patents</span>
         </div>
-        <div class="kpi-tagline">Brecha de segundo nivel: México consume datos pero no crea software AgTech.</div>
+        <div class="kpi-tagline">Second-level gap: Mexico consumes data but creates little AgTech software.</div>
       </div>
     </section>
 
     <!-- Main Navigation Tabs -->
     <nav class="nav-tabs" role="tablist">
-      <button class="tab-btn active" data-tab="tab-overview" role="tab"><i class="fa-solid fa-chart-simple"></i> Panorama General (DRS)</button>
-      <button class="tab-btn" data-tab="tab-radar" role="tab"><i class="fa-solid fa-spider"></i> Comparativa Radar</button>
-      <button class="tab-btn" data-tab="tab-scatter" role="tab"><i class="fa-solid fa-cubes"></i> I+D vs Exportaciones</button>
-      <button class="tab-btn" data-tab="tab-ai4c" role="tab"><i class="fa-solid fa-brain"></i> Preparación IA (4C)</button>
-      <button class="tab-btn" data-tab="tab-diagnosis" role="tab"><i class="fa-solid fa-clipboard-check"></i> Diagnóstico Ejecutivo</button>
+      <button class="tab-btn active" data-tab="tab-overview" role="tab"><i class="fa-solid fa-chart-simple"></i> Overview (DRS)</button>
+      <button class="tab-btn" data-tab="tab-radar" role="tab"><i class="fa-solid fa-spider"></i> Radar Benchmark</button>
+      <button class="tab-btn" data-tab="tab-scatter" role="tab"><i class="fa-solid fa-cubes"></i> R&D vs Exports</button>
+      <button class="tab-btn" data-tab="tab-ai4c" role="tab"><i class="fa-solid fa-brain"></i> AI Readiness (4C)</button>
+      <button class="tab-btn" data-tab="tab-diagnosis" role="tab"><i class="fa-solid fa-clipboard-check"></i> Executive Diagnosis</button>
     </nav>
 
     <!-- Tab 1: Overview & DRS -->
@@ -133,19 +133,19 @@
         <div class="glass-card">
           <div class="card-header">
             <div>
-              <h3><i class="fa-solid fa-ranking-star"></i> Ranking Oficial del Digital Readiness Score (DRS)</h3>
-              <p class="card-subtitle">Índice sintético ponderado ($w_i = 0.125$) sobre 8 indicadores normalizados $[0, 100]$</p>
+              <h3><i class="fa-solid fa-ranking-star"></i> Official Digital Readiness Score (DRS 2023)</h3>
+              <p class="card-subtitle">Synthetic index ($w_i = 0.125$) across 8 normalized indicators on a $[0, 100]$ scale</p>
             </div>
           </div>
           <div class="chart-container" style="height: 340px;">
             <canvas id="drsChart"></canvas>
           </div>
           <div class="insight-box">
-            <div class="insight-header"><i class="fa-solid fa-circle-question"></i> Análisis de Resultados:</div>
+            <div class="insight-header"><i class="fa-solid fa-circle-question"></i> Analytical Findings:</div>
             <div class="insight-body">
-              <strong>¿Qué observo?</strong> Países Bajos (92.14) supera por más de 65 puntos a México (26.57). Argentina (55.72) supera a México en más del doble.<br>
-              <strong>¿Qué significa?</strong> La preparación de México está concentrada en consumo superficial, mientras que los países líderes tienen masa crítica de I+D y software.<br>
-              <strong>¿Qué no puedo concluir?</strong> No significa que el agro mexicano esté estancado; los grandes agroexportadores usan tecnología importada llave en mano.
+              <strong>What do I observe?</strong> The Netherlands (92.14) leads by over 65 points against Mexico (26.57). Argentina (55.72) scores more than double Mexico's score.<br>
+              <strong>What does it mean?</strong> Mexico's digital readiness is concentrated in consumer adoption, while peer economies possess critical mass in R&D, patents, and software.<br>
+              <strong>What can I NOT conclude?</strong> It does not mean Mexican farming is stagnant; large export agribusinesses utilize turnkey imported AgTech systems.
             </div>
           </div>
         </div>
@@ -154,10 +154,10 @@
         <div class="glass-card spotlight-card">
           <div class="card-header">
             <div>
-              <h3 id="spotlightTitle"><i class="fa-solid fa-magnifying-glass-chart"></i> Perfil Detallado del País</h3>
-              <p class="card-subtitle">Haz clic en cualquier país arriba para actualizar este análisis</p>
+              <h3 id="spotlightTitle"><i class="fa-solid fa-magnifying-glass-chart"></i> Country Profile Spotlight</h3>
+              <p class="card-subtitle">Click on any country pill above to update this deep dive</p>
             </div>
-            <span class="spotlight-badge" id="spotlightBadge">🇲🇽 MÉXICO</span>
+            <span class="spotlight-badge" id="spotlightBadge">🇲🇽 MEXICO</span>
           </div>
           
           <div class="spotlight-metrics-grid" id="spotlightMetrics">
@@ -177,16 +177,16 @@
         <div class="glass-card">
           <div class="card-header">
             <div>
-              <h3><i class="fa-solid fa-chart-pie"></i> Diagnóstico Dimensional en Radar</h3>
-              <p class="card-subtitle">Comparación de las 8 dimensiones frente a México</p>
+              <h3><i class="fa-solid fa-chart-pie"></i> Dimensional Radar Diagnosis</h3>
+              <p class="card-subtitle">Comparing 8 dimensions against Mexico</p>
             </div>
             <div class="custom-select-wrapper">
-              <label for="radarPeerSelect">Comparar México con:</label>
+              <label for="radarPeerSelect">Compare Mexico with:</label>
               <select id="radarPeerSelect" class="custom-select">
-                <option value="NLD">Países Bajos 🇳🇱 (Líder Global)</option>
-                <option value="ARG" selected>Argentina 🇦🇷 (Peer Latam)</option>
-                <option value="NZL">Nueva Zelanda 🇳🇿 (AgTech Avanzado)</option>
-                <option value="KEN">Kenia 🇰🇪 (Innovación Móvil)</option>
+                <option value="NLD">Netherlands 🇳🇱 (Global Leader)</option>
+                <option value="ARG" selected>Argentina 🇦🇷 (Regional Peer)</option>
+                <option value="NZL">New Zealand 🇳🇿 (Advanced AgTech)</option>
+                <option value="KEN">Kenya 🇰🇪 (Mobile Innovation)</option>
               </select>
             </div>
           </div>
@@ -198,8 +198,8 @@
         <div class="glass-card dimensional-analysis-card">
           <div class="card-header">
             <div>
-              <h3><i class="fa-solid fa-list-check"></i> Desglose de las 8 Dimensiones</h3>
-              <p class="card-subtitle">Impacto directo en la productividad agropecuaria</p>
+              <h3><i class="fa-solid fa-list-check"></i> Breakdown of the 8 Dimensions</h3>
+              <p class="card-subtitle">Direct impact on agricultural & technology productivity</p>
             </div>
           </div>
           <div class="dimensions-list" id="dimensionsList">
@@ -214,17 +214,17 @@
       <div class="glass-card">
         <div class="card-header">
           <div>
-            <h3><i class="fa-solid fa-diagram-project"></i> Inversión en I+D (% PIB) vs Servicios Digitalmente Entregables (%)</h3>
-            <p class="card-subtitle">Correlación entre capacidad científica e intangibles exportables de alto margen</p>
+            <h3><i class="fa-solid fa-diagram-project"></i> R&D Expenditure (% GDP) vs Digitally Deliverable Services (%)</h3>
+            <p class="card-subtitle">Correlation between domestic research intensity and high-margin intangible trade</p>
           </div>
         </div>
         <div class="chart-container" style="height: 400px;">
           <canvas id="scatterChart"></canvas>
         </div>
         <div class="insight-box">
-          <div class="insight-header"><i class="fa-solid fa-lightbulb"></i> Hallazgo Económico:</div>
+          <div class="insight-header"><i class="fa-solid fa-lightbulb"></i> Economic Insight:</div>
           <div class="insight-body">
-            <strong>Especialización Intangible:</strong> Argentina (64.2%) y Países Bajos (58.4%) demuestran que las economías que desarrollan capacidades de software y servicios basados en el conocimiento capturan márgenes comerciales superiores a los exportadores tradicionales de materias primas no procesadas o manufacturas de bajo ensamble.
+            <strong>Intangible Specialization:</strong> Argentina (64.2%) and the Netherlands (58.4%) prove that economies developing knowledge-intensive software ecosystems capture superior trade margins compared to traditional exporters of physical commodities or low-assembly hardware.
           </div>
         </div>
       </div>
@@ -235,47 +235,47 @@
       <div class="glass-card">
         <div class="card-header">
           <div>
-            <h3><i class="fa-solid fa-microchip"></i> Evaluación de Preparación para IA: Marco de las 4C</h3>
-            <p class="card-subtitle">¿Están preparadas estas economías para entrenar y desplegar IA avanzada en el campo?</p>
+            <h3><i class="fa-solid fa-microchip"></i> AI Readiness Assessment: The 4C Framework</h3>
+            <p class="card-subtitle">Are these economies ready to train and deploy advanced AI in the agricultural sector?</p>
           </div>
         </div>
         
         <div class="ai4c-grid">
           <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-tower-broadcast"></i> Connectivity (Conectividad)</div>
-            <p><strong>Requisito:</strong> Redes de fibra y 5G rural para telemetría de sensores y streaming de video de drones.</p>
-            <div class="ai4c-status good">NLD & NZL: Sobresaliente</div>
-            <div class="ai4c-status mid">MEX & ARG: Media (Déficit en zonas rurales)</div>
-            <div class="ai4c-status low">KEN: Baja (Dependencia móvil)</div>
+            <div class="ai4c-header"><i class="fa-solid fa-tower-broadcast"></i> Connectivity</div>
+            <p><strong>Requirement:</strong> Rural fiber and 5G networks for high-frequency IoT sensor telemetry and drone computer vision streams.</p>
+            <div class="ai4c-status good">NLD & NZL: Outstanding (Universal rural fiber)</div>
+            <div class="ai4c-status mid">MEX & ARG: Moderate (Rural gap)</div>
+            <div class="ai4c-status low">KEN: Low (Cellular dependency)</div>
           </div>
 
           <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-server"></i> Compute (Cómputo & Datacenters)</div>
-            <p><strong>Requisito:</strong> Servidores seguros, clusters GPU y datacenters para entrenamiento de modelos de visión computacional agrícola.</p>
-            <div class="ai4c-status good">NLD: Líder absoluto (194k servidores/1M)</div>
-            <div class="ai4c-status mid">NZL & ARG: Media-Alta</div>
-            <div class="ai4c-status low">MEX: 412/1M (Rezago crítico en servidores propios)</div>
+            <div class="ai4c-header"><i class="fa-solid fa-server"></i> Compute & Datacenters</div>
+            <p><strong>Requirement:</strong> Secure servers, GPU clusters, and cloud datacenters for training agricultural predictive AI models.</p>
+            <div class="ai4c-status good">NLD: Absolute Leader (194k servers/1M)</div>
+            <div class="ai4c-status mid">NZL & ARG: Moderate-High</div>
+            <div class="ai4c-status low">MEX: 412/1M (Critical backend deficit)</div>
           </div>
 
           <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-database"></i> Context (Datos & Contexto Local)</div>
-            <p><strong>Requisito:</strong> Datasets abiertos de suelos, clima histórico, plagas endémicas e imágenes satelitales calibradas.</p>
+            <div class="ai4c-header"><i class="fa-solid fa-database"></i> Context (Agricultural Data)</div>
+            <p><strong>Requirement:</strong> Open, standardized datasets on soil chemistry, historic weather, endemic pests, and calibrated satellite imagery.</p>
             <div class="ai4c-status good">NLD: Wageningen Open Data Hub</div>
-            <div class="ai4c-status mid">NZL & ARG: Datos agropecuarios estandarizados</div>
-            <div class="ai4c-status mid">MEX: Datos fragmentados (SIAP/INEGI/Conagua)</div>
+            <div class="ai4c-status mid">NZL & ARG: Standardized farm records</div>
+            <div class="ai4c-status mid">MEX: Dispersed data (SIAP/INEGI/Conagua)</div>
           </div>
 
           <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-user-graduate"></i> Competency (Talento e I+D)</div>
-            <p><strong>Requisito:</strong> Doctores en IA, ingenieros de software AgTech y ecosistema de patentes para proteger algoritmos.</p>
-            <div class="ai4c-status good">NLD (118.5 patentes/1M) & NZL (63.8)</div>
-            <div class="ai4c-status mid">ARG: Gran talento en software y AgTech</div>
-            <div class="ai4c-status low">MEX: 8.8 patentes/1M y 0.27% PIB en I+D</div>
+            <div class="ai4c-header"><i class="fa-solid fa-user-graduate"></i> Competency (Talent & R&D)</div>
+            <p><strong>Requirement:</strong> PhDs in AI, AgTech software engineers, and patent protection ecosystems for agricultural algorithms.</p>
+            <div class="ai4c-status good">NLD (118.5 patents/1M) & NZL (63.8)</div>
+            <div class="ai4c-status mid">ARG: High software engineering talent</div>
+            <div class="ai4c-status low">MEX: 8.8 patents/1M & 0.27% GDP in R&D</div>
           </div>
         </div>
 
         <div class="ai4c-summary">
-          <strong>Conclusión 4C:</strong> Ninguno de los indicadores tradicionales es 100% suficiente para afirmar preparación total para IA. Se requiere medir específicamente <em>clusters de cómputo GPU per cápita</em>, marcos de <em>gobernanza ética de datos agronómicos</em> y programas de formación de posgrado especializados.
+          <strong>4C Conclusion:</strong> Traditional connectivity indicators are not fully sufficient to declare full AI readiness. Metrics tracking <em>GPU clusters per capita</em>, agricultural <em>data governance frameworks</em>, and postgraduate AI talent density are indispensable.
         </div>
       </div>
     </div>
@@ -285,50 +285,50 @@
       <div class="glass-card">
         <div class="card-header">
           <div>
-            <h3><i class="fa-solid fa-file-contract"></i> Diagnóstico Ejecutivo Final (Actividad 2 · Parte I)</h3>
-            <p class="card-subtitle">Respuestas concretas a las 5 preguntas del reto en 220 palabras</p>
+            <h3><i class="fa-solid fa-file-contract"></i> Executive Diagnosis (Activity 2 · Part I)</h3>
+            <p class="card-subtitle">Direct answers to the 5 core assignment questions in 220 words</p>
           </div>
-          <span class="badge-wordcount"><i class="fa-solid fa-feather-pointed"></i> 220 Palabras (Límite 250)</span>
+          <span class="badge-wordcount"><i class="fa-solid fa-feather-pointed"></i> 220 Words (Limit: 250)</span>
         </div>
 
         <div class="diagnosis-grid">
           <div class="diag-item">
             <div class="diag-num">1</div>
             <div class="diag-text">
-              <h4>¿Cómo se encuentra México frente a las otras economías?</h4>
-              <p>México se posiciona en el 4º lugar del grupo con un Digital Readiness Score de <strong>26.57 puntos</strong>, rezagado frente a Países Bajos (92.14), Nueva Zelanda (60.91) y Argentina (55.72), superando únicamente a Kenia (15.42).</p>
+              <h4>How does Mexico compare to the other economies?</h4>
+              <p>Mexico ranks 4th in the group with a Digital Readiness Score of <strong>26.57 points</strong>, lagging significantly behind the Netherlands (92.14), New Zealand (60.91), and Argentina (55.72), while outperforming only Kenya (15.42).</p>
             </div>
           </div>
 
           <div class="diag-item">
             <div class="diag-num">2</div>
             <div class="diag-text">
-              <h4>¿Cuál es su principal fortaleza?</h4>
-              <p>Su sólida penetración de usuarios de internet (81.2%) y una canasta básica TIC asequible (1.95% del INB per cápita), complementada por su escala en manufactura electrónica de hardware.</p>
+              <h4>What is its primary strength?</h4>
+              <p>Robust internet user penetration (81.2%) and an affordable entry-level broadband basket (1.95% of GNI per capita), supported by established electronics hardware manufacturing.</p>
             </div>
           </div>
 
           <div class="diag-item">
             <div class="diag-num">3</div>
             <div class="diag-text">
-              <h4>¿Cuál es su principal brecha?</h4>
-              <p>Déficit crítico en infraestructura de backend, investigación y propiedad intelectual: registra solo 412 servidores seguros por millón de habitantes, 0.27% del PIB en I+D y 8.8 patentes por millón, impidiéndole generar software y soluciones AgTech propias.</p>
+              <h4>What is its primary gap?</h4>
+              <p>A severe deficit in backend infrastructure, domestic R&D, and intellectual property: recording only 412 secure servers per million people, 0.27% of GDP in R&D, and 8.8 resident patents per million, preventing the creation of proprietary AgTech software.</p>
             </div>
           </div>
 
           <div class="diag-item">
             <div class="diag-num">4</div>
             <div class="diag-text">
-              <h4>¿Qué país representa el punto de comparación más interesante y por qué?</h4>
-              <p><strong>Argentina</strong>, ya que siendo un par latinoamericano de ingreso medio, logra exportar 64.2% de sus servicios en modalidad digitalmente entregable y 15.9% en servicios TIC, demostrando que México puede escalar hacia una economía del conocimiento sin depender del PIB per cápita europeo.</p>
+              <h4>Which country represents the most compelling benchmark and why?</h4>
+              <p><strong>Argentina</strong>, which as an upper-middle-income Latin American peer exports 64.2% of its services in digitally deliverable format and 15.9% in ICT services, proving Mexico can transition to high-margin knowledge services without waiting for European-level GDP per capita.</p>
             </div>
           </div>
 
           <div class="diag-item">
             <div class="diag-num">5</div>
             <div class="diag-text">
-              <h4>¿Cuál es la principal limitación del conjunto de datos utilizado?</h4>
-              <p>Los indicadores agregados a nivel país enmascaran la severa polarización regional interna (norte tecnificado vs. sur rural) y no cuantifican directamente hectáreas agrícolas con sensores IoT o capacidad de cómputo en GPUs para IA.</p>
+              <h4>What is the primary limitation of the dataset?</h4>
+              <p>Country-level aggregation masks stark internal regional divides (technified northern agribusiness vs. rural southern smallholders) and lacks direct metrics on IoT-equipped agricultural acreage or dedicated AI GPU infrastructure.</p>
             </div>
           </div>
         </div>
@@ -339,24 +339,24 @@
     <section class="glass-card full-table-card">
       <div class="card-header">
         <div>
-          <h3><i class="fa-solid fa-table-list"></i> Matriz Consolidada de Datos Oficiales (Año 2023)</h3>
-          <p class="card-subtitle">Indicadores verificables de Banco Mundial (WDI), ITU DataHub, UNCTADstat y WIPO</p>
+          <h3><i class="fa-solid fa-table-list"></i> Official Consolidated Dataset Matrix (2023)</h3>
+          <p class="card-subtitle">Verifiable indicators from World Bank (WDI), ITU DataHub, UNCTADstat, and WIPO</p>
         </div>
       </div>
       <div class="table-wrapper">
         <table class="styled-table" id="mainDataTable">
           <thead>
             <tr>
-              <th>Economía</th>
-              <th>Región</th>
-              <th>Banda Ancha Fija <br><small>(por 100 hab.)</small></th>
-              <th>Servidores Seguros <br><small>(por 1M hab.)</small></th>
-              <th>Usuarios Internet <br><small>(% población)</small></th>
-              <th>Canasta TIC <br><small>(% INB p.c.) [Inv]</small></th>
-              <th>Exp. Serv. TIC <br><small>(% servicios)</small></th>
-              <th>Serv. Digitales <br><small>(% servicios)</small></th>
-              <th>Gasto I+D <br><small>(% PIB)</small></th>
-              <th>Patentes <br><small>(por 1M hab.)</small></th>
+              <th>Economy</th>
+              <th>Region</th>
+              <th>Fixed Broadband <br><small>(per 100 pop)</small></th>
+              <th>Secure Servers <br><small>(per 1M pop)</small></th>
+              <th>Internet Users <br><small>(% pop)</small></th>
+              <th>ICT Basket Cost <br><small>(% GNI p.c.) [Inv]</small></th>
+              <th>ICT Serv. Exports <br><small>(% services)</small></th>
+              <th>Digital Services <br><small>(% services)</small></th>
+              <th>R&D Expenditure <br><small>(% GDP)</small></th>
+              <th>Patents <br><small>(per 1M pop)</small></th>
               <th>DRS Score</th>
             </tr>
           </thead>
@@ -373,8 +373,8 @@
   <div class="simulator-drawer" id="simulatorDrawer">
     <div class="drawer-header">
       <div>
-        <h3><i class="fa-solid fa-sliders"></i> Simulador de Ponderaciones DRS</h3>
-        <p>Ajusta los pesos $w_i$ para simular diferentes políticas públicas y observa el ranking dinámico.</p>
+        <h3><i class="fa-solid fa-sliders"></i> DRS Weight Simulator</h3>
+        <p>Adjust the weights $w_i$ to simulate policy scenarios and observe real-time score updates.</p>
       </div>
       <button class="btn-close-drawer" id="btnCloseDrawer"><i class="fa-solid fa-xmark"></i></button>
     </div>
@@ -385,14 +385,14 @@
       </div>
       
       <div class="simulator-results">
-        <h4>Ranking Simulado en Tiempo Real:</h4>
+        <h4>Real-Time Simulated Ranking:</h4>
         <div class="sim-ranking-list" id="simRankingList">
           <!-- Injected dynamically -->
         </div>
       </div>
 
       <div class="drawer-actions">
-        <button id="btnResetWeights" class="btn-control secondary"><i class="fa-solid fa-rotate-left"></i> Restablecer Pesos Equitativos (12.5% c/u)</button>
+        <button id="btnResetWeights" class="btn-control secondary"><i class="fa-solid fa-rotate-left"></i> Reset Equal Weights (12.5% each)</button>
       </div>
     </div>
   </div>
@@ -401,8 +401,8 @@
   <!-- Dashboard Footer -->
   <footer class="app-footer">
     <div class="footer-content">
-      <p><strong>Digital Economy Intelligence Lab · Actividad 2 (Parte I) · Equipo 3: Agricultura</strong></p>
-      <p>Fuentes Oficiales: World Bank Indicators API · ITU DataHub · UNCTADstat · WIPO IP Statistics · Reproducibilidad Garantizada</p>
+      <p><strong>Digital Economy Intelligence Lab · Activity 2 (Part I) · Team 3: Agriculture</strong></p>
+      <p>Official Sources: World Bank Indicators API · ITU DataHub · UNCTADstat · WIPO IP Statistics · Reproducibility Guaranteed</p>
     </div>
   </footer>
 

@@ -2,8 +2,8 @@
   "countries": [
     {
       "country_iso3": "MEX",
-      "country_name": "México",
-      "region": "América Latina",
+      "country_name": "Mexico",
+      "region": "Latin America",
       "income_group": "Upper-middle income",
       "IT_NET_BBND": 20.75,
       "IT_NET_SECR": 412.12,
@@ -26,8 +26,8 @@
     },
     {
       "country_iso3": "NLD",
-      "country_name": "Países Bajos",
-      "region": "Europa",
+      "country_name": "Netherlands",
+      "region": "Europe",
       "income_group": "High income",
       "IT_NET_BBND": 43.26,
       "IT_NET_SECR": 194962.87,
@@ -50,8 +50,8 @@
     },
     {
       "country_iso3": "KEN",
-      "country_name": "Kenia",
-      "region": "África Subsahariana",
+      "country_name": "Kenya",
+      "region": "Sub-Saharan Africa",
       "income_group": "Lower-middle income",
       "IT_NET_BBND": 2.39,
       "IT_NET_SECR": 297.13,
@@ -75,7 +75,7 @@
     {
       "country_iso3": "ARG",
       "country_name": "Argentina",
-      "region": "América Latina",
+      "region": "Latin America",
       "income_group": "Upper-middle income",
       "IT_NET_BBND": 25.36,
       "IT_NET_SECR": 5451.2,
@@ -98,8 +98,8 @@
     },
     {
       "country_iso3": "NZL",
-      "country_name": "Nueva Zelanda",
-      "region": "Asia-Pacífico",
+      "country_name": "New Zealand",
+      "region": "Asia-Pacific",
       "income_group": "High income",
       "IT_NET_BBND": 37.85,
       "IT_NET_SECR": 18993.65,
@@ -124,7 +124,7 @@
   "metadata": {
     "indicators_count": 8,
     "year": 2023,
-    "sector": "Agricultura y Economía Digital Global",
-    "team": "Equipo 3"
+    "sector": "Agriculture & Global Digital Economy",
+    "team": "Team 3"
   }
 }

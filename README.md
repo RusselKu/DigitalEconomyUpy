@@ -1,110 +1,110 @@
-# Digital Economy Intelligence Lab (Equipo 3: Agricultura)
-> **Actividad 2 · Parte I | Diagnóstico Comparativo de Economía Digital**  
-> **Economías Asignadas:** México 🇲🇽, Países Bajos 🇳🇱, Kenia 🇰🇪, Argentina 🇦🇷, Nueva Zelanda 🇳🇿  
-> **Fuentes Oficiales:** World Bank (WDI API), ITU DataHub, UNCTADstat, WIPO IP Statistics
+# Digital Economy Intelligence Lab (Team 3: Agriculture)
+> **Activity 2 · Part I | Comparative Diagnosis of Digital Economy Readiness**  
+> **Assigned Economies:** Mexico 🇲🇽, Netherlands 🇳🇱, Kenya 🇰🇪, Argentina 🇦🇷, New Zealand 🇳🇿  
+> **Official Sources:** World Bank (WDI API), ITU DataHub, UNCTADstat, WIPO IP Statistics
 
 ---
 
-## 📌 Resumen del Proyecto
+## 📌 Project Overview
 
-Este repositorio contiene la solución completa, reproducible y automatizada de la **Actividad 2: Digital Economy Intelligence Lab**. Se realiza un diagnóstico multidimensional de preparación digital (*Digital Readiness*) de 5 economías con énfasis en el sector agroalimentario y tecnológico (*AgTech*), cumpliendo estrictamente todos los lineamientos y rúbricas del curso.
+This repository provides a complete, reproducible, and automated solution for **Activity 2: Digital Economy Intelligence Lab**. It conducts an in-depth multidimensional diagnosis of the digital readiness (**Digital Readiness Score - DRS**) of 5 assigned economies with a specific focus on **Agriculture & Precision AgTech**, strictly fulfilling all assignment rubrics and academic standards.
 
 ---
 
-## 📂 Estructura del Repositorio
+## 📂 Repository Structure
 
 ```text
 DigitalEconomyUpy/
 ├── .github/
 │   └── workflows/
-│       └── pipeline_and_deploy.yml   # CI/CD: Validación y Despliegue en GitHub Pages
+│       └── pipeline_and_deploy.yml   # CI/CD: Automated Validation & GitHub Pages Deployment
 ├── data/
-│   ├── raw/                          # Datos originales intactos de fuentes oficiales
+│   ├── raw/                          # Untouched official raw files (JSON/CSV)
 │   │   ├── world_bank_raw.json / csv
 │   │   ├── itu_datahub_raw.json / csv
 │   │   ├── unctad_raw.json / csv
 │   │   └── wipo_raw.json / csv
 │   └── processed/
-│       ├── digital_economy_clean.csv # Dataset consolidado (5 países x 8 indicadores)
-│       └── digital_readiness_score.csv # Dataset con métricas normalizadas y DRS
+│       ├── digital_economy_clean.csv # Clean dataset (5 countries x 8 indicators)
+│       └── digital_readiness_score.csv # Normalized scores and DRS ranking
 ├── notebooks/
-│   └── Digital_Economy_Analysis.ipynb# Jupyter Notebook reproducible con los 12 puntos
-├── dashboard/                        # Dashboard Web Interactivo Single-Page
-│   ├── index.html                    # Interfaz moderna con métricas y radar dinámico
-│   ├── styles.css                    # Estilos CSS modernos (Glassmorphism)
-│   ├── app.js                        # Lógica y visualizaciones interactivas (Chart.js)
-│   └── data.json                     # JSON para alimentación del frontend
-├── docs/                             # Guías completas para estudio y defensa del equipo
-│   ├── 01_marco_conceptual.md        # Definiciones y fundamentación conceptual
-│   ├── 02_seleccion_e_indicadores.md # Justificación de los 8 indicadores y datos
-│   ├── 03_metodologia_drs_y_analisis.md # Fórmulas del DRS, normalización y clustering
-│   ├── 04_diagnostico_y_brechas_mexico.md # Brechas de México y marco 4C de IA
-│   └── 05_guia_de_reproducibilidad_equipo.md # Manual paso a paso para el equipo
+│   └── Digital_Economy_Analysis.ipynb# Reproducible Jupyter notebook covering all 12 sections
+├── dashboard/                        # Modern Interactive Single-Page Dashboard
+│   ├── index.html                    # Responsive glassmorphic frontend
+│   ├── styles.css                    # Design system (AgTech Midnight Emerald & Glassmorphism)
+│   ├── app.js                        # Dynamic Chart.js logic & real-time DRS Simulator
+│   └── data.json                     # JSON data feed for the frontend
+├── docs/                             # In-depth reference guides for team study & defense
+│   ├── 01_conceptual_framework.md
+│   ├── 02_indicator_selection_and_breakdown.md
+│   ├── 03_drs_methodology_and_modeling.md
+│   ├── 04_strategic_diagnosis_and_gaps.md
+│   └── 05_team_reproducibility_guide.md
 ├── scripts/
-│   ├── 01_fetch_data.py              # Adquisición vía APIs oficiales
-│   ├── 02_process_data.py            # Limpieza, normalización y cálculo del DRS
-│   └── 04_generate_notebook.py       # Generador del notebook reproducible
-├── source_log.csv                    # Registro oficial de procedencia y URLs
-├── data_dictionary.csv               # Diccionario formal de datos
-├── requirements.txt                  # Dependencias de Python
-└── README.md                         # Portada principal
+│   ├── 01_fetch_data.py              # Automated API acquisition
+│   ├── 02_process_data.py            # Data cleaning, normalization, and DRS calculation
+│   └── 04_generate_notebook.py       # Jupyter notebook generator
+├── source_log.csv                    # Official traceability register & source URLs
+├── data_dictionary.csv               # Formal data dictionary
+├── requirements.txt                  # Python dependencies
+└── README.md                         # Main repository documentation
 ```
 
 ---
 
-## 📊 Indicadores Seleccionados (Exactamente 8)
+## 📊 Selected Indicators (Exactly 8)
 
-| # | Dimensión | Código | Nombre del Indicador | Fuente | Sentido en DRS |
+| # | Dimension | Code | Indicator Name | Source | DRS Direction |
 |---|---|---|---|---|---|
-| 1 | **Infraestructura** | `IT_NET_BBND` | Suscripciones a banda ancha fija por 100 hab. | World Bank / ITU | Directo (+) |
-| 2 | **Infraestructura** | `IT_NET_SECR` | Servidores seguros por millón de hab. | World Bank / Netcraft | Directo (+) |
-| 3 | **Acceso / Uso** | `IT_NET_USER` | Población que utiliza Internet (%) | ITU / World Bank | Directo (+) |
-| 4 | **Asequibilidad** | `ITU_PRICE_BASKET` | Canasta banda ancha fija (% INB per cápita) | ITU DataHub | Inverso (-) |
-| 5 | **Actividad Económica** | `ICT_SERV_EXP` | Exportaciones de servicios TIC (% serv.) | UNCTAD / World Bank | Directo (+) |
-| 6 | **Actividad Económica** | `DIGIT_DELIV_EXP` | Servicios digitalmente entregables (% serv.) | UNCTADstat | Directo (+) |
-| 7 | **Capacidad / Innovación** | `RD_EXP_GDP` | Gasto en I+D (% del PIB) | UNESCO / World Bank | Directo (+) |
-| 8 | **Capacidad / Innovación** | `PATENT_RES_PM` | Patentes de residentes por millón de hab. | WIPO Statistics | Directo (+) |
+| 1 | **Infrastructure** | `IT_NET_BBND` | Fixed broadband subscriptions per 100 people | World Bank / ITU | Direct (+) |
+| 2 | **Infrastructure** | `IT_NET_SECR` | Secure Internet servers per 1 million people | World Bank / Netcraft | Direct (+) |
+| 3 | **Access / Usage** | `IT_NET_USER` | Individuals using the Internet (% population) | ITU / World Bank | Direct (+) |
+| 4 | **Affordability** | `ITU_PRICE_BASKET` | Fixed broadband basket (% GNI per capita) | ITU DataHub | **Inverted (-)** |
+| 5 | **Economic Activity** | `ICT_SERV_EXP` | ICT service exports (% service exports) | UNCTAD / World Bank | Direct (+) |
+| 6 | **Economic Activity** | `DIGIT_DELIV_EXP` | Digitally deliverable services (% service exports) | UNCTADstat | Direct (+) |
+| 7 | **Innovation** | `RD_EXP_GDP` | R&D expenditure (% of GDP) | UNESCO / World Bank | Direct (+) |
+| 8 | **Innovation** | `PATENT_RES_PM` | Resident patent applications per 1M population | WIPO Statistics | Direct (+) |
 
 ---
 
-## 🏆 Resultados del Digital Readiness Score (DRS 2023)
+## 🏆 Digital Readiness Score (DRS 2023) Results
 
 $$\text{DRS} = \sum_{i=1}^{8} w_i \cdot I_{i,\text{norm}} \quad (w_i = 0.125)$$
 
-| Ranking | País | Bandera | DRS Score | Perfil Digital |
+| Rank | Economy | Flag | DRS Score | Digital Profile Summary |
 |:---:|---|:---:|:---:|---|
-| **1º** | **Países Bajos** | 🇳🇱 | **92.14** | Líder Global en Infraestructura y AgTech |
-| **2º** | **Nueva Zelanda** | 🇳🇿 | **60.91** | Potencia Agroexportadora Tecnificada |
-| **3º** | **Argentina** | 🇦🇷 | **55.72** | Exportador Líder de Servicios Digitales |
-| **4º** | **México** | 🇲🇽 | **26.57** | Alto Consumo de Usuario, Bajo I+D y Backend |
-| **5º** | **Kenia** | 🇰🇪 | **15.42** | Líder en Dinero Móvil, Retos en Red Fija |
+| **#1** | **Netherlands** | 🇳🇱 | **92.14** | Global Benchmark in Datacenter Infrastructure & Precision AgTech |
+| **#2** | **New Zealand** | 🇳🇿 | **60.91** | Advanced Agricultural Exporter with Institutional Digitization |
+| **#3** | **Argentina** | 🇦🇷 | **55.72** | Regional Leader in Software & Knowledge-Based Services Exports |
+| **#4** | **Mexico** | 🇲🇽 | **26.57** | High Consumer Internet Adoption, but Critical Deficit in R&D & IP |
+| **#5** | **Kenya** | 🇰🇪 | **15.42** | Pioneer in Mobile Money (*M-Pesa*), Constrained by Fixed Broadband |
 
 ---
 
-## 🚀 Instrucciones para Ejecución Local
+## 🚀 Local Reproduction Instructions
 
 ```bash
-# 1. Clonar el repositorio
+# 1. Clone the repository
 git clone https://github.com/RusselKu/DigitalEconomyUpy.git
 cd DigitalEconomyUpy
 
-# 2. Instalar dependencias
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Ejecutar el pipeline de adquisición y procesamiento
+# 3. Execute the data pipeline
 python scripts/01_fetch_data.py
 python scripts/02_process_data.py
 
-# 4. Abrir el dashboard interactivo
-# Simplemente haz doble clic en dashboard/index.html o usa un servidor local
+# 4. Open the interactive dashboard
+# Open dashboard/index.html in any web browser
 ```
 
 ---
 
-## 📝 Diagnóstico Final (Síntesis Ejecutiva de 220 Palabras)
+## 📝 Final Executive Diagnosis (220 Words - Max 250)
 
-1. **Posición de México:** México se posiciona en el 4º lugar del grupo con un DRS de **26.57 puntos**, por detrás de Países Bajos (92.14), Nueva Zelanda (60.91) y Argentina (55.72), superando solo a Kenia (15.42).
-2. **Principal Fortaleza:** Alta penetración de usuarios de internet (81.2%) y una canasta de acceso fija asequible (1.95% del INB per cápita), junto a su capacidad de manufactura electrónica.
-3. **Principal Brecha:** Rezago crítico en infraestructura de backend, I+D y propiedad intelectual: 412 servidores seguros por millón de habitantes, 0.27% del PIB en I+D y 8.8 patentes por millón, lo que limita su capacidad para desarrollar software y soluciones AgTech propias.
-4. **Punto de Comparación más Interesante:** **Argentina**, que siendo un par latinoamericano de ingreso medio, exporta 64.2% de sus servicios en modalidad digitalmente entregable y 15.9% en servicios TIC, demostrando que México puede transitar hacia servicios basados en conocimiento sin requerir el PIB per cápita europeo.
-5. **Principal Limitación de los Datos:** La agregación a nivel nacional oculta la polarización regional interna (norte tecnificado vs. sur rural) y no cuantifica directamente hectáreas con sensores IoT o capacidad de cómputo en GPUs para IA.
+1. **Mexico's Relative Position:** Mexico ranks 4th in the group with a Digital Readiness Score of **26.57 points**, lagging significantly behind the Netherlands (92.14), New Zealand (60.91), and Argentina (55.72), while outperforming only Kenya (15.42).
+2. **Primary Strength:** Robust internet user penetration (81.2%) and an affordable entry-level broadband basket (1.95% of GNI per capita), supported by established electronics hardware manufacturing.
+3. **Primary Gap:** A severe deficit in backend infrastructure, domestic R&D, and intellectual property: recording only 412 secure servers per million people, 0.27% of GDP in R&D, and 8.8 resident patents per million, preventing the creation of proprietary AgTech software.
+4. **Most Compelling Benchmark:** **Argentina**, which as an upper-middle-income Latin American peer exports 64.2% of its services in digitally deliverable format and 15.9% in ICT services, proving Mexico can transition to high-margin knowledge services without waiting for European-level GDP per capita.
+5. **Primary Dataset Limitation:** Country-level aggregation masks stark internal regional divides (technified northern agribusiness vs. rural southern smallholders) and lacks direct metrics on IoT-equipped agricultural acreage or dedicated AI GPU infrastructure.

@@ -1,7 +1,7 @@
 """
-Script de adquisición programática y trazabilidad de datos oficiales
-Digital Economy Intelligence Lab - Equipo 3 (Agricultura)
-Fuentes oficiales: Banco Mundial, ITU DataHub, UNCTADstat, WIPO Statistics
+Programmatic data acquisition and traceability script for official data
+Digital Economy Intelligence Lab - Team 3 (Agriculture)
+Official Sources: World Bank (WDI), ITU DataHub, UNCTADstat, WIPO IP Statistics
 """
 
 import os
@@ -28,7 +28,7 @@ def fetch_data():
     }
 
     wb_records = []
-    print("[1/4] Descargando datos de World Bank API...")
+    print("[1/4] Downloading official data from World Bank API...")
     for ind_code, ind_name in wb_indicators.items():
         url = f"http://api.worldbank.org/v2/country/{country_str}/indicator/{ind_code}?date=2019:2024&format=json&per_page=1000"
         try:
@@ -47,16 +47,15 @@ def fetch_data():
                             'source': 'World Bank WDI'
                         })
         except Exception as e:
-            print(f"Error descargando {ind_code}: {e}")
+            print(f"Error fetching {ind_code}: {e}")
 
     with open(os.path.join(raw_dir, 'world_bank_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(wb_records, f, indent=2, ensure_ascii=False)
     pd.DataFrame(wb_records).to_csv(os.path.join(raw_dir, 'world_bank_raw.csv'), index=False, encoding='utf-8')
-    print(f"  -> World Bank: {len(wb_records)} registros guardados en data/raw/world_bank_raw.csv")
+    print(f"  -> World Bank: {len(wb_records)} records saved to data/raw/world_bank_raw.csv")
 
-    # 2. ITU DataHub (Canasta de Precios TIC / Asequibilidad de Banda Ancha Fija como % del INB per cápita)
-    # Datos oficiales de ITU DataHub / ICT Price Trends
-    print("[2/4] Registrando datos oficiales de ITU DataHub...")
+    # 2. ITU DataHub (ICT Price Basket / Fixed Broadband Basket as % of GNI per capita)
+    print("[2/4] Recording official data from ITU DataHub...")
     itu_data = [
         {'country_iso3': 'ARG', 'country_name': 'Argentina', 'indicator_id': 'ITU_PRICE_BASKET_FBB', 'indicator_name': 'Fixed broadband basket (% of GNI per capita)', 'year': 2023, 'value': 2.90, 'source': 'ITU DataHub (ICT Price Basket)'},
         {'country_iso3': 'KEN', 'country_name': 'Kenya', 'indicator_id': 'ITU_PRICE_BASKET_FBB', 'indicator_name': 'Fixed broadband basket (% of GNI per capita)', 'year': 2023, 'value': 10.40, 'source': 'ITU DataHub (ICT Price Basket)'},
@@ -67,10 +66,10 @@ def fetch_data():
     with open(os.path.join(raw_dir, 'itu_datahub_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(itu_data, f, indent=2, ensure_ascii=False)
     pd.DataFrame(itu_data).to_csv(os.path.join(raw_dir, 'itu_datahub_raw.csv'), index=False, encoding='utf-8')
-    print("  -> ITU DataHub: datos guardados en data/raw/itu_datahub_raw.csv")
+    print("  -> ITU DataHub: data saved to data/raw/itu_datahub_raw.csv")
 
     # 3. UNCTADstat (Digitally Deliverable Services exports as % of total services exports)
-    print("[3/4] Registrando datos oficiales de UNCTADstat...")
+    print("[3/4] Recording official data from UNCTADstat...")
     unctad_data = [
         {'country_iso3': 'ARG', 'country_name': 'Argentina', 'indicator_id': 'UNCTAD_DIGIT_DELIV_EXP', 'indicator_name': 'Digitally deliverable services exports (% of total service exports)', 'year': 2023, 'value': 64.2, 'source': 'UNCTADstat Data Centre'},
         {'country_iso3': 'KEN', 'country_name': 'Kenya', 'indicator_id': 'UNCTAD_DIGIT_DELIV_EXP', 'indicator_name': 'Digitally deliverable services exports (% of total service exports)', 'year': 2023, 'value': 39.2, 'source': 'UNCTADstat Data Centre'},
@@ -81,10 +80,10 @@ def fetch_data():
     with open(os.path.join(raw_dir, 'unctad_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(unctad_data, f, indent=2, ensure_ascii=False)
     pd.DataFrame(unctad_data).to_csv(os.path.join(raw_dir, 'unctad_raw.csv'), index=False, encoding='utf-8')
-    print("  -> UNCTADstat: datos guardados en data/raw/unctad_raw.csv")
+    print("  -> UNCTADstat: data saved to data/raw/unctad_raw.csv")
 
     # 4. WIPO IP Statistics (Resident Patent Applications per Million Population)
-    print("[4/4] Registrando datos oficiales de WIPO IP Statistics...")
+    print("[4/4] Recording official data from WIPO IP Statistics...")
     wipo_data = [
         {'country_iso3': 'ARG', 'country_name': 'Argentina', 'indicator_id': 'WIPO_PATENT_RES_PM', 'indicator_name': 'Patent applications by residents per million population', 'year': 2023, 'value': 9.20, 'source': 'WIPO IP Statistics Data Center'},
         {'country_iso3': 'KEN', 'country_name': 'Kenya', 'indicator_id': 'WIPO_PATENT_RES_PM', 'indicator_name': 'Patent applications by residents per million population', 'year': 2023, 'value': 4.50, 'source': 'WIPO IP Statistics Data Center'},
@@ -95,8 +94,8 @@ def fetch_data():
     with open(os.path.join(raw_dir, 'wipo_raw.json'), 'w', encoding='utf-8') as f:
         json.dump(wipo_data, f, indent=2, ensure_ascii=False)
     pd.DataFrame(wipo_data).to_csv(os.path.join(raw_dir, 'wipo_raw.csv'), index=False, encoding='utf-8')
-    print("  -> WIPO IP Statistics: datos guardados en data/raw/wipo_raw.csv")
-    print("\nAdquisición completada con éxito.")
+    print("  -> WIPO IP Statistics: data saved to data/raw/wipo_raw.csv")
+    print("\nData acquisition completed successfully.")
 
 if __name__ == '__main__':
     fetch_data()

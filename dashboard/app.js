@@ -1,16 +1,16 @@
 // ==========================================================================
-// AGTECH DIGITAL ECONOMY INTELLIGENCE - DASHBOARD SCRIPT
+// AGTECH DIGITAL ECONOMY INTELLIGENCE - DASHBOARD SCRIPT (ENGLISH)
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // Dataset oficial consolidado (Año 2023)
+  // Official Consolidated Dataset (Year 2023)
   const countriesData = [
     {
       iso3: "MEX",
-      name: "México",
+      name: "Mexico",
       flag: "🇲🇽",
-      region: "América Latina",
+      region: "Latin America",
       income: "Upper-middle income",
       raw: {
         IT_NET_BBND: 20.75,
@@ -35,17 +35,17 @@ document.addEventListener('DOMContentLoaded', () => {
       drs: 26.57,
       rank: 4,
       profile: {
-        strength: "Penetración de usuarios (81.2%) y asequibilidad de canasta básica (1.95% INB).",
-        gap: "Mínima inversión en I+D (0.27% PIB) y casi nula exportación de servicios digitales (24.5%).",
-        agtechRole: "Gran potencial de escala por volumen de producción agrícola en Sinaloa y Bajío, pero dependiente de tecnología importada.",
-        aiReadiness: "Media-Baja en backend; necesita infraestructura de centros de datos y talento local."
+        strength: "Broad consumer internet penetration (81.2%) and affordable entry-level broadband basket (1.95% of GNI).",
+        gap: "Critically low R&D investment (0.27% of GDP) and minimal digital services export share (24.5%).",
+        agtechRole: "High production scale across Sinaloa and Bajio regions, but predominantly dependent on imported turnkey technology.",
+        aiReadiness: "Moderate-Low backend readiness; urgently requires domestic datacenter capacity and local AgTech software engineering."
       }
     },
     {
       iso3: "NLD",
-      name: "Países Bajos",
+      name: "Netherlands",
       flag: "🇳🇱",
-      region: "Europa",
+      region: "Europe",
       income: "High income",
       raw: {
         IT_NET_BBND: 43.26,
@@ -70,17 +70,17 @@ document.addEventListener('DOMContentLoaded', () => {
       drs: 92.14,
       rank: 1,
       profile: {
-        strength: "Líder absoluto en servidores seguros (194k/1M), I+D (2.27%) y patentes (118.5/1M).",
-        gap: "Ninguna brecha estructural significativa en la escala analizada.",
-        agtechRole: "2º exportador agroalimentario mundial; líder indiscutible en agricultura de precisión en invernaderos y biotecnología.",
-        aiReadiness: "Sobresaliente; hub europeo de datos con capacidad de cómputo y gobernanza avanzada."
+        strength: "Global benchmark in secure cloud servers (194k/1M), R&D intensity (2.27%), and patents (118.5/1M).",
+        gap: "No structural gaps identified across the 8 analyzed dimensions.",
+        agtechRole: "2nd global agri-food exporter; unrivaled pioneer in greenhouse precision agriculture and agricultural biotechnology.",
+        aiReadiness: "Outstanding; core European datacenter hub with advanced compute, open agricultural datasets, and top-tier AI researchers."
       }
     },
     {
       iso3: "KEN",
-      name: "Kenia",
+      name: "Kenya",
       flag: "🇰🇪",
-      region: "África Subsahariana",
+      region: "Sub-Saharan Africa",
       income: "Lower-middle income",
       raw: {
         IT_NET_BBND: 2.39,
@@ -105,17 +105,17 @@ document.addEventListener('DOMContentLoaded', () => {
       drs: 15.42,
       rank: 5,
       profile: {
-        strength: "Pionero mundial en dinero móvil (M-Pesa) e inclusión financiera para pequeños agricultores.",
-        gap: "Baja conectividad fija (2.39 subs/100) y alto costo relativo de la canasta TIC (10.4% INB).",
-        agtechRole: "Soluciones móviles SMS/USSD de alertas de precios agrícolas y microseguros climáticos.",
-        aiReadiness: "Emergente; ecosistema 'Silicon Savannah' con alta adopción móvil pero baja infraestructura de cómputo."
+        strength: "World pioneer in mobile money (M-Pesa) and digital financial inclusion for smallholder farmers.",
+        gap: "Low fixed broadband penetration (2.39 subs/100) and elevated relative ICT basket cost (10.4% GNI).",
+        agtechRole: "Innovative mobile USSD/SMS platforms providing weather alerts, crop microinsurance, and market price discovery.",
+        aiReadiness: "Emerging; dynamic Silicon Savannah tech cluster with high mobile adoption, but constrained by server infrastructure."
       }
     },
     {
       iso3: "ARG",
       name: "Argentina",
       flag: "🇦🇷",
-      region: "América Latina",
+      region: "Latin America",
       income: "Upper-middle income",
       raw: {
         IT_NET_BBND: 25.36,
@@ -140,17 +140,17 @@ document.addEventListener('DOMContentLoaded', () => {
       drs: 55.72,
       rank: 3,
       profile: {
-        strength: "Líder regional en exportaciones de servicios digitalmente entregables (64.2%) y software TIC (15.9%).",
-        gap: "Baja inversión relativa en I+D frente a países de la OCDE y restricciones de divisas.",
-        agtechRole: "Potencia en startups de AgTech, siembra directa y plataformas de mapeo satelital pampeanas.",
-        aiReadiness: "Alta en talento de desarrollo y modelos matemáticos; media en infraestructura de datacenters locales."
+        strength: "Regional leader in digitally deliverable services exports (64.2%) and ICT services (15.9%).",
+        gap: "Modest R&D expenditure compared to OECD benchmarks and macroeconomic currency volatility.",
+        agtechRole: "Powerhouse in AgTech software startups, satellite precision seeding mapping, and digital farm management platforms.",
+        aiReadiness: "High in software programming and algorithmic talent; moderate in local tier-3/4 datacenter infrastructure."
       }
     },
     {
       iso3: "NZL",
-      name: "Nueva Zelanda",
+      name: "New Zealand",
       flag: "🇳🇿",
-      region: "Asia-Pacífico",
+      region: "Asia-Pacific",
       income: "High income",
       raw: {
         IT_NET_BBND: 37.85,
@@ -175,27 +175,27 @@ document.addEventListener('DOMContentLoaded', () => {
       drs: 60.91,
       rank: 2,
       profile: {
-        strength: "Alta asequibilidad TIC (0.98% INB), 1.55% PIB en I+D y 63.8 patentes por millón.",
-        gap: "Exportaciones de servicios TIC moderadas debido a fuerte orientación a commodities lácteos.",
-        agtechRole: "Digitalización total de la industria lechera y ganadera con sensores de pasturas y trazabilidad animal.",
-        aiReadiness: "Alta; infraestructura institucional sólida y modelos de IA aplicados a la productividad del campo."
+        strength: "High broadband affordability (0.98% GNI), 1.55% GDP in R&D, and 63.8 resident patents per million people.",
+        gap: "Moderate ICT services share due to strong trade specialization in dairy and primary commodities.",
+        agtechRole: "End-to-end digitalized pastoral farming, pasture biomass sensors, and automated electronic livestock traceability.",
+        aiReadiness: "High; robust institutional governance and AI models targeted at primary sector productivity and sustainability."
       }
     }
   ];
 
-  // Metadatos de los 8 indicadores
+  // 8 Indicators Metadata
   const indicatorsMeta = [
-    { code: 'IT_NET_BBND', label: 'Banda Ancha Fija', category: 'Infraestructura', dir: 1, unit: 'subs/100 hab' },
-    { code: 'IT_NET_SECR', label: 'Servidores Seguros', category: 'Infraestructura', dir: 1, unit: 'serv/1M hab' },
-    { code: 'IT_NET_USER', label: 'Usuarios Internet', category: 'Acceso/Uso', dir: 1, unit: '% pob' },
-    { code: 'ITU_PRICE_BASKET', label: 'Asequibilidad Canasta TIC', category: 'Asequibilidad', dir: -1, unit: '% INB p.c. [Inv]' },
-    { code: 'ICT_SERV_EXP', label: 'Exp. Servicios TIC', category: 'Act. Económica', dir: 1, unit: '% serv' },
-    { code: 'DIGIT_DELIV_EXP', label: 'Serv. Digitales Entregables', category: 'Act. Económica', dir: 1, unit: '% serv' },
-    { code: 'RD_EXP_GDP', label: 'Gasto en I+D', category: 'Innovación', dir: 1, unit: '% PIB' },
-    { code: 'PATENT_RES_PM', label: 'Patentes Residentes', category: 'Innovación', dir: 1, unit: 'pat/1M hab' }
+    { code: 'IT_NET_BBND', label: 'Fixed Broadband', category: 'Infrastructure', dir: 1, unit: 'subs/100 pop' },
+    { code: 'IT_NET_SECR', label: 'Secure Servers', category: 'Infrastructure', dir: 1, unit: 'servers/1M pop' },
+    { code: 'IT_NET_USER', label: 'Internet Users', category: 'Access/Usage', dir: 1, unit: '% pop' },
+    { code: 'ITU_PRICE_BASKET', label: 'ICT Affordability', category: 'Affordability', dir: -1, unit: '% GNI p.c. [Inv]' },
+    { code: 'ICT_SERV_EXP', label: 'ICT Service Exports', category: 'Economic Activity', dir: 1, unit: '% services' },
+    { code: 'DIGIT_DELIV_EXP', label: 'Digital Deliverables', category: 'Economic Activity', dir: 1, unit: '% services' },
+    { code: 'RD_EXP_GDP', label: 'R&D Expenditure', category: 'Innovation', dir: 1, unit: '% GDP' },
+    { code: 'PATENT_RES_PM', label: 'Resident Patents', category: 'Innovation', dir: 1, unit: 'patents/1M pop' }
   ];
 
-  // Estado de pesos para el simulador
+  // Weight State for Simulator
   let currentWeights = {
     IT_NET_BBND: 0.125,
     IT_NET_SECR: 0.125,
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
     pillsContainer.appendChild(pill);
   });
 
-  // KPI card click handlers
+  // KPI Card clicks
   document.querySelectorAll('.kpi-card[data-country]').forEach(card => {
     card.addEventListener('click', () => {
       const iso = card.dataset.country;
@@ -250,30 +250,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const metricsContainer = document.getElementById('spotlightMetrics');
     metricsContainer.innerHTML = `
       <div class="spot-stat">
-        <div class="spot-stat-label">DRS Score (Puntaje)</div>
+        <div class="spot-stat-label">DRS Score (Overall)</div>
         <div class="spot-stat-value" style="color:var(--emerald-400)">${country.drs.toFixed(2)} pts <small>(Rank #${country.rank})</small></div>
       </div>
       <div class="spot-stat">
-        <div class="spot-stat-label">Usuarios de Internet</div>
+        <div class="spot-stat-label">Internet Users</div>
         <div class="spot-stat-value">${country.raw.IT_NET_USER.toFixed(1)}%</div>
       </div>
       <div class="spot-stat">
-        <div class="spot-stat-label">Servidores Seguros / 1M</div>
+        <div class="spot-stat-label">Secure Servers / 1M</div>
         <div class="spot-stat-value">${country.raw.IT_NET_SECR.toLocaleString()}</div>
       </div>
       <div class="spot-stat">
-        <div class="spot-stat-label">Gasto en I+D (% PIB)</div>
+        <div class="spot-stat-label">R&D Spend (% GDP)</div>
         <div class="spot-stat-value">${country.raw.RD_EXP_GDP.toFixed(2)}%</div>
       </div>
     `;
 
-    // Analysis
+    // Profile Analysis
     const analysisContainer = document.getElementById('spotlightAnalysis');
     analysisContainer.innerHTML = `
-      <p><strong><i class="fa-solid fa-circle-check" style="color:var(--emerald-400)"></i> Fortaleza Clave:</strong> ${country.profile.strength}</p>
-      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-triangle-exclamation" style="color:var(--rose-500)"></i> Brecha Principal:</strong> ${country.profile.gap}</p>
-      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-seedling" style="color:var(--cyan-400)"></i> Rol en AgTech:</strong> ${country.profile.agtechRole}</p>
-      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-brain" style="color:var(--violet-400)"></i> Preparación IA:</strong> ${country.profile.aiReadiness}</p>
+      <p><strong><i class="fa-solid fa-circle-check" style="color:var(--emerald-400)"></i> Key Strength:</strong> ${country.profile.strength}</p>
+      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-triangle-exclamation" style="color:var(--rose-500)"></i> Core Gap:</strong> ${country.profile.gap}</p>
+      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-seedling" style="color:var(--cyan-400)"></i> AgTech Role:</strong> ${country.profile.agtechRole}</p>
+      <p style="margin-top:0.4rem;"><strong><i class="fa-solid fa-brain" style="color:var(--violet-400)"></i> AI Readiness:</strong> ${country.profile.aiReadiness}</p>
     `;
   }
   setSpotlightCountry('MEX');
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <td><strong>${d.flag} ${d.name}</strong></td>
       <td>${d.region}</td>
       <td>${d.raw.IT_NET_BBND.toFixed(2)}</td>
-      <td>${d.raw.IT_NET_SECR.toLocaleString('es-MX', {maximumFractionDigits: 1})}</td>
+      <td>${d.raw.IT_NET_SECR.toLocaleString('en-US', {maximumFractionDigits: 1})}</td>
       <td>${d.raw.IT_NET_USER.toFixed(1)}%</td>
       <td>${d.raw.ITU_PRICE_BASKET.toFixed(2)}%</td>
       <td>${d.raw.ICT_SERV_EXP.toFixed(2)}%</td>
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const drsCtx = document.getElementById('drsChart').getContext('2d');
   const sortedByDrs = [...countriesData].sort((a, b) => b.drs - a.drs);
   
-  const drsChart = new Chart(drsCtx, {
+  new Chart(drsCtx, {
     type: 'bar',
     data: {
       labels: sortedByDrs.map(c => `${c.flag} ${c.name}`),
@@ -370,7 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: (ctx) => ` DRS: ${ctx.raw.toFixed(2)} puntos`
+            label: (ctx) => ` DRS: ${ctx.raw.toFixed(2)} pts`
           }
         }
       },
@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
       labels: radarLabels,
       datasets: [
         {
-          label: 'México 🇲🇽',
+          label: 'Mexico 🇲🇽',
           data: getRadarValues(mexData),
           backgroundColor: 'rgba(244, 63, 94, 0.2)',
           borderColor: 'rgba(244, 63, 94, 1)',
@@ -489,12 +489,12 @@ document.addEventListener('DOMContentLoaded', () => {
       maintainAspectRatio: false,
       scales: {
         x: {
-          title: { display: true, text: 'Gasto en I+D (% del PIB)', color: '#94a3b8', font: { weight: 'bold' } },
+          title: { display: true, text: 'R&D Expenditure (% of GDP)', color: '#94a3b8', font: { weight: 'bold' } },
           grid: { color: 'rgba(255,255,255,0.05)' },
           ticks: { color: '#cbd5e1' }
         },
         y: {
-          title: { display: true, text: 'Servicios Digitalmente Entregables (% Exportaciones)', color: '#94a3b8', font: { weight: 'bold' } },
+          title: { display: true, text: 'Digitally Deliverable Services (% Services)', color: '#94a3b8', font: { weight: 'bold' } },
           grid: { color: 'rgba(255,255,255,0.05)' },
           ticks: { color: '#cbd5e1' }
         }
@@ -503,7 +503,7 @@ document.addEventListener('DOMContentLoaded', () => {
         legend: { labels: { color: '#fff' } },
         tooltip: {
           callbacks: {
-            label: (ctx) => `${ctx.dataset.label}: I+D = ${ctx.raw.x}% | Serv. Digitales = ${ctx.raw.y}%`
+            label: (ctx) => `${ctx.dataset.label}: R&D = ${ctx.raw.x}% | Digital Serv. = ${ctx.raw.y}%`
           }
         }
       }
