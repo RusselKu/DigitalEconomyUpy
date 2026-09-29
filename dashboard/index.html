@@ -3,406 +3,448 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgTech & Digital Economy Intelligence | Team 3: Agriculture</title>
+  <title>AgTech Digital Intelligence Hub | Team 3: Agriculture</title>
   
-  <!-- SEO & Meta -->
-  <meta name="description" content="Comparative diagnosis of digital economy and AgTech readiness for Mexico, Netherlands, Kenya, Argentina, and New Zealand using official data from World Bank, ITU, UNCTAD, and WIPO.">
+  <!-- Meta SEO -->
+  <meta name="description" content="State-of-the-art interactive intelligence platform for digital economy, AgTech readiness, and AI 4C diagnostics across Mexico, Netherlands, Kenya, Argentina, and New Zealand.">
   
-  <!-- Google Fonts: Inter & Outfit -->
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <!-- FontAwesome & Chart.js -->
+  <!-- Icons & Chart.js -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="app-body">
 
-  <!-- Ambient Glow Elements -->
-  <div class="glow-orb orb-emerald"></div>
-  <div class="glow-orb orb-cyan"></div>
-  <div class="glow-orb orb-violet"></div>
+  <!-- Ambient Dynamic Lighting -->
+  <div class="mesh-bg"></div>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
 
-  <!-- App Header / Navbar -->
-  <header class="navbar">
-    <div class="nav-brand">
-      <div class="brand-logo">
+  <!-- Top App Navigation / Command Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="brand-badge-icon">
         <i class="fa-solid fa-seedling"></i>
       </div>
-      <div class="brand-info">
-        <div class="brand-badge-wrapper">
-          <span class="badge-team"><i class="fa-solid fa-layer-group"></i> TEAM 3 · AGRICULTURE</span>
-          <span class="badge-official"><i class="fa-solid fa-shield-halved"></i> OFFICIAL DATA 2023</span>
+      <div class="brand-titles">
+        <div class="brand-top-row">
+          <span class="pill-badge team-badge"><i class="fa-solid fa-shapes"></i> TEAM 3 · AGRICULTURE</span>
+          <span class="pill-badge live-badge"><span class="live-dot"></span> OFFICIAL 2023 DATA</span>
         </div>
-        <h1>AgTech Digital Readiness Intelligence</h1>
-        <p>Comparative Strategic Diagnosis of Digitalized Economy & Precision Agriculture</p>
+        <h1 class="brand-heading">AgTech Digital Readiness Intelligence</h1>
       </div>
     </div>
-    
-    <div class="nav-controls">
-      <button id="btnToggleSimulator" class="btn-control primary">
-        <i class="fa-solid fa-sliders"></i> DRS Simulator
+
+    <!-- Country Selector Tabs -->
+    <div class="country-switch-bar" id="countrySwitchBar">
+      <!-- Populated via JavaScript with dynamic avatars -->
+    </div>
+
+    <div class="header-actions">
+      <button class="btn-action primary" id="btnOpenSimulator">
+        <i class="fa-solid fa-sliders"></i> <span>DRS Simulator</span>
       </button>
-      <a href="../data/processed/digital_economy_clean.csv" download class="btn-control secondary">
-        <i class="fa-solid fa-file-arrow-down"></i> Export Clean CSV
+      <a href="../data/processed/digital_economy_clean.csv" download class="btn-action secondary">
+        <i class="fa-solid fa-download"></i> <span>Dataset</span>
       </a>
     </div>
   </header>
 
-  <div class="dashboard-layout">
+  <!-- Main Bento Grid Dashboard -->
+  <main class="bento-container">
 
-    <!-- Interactive Country Quick-Selector Bar -->
-    <section class="country-pills-bar" aria-label="Quick Country Selector">
-      <div class="pills-title"><i class="fa-solid fa-earth-americas"></i> Assigned Economies:</div>
-      <div class="pills-container" id="countryPillsContainer">
-        <!-- Injected via JavaScript -->
+    <!-- HERO BENTO ROW: Executive Spotlight & Global Ranking Podium -->
+    <section class="bento-row hero-row">
+      
+      <!-- Bento Box 1: Dynamic Country Intelligence Spotlight (Active Target) -->
+      <div class="bento-card spotlight-bento" id="spotlightCard">
+        <div class="card-glow-edge"></div>
+        <div class="card-top-header">
+          <div class="spotlight-header-meta">
+            <span class="spotlight-flag" id="spotlightFlag">🇲🇽</span>
+            <div>
+              <div class="country-name-row">
+                <h2 id="spotlightCountryName">Mexico</h2>
+                <span class="rank-tag" id="spotlightRankTag">Rank #4</span>
+              </div>
+              <span class="region-subtitle" id="spotlightRegion">Latin America · Upper-middle income</span>
+            </div>
+          </div>
+          <div class="drs-dial-container">
+            <div class="drs-dial-value" id="spotlightDrsVal">26.57</div>
+            <div class="drs-dial-label">DRS SCORE</div>
+          </div>
+        </div>
+
+        <!-- Quick 4-Metric Grid inside Spotlight -->
+        <div class="spotlight-stats-row">
+          <div class="stat-pill">
+            <span class="stat-ico"><i class="fa-solid fa-users"></i></span>
+            <div class="stat-data">
+              <span class="stat-val" id="spotUsers">81.2%</span>
+              <span class="stat-lbl">Internet Users</span>
+            </div>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-ico"><i class="fa-solid fa-server"></i></span>
+            <div class="stat-data">
+              <span class="stat-val" id="spotServers">412</span>
+              <span class="stat-lbl">Servers / 1M</span>
+            </div>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-ico"><i class="fa-solid fa-flask"></i></span>
+            <div class="stat-data">
+              <span class="stat-val" id="spotRd">0.27%</span>
+              <span class="stat-lbl">R&D (% GDP)</span>
+            </div>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-ico"><i class="fa-solid fa-cloud-arrow-up"></i></span>
+            <div class="stat-data">
+              <span class="stat-val" id="spotDigServ">24.5%</span>
+              <span class="stat-lbl">Digital Exports</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Contextual Insight Narrative -->
+        <div class="spotlight-narrative" id="spotlightNarrative">
+          <div class="narrative-col">
+            <div class="narrative-tag good"><i class="fa-solid fa-circle-check"></i> Primary Strength</div>
+            <p id="spotStrength">Robust user penetration and entry-level affordability (1.95% GNI).</p>
+          </div>
+          <div class="narrative-col">
+            <div class="narrative-tag alert"><i class="fa-solid fa-triangle-exclamation"></i> Critical Gap</div>
+            <p id="spotGap">Severe deficit in cloud datacenter density, local R&D spend, and AgTech patents.</p>
+          </div>
+        </div>
       </div>
+
+      <!-- Bento Box 2: Interactive DRS Leaderboard Podium -->
+      <div class="bento-card ranking-bento">
+        <div class="card-glow-edge"></div>
+        <div class="card-title-bar">
+          <div class="title-with-icon">
+            <i class="fa-solid fa-trophy"></i>
+            <div>
+              <h3>DRS Overall Benchmark</h3>
+              <p>Synthetic readiness score (8 normalized indicators)</p>
+            </div>
+          </div>
+          <span class="score-scale-pill">Scale: 0 - 100</span>
+        </div>
+
+        <!-- Leaderboard Bars -->
+        <div class="leaderboard-list" id="leaderboardList">
+          <!-- Injected via JavaScript with dynamic animated progress bars -->
+        </div>
+      </div>
+
+      <!-- Bento Box 3: AI 4C Readiness Gauge -->
+      <div class="bento-card ai4c-gauge-bento">
+        <div class="card-glow-edge"></div>
+        <div class="card-title-bar">
+          <div class="title-with-icon">
+            <i class="fa-solid fa-brain"></i>
+            <div>
+              <h3>AI 4C Diagnostic</h3>
+              <p>Preparedness for AI-driven AgTech</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ai4c-progress-grid">
+          <div class="ai4c-item" data-tooltip="High-speed fiber & 5G for sensor telemetry">
+            <div class="ai4c-item-top">
+              <span><i class="fa-solid fa-tower-broadcast"></i> Connectivity</span>
+              <span class="ai4c-val-tag" id="ai4cConn">Moderate</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill fill-cyan" id="barConn" style="width: 55%;"></div></div>
+          </div>
+
+          <div class="ai4c-item" data-tooltip="Datacenters & secure servers for training models">
+            <div class="ai4c-item-top">
+              <span><i class="fa-solid fa-server"></i> Compute</span>
+              <span class="ai4c-val-tag alert" id="ai4cComp">Low (412/1M)</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill fill-rose" id="barComp" style="width: 15%;"></div></div>
+          </div>
+
+          <div class="ai4c-item" data-tooltip="Open agricultural datasets on soil & weather">
+            <div class="ai4c-item-top">
+              <span><i class="fa-solid fa-database"></i> Context (Data)</span>
+              <span class="ai4c-val-tag" id="ai4cCont">Moderate</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill fill-amber" id="barCont" style="width: 48%;"></div></div>
+          </div>
+
+          <div class="ai4c-item" data-tooltip="PhD talent, AgTech startups & patent protection">
+            <div class="ai4c-item-top">
+              <span><i class="fa-solid fa-user-graduate"></i> Competency</span>
+              <span class="ai4c-val-tag" id="ai4cCompTalent">Moderate (Low R&D)</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill fill-purple" id="barTalent" style="width: 32%;"></div></div>
+          </div>
+        </div>
+
+        <div class="ai4c-takeaway">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span><strong>Takeaway:</strong> Datacenter capacity and R&D spending are Mexico's primary AI bottlenecks.</span>
+        </div>
+      </div>
+
     </section>
 
-    <!-- KPI Metric Cards Grid -->
-    <section class="kpi-grid">
-      <div class="kpi-card leader-card" data-country="NLD">
-        <div class="kpi-top">
-          <span class="kpi-pill"><i class="fa-solid fa-crown"></i> GLOBAL LEADER</span>
-          <span class="kpi-score">92.14 <small>pts</small></span>
-        </div>
-        <div class="kpi-country">Netherlands 🇳🇱</div>
-        <div class="kpi-detail">
-          <span><i class="fa-solid fa-server"></i> 194.9k Secure Servers/1M</span>
-          <span><i class="fa-solid fa-flask"></i> 2.27% R&D in GDP</span>
-        </div>
-        <div class="kpi-tagline">Frontier AgTech ecosystem & European datacenter hub.</div>
-      </div>
+    <!-- INTERACTIVE VISUAL ANALYTICS STUDIO ROW -->
+    <section class="bento-row studio-row">
+      <div class="bento-card visualizer-bento">
+        <div class="card-glow-edge"></div>
 
-      <div class="kpi-card focus-card active" data-country="MEX">
-        <div class="kpi-top">
-          <span class="kpi-pill focus"><i class="fa-solid fa-crosshairs"></i> MEXICO FOCUS</span>
-          <span class="kpi-score">26.57 <small>pts</small></span>
-        </div>
-        <div class="kpi-country">Mexico 🇲🇽 (Rank #4)</div>
-        <div class="kpi-detail">
-          <span><i class="fa-solid fa-users"></i> 81.2% Internet Users</span>
-          <span><i class="fa-solid fa-wallet"></i> 1.95% ICT Basket Cost</span>
-        </div>
-        <div class="kpi-tagline">Strong consumer adoption, but low R&D (0.27%) & domestic IP.</div>
-      </div>
-
-      <div class="kpi-card benchmark-card" data-country="ARG">
-        <div class="kpi-top">
-          <span class="kpi-pill benchmark"><i class="fa-solid fa-chart-line"></i> REGIONAL PEER</span>
-          <span class="kpi-score">55.72 <small>pts</small></span>
-        </div>
-        <div class="kpi-country">Argentina 🇦🇷 (Rank #3)</div>
-        <div class="kpi-detail">
-          <span><i class="fa-solid fa-cloud-arrow-up"></i> 64.2% Digital Services</span>
-          <span><i class="fa-solid fa-laptop-code"></i> 15.9% ICT Services</span>
-        </div>
-        <div class="kpi-tagline">Leader in software & knowledge-based services exports.</div>
-      </div>
-
-      <div class="kpi-card gap-card">
-        <div class="kpi-top">
-          <span class="kpi-pill warning"><i class="fa-solid fa-triangle-exclamation"></i> CRITICAL GAP</span>
-          <span class="kpi-score">412 vs 194k</span>
-        </div>
-        <div class="kpi-country">Backend Infrastructure</div>
-        <div class="kpi-detail">
-          <span><i class="fa-solid fa-microchip"></i> Secure Servers/1M pop</span>
-          <span><i class="fa-solid fa-lightbulb"></i> 8.8 Resident Patents</span>
-        </div>
-        <div class="kpi-tagline">Second-level gap: Mexico consumes data but creates little AgTech software.</div>
-      </div>
-    </section>
-
-    <!-- Main Navigation Tabs -->
-    <nav class="nav-tabs" role="tablist">
-      <button class="tab-btn active" data-tab="tab-overview" role="tab"><i class="fa-solid fa-chart-simple"></i> Overview (DRS)</button>
-      <button class="tab-btn" data-tab="tab-radar" role="tab"><i class="fa-solid fa-spider"></i> Radar Benchmark</button>
-      <button class="tab-btn" data-tab="tab-scatter" role="tab"><i class="fa-solid fa-cubes"></i> R&D vs Exports</button>
-      <button class="tab-btn" data-tab="tab-ai4c" role="tab"><i class="fa-solid fa-brain"></i> AI Readiness (4C)</button>
-      <button class="tab-btn" data-tab="tab-diagnosis" role="tab"><i class="fa-solid fa-clipboard-check"></i> Executive Diagnosis</button>
-    </nav>
-
-    <!-- Tab 1: Overview & DRS -->
-    <div id="tab-overview" class="tab-content active">
-      <div class="grid-2col">
-        <!-- DRS Ranking Chart -->
-        <div class="glass-card">
-          <div class="card-header">
-            <div>
-              <h3><i class="fa-solid fa-ranking-star"></i> Official Digital Readiness Score (DRS 2023)</h3>
-              <p class="card-subtitle">Synthetic index ($w_i = 0.125$) across 8 normalized indicators on a $[0, 100]$ scale</p>
-            </div>
+        <!-- Studio Controls Header -->
+        <div class="studio-header">
+          <div class="studio-titles">
+            <h3 id="visualizerMainTitle"><i class="fa-solid fa-chart-line"></i> Dimensional Intelligence Studio</h3>
+            <p id="visualizerMainSubtitle">Explore multidimensional distributions, radar profiles, and innovation clusters</p>
           </div>
-          <div class="chart-container" style="height: 340px;">
-            <canvas id="drsChart"></canvas>
-          </div>
-          <div class="insight-box">
-            <div class="insight-header"><i class="fa-solid fa-circle-question"></i> Analytical Findings:</div>
-            <div class="insight-body">
-              <strong>What do I observe?</strong> The Netherlands (92.14) leads by over 65 points against Mexico (26.57). Argentina (55.72) scores more than double Mexico's score.<br>
-              <strong>What does it mean?</strong> Mexico's digital readiness is concentrated in consumer adoption, while peer economies possess critical mass in R&D, patents, and software.<br>
-              <strong>What can I NOT conclude?</strong> It does not mean Mexican farming is stagnant; large export agribusinesses utilize turnkey imported AgTech systems.
-            </div>
+
+          <!-- Interactive View Switcher Tabs -->
+          <div class="studio-tabs">
+            <button class="studio-tab-btn active" data-chart="radar">
+              <i class="fa-solid fa-spider"></i> <span>Radar Benchmark</span>
+            </button>
+            <button class="studio-tab-btn" data-chart="scatter">
+              <i class="fa-solid fa-cubes"></i> <span>R&D vs Digital Exports</span>
+            </button>
+            <button class="studio-tab-btn" data-chart="bars">
+              <i class="fa-solid fa-chart-bar"></i> <span>Normalized Profile</span>
+            </button>
+            <button class="studio-tab-btn" data-chart="heatmap">
+              <i class="fa-solid fa-table-cells"></i> <span>AgTech Matrix</span>
+            </button>
           </div>
         </div>
 
-        <!-- Country Spotlight Card -->
-        <div class="glass-card spotlight-card">
-          <div class="card-header">
-            <div>
-              <h3 id="spotlightTitle"><i class="fa-solid fa-magnifying-glass-chart"></i> Country Profile Spotlight</h3>
-              <p class="card-subtitle">Click on any country pill above to update this deep dive</p>
-            </div>
-            <span class="spotlight-badge" id="spotlightBadge">🇲🇽 MEXICO</span>
-          </div>
+        <!-- Studio Chart Canvas & Dynamic Sidebar -->
+        <div class="studio-body">
           
-          <div class="spotlight-metrics-grid" id="spotlightMetrics">
-            <!-- Injected dynamically -->
-          </div>
-
-          <div class="spotlight-analysis" id="spotlightAnalysis">
-            <!-- Injected dynamically -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tab 2: Radar Comparison -->
-    <div id="tab-radar" class="tab-content">
-      <div class="grid-2col">
-        <div class="glass-card">
-          <div class="card-header">
-            <div>
-              <h3><i class="fa-solid fa-chart-pie"></i> Dimensional Radar Diagnosis</h3>
-              <p class="card-subtitle">Comparing 8 dimensions against Mexico</p>
-            </div>
-            <div class="custom-select-wrapper">
-              <label for="radarPeerSelect">Compare Mexico with:</label>
-              <select id="radarPeerSelect" class="custom-select">
+          <!-- Chart Container -->
+          <div class="studio-chart-wrapper">
+            <!-- Dynamic Peer Select Overlay for Radar -->
+            <div class="radar-peer-control" id="radarPeerControl">
+              <label for="selectRadarPeer">Benchmark Target:</label>
+              <select id="selectRadarPeer" class="peer-select-dropdown">
                 <option value="NLD">Netherlands 🇳🇱 (Global Leader)</option>
                 <option value="ARG" selected>Argentina 🇦🇷 (Regional Peer)</option>
                 <option value="NZL">New Zealand 🇳🇿 (Advanced AgTech)</option>
                 <option value="KEN">Kenya 🇰🇪 (Mobile Innovation)</option>
               </select>
             </div>
-          </div>
-          <div class="chart-container" style="height: 380px;">
-            <canvas id="radarChart"></canvas>
-          </div>
-        </div>
 
-        <div class="glass-card dimensional-analysis-card">
-          <div class="card-header">
+            <div class="canvas-holder">
+              <canvas id="studioChartCanvas"></canvas>
+            </div>
+
+            <!-- Heatmap View Container (shown when Heatmap tab is active) -->
+            <div class="heatmap-container" id="heatmapContainer" style="display: none;">
+              <!-- Populated via JS -->
+            </div>
+          </div>
+
+          <!-- Studio Analytical Sidebar -->
+          <div class="studio-sidebar">
+            <div class="sidebar-block">
+              <div class="block-badge"><i class="fa-solid fa-eye"></i> What do I observe?</div>
+              <p id="insightObserve">The Netherlands (92.14) and New Zealand (60.91) dominate in server density and R&D. Argentina (55.72) leads the Latin American cohort in digital service exports (64.2%).</p>
+            </div>
+
+            <div class="sidebar-block">
+              <div class="block-badge cyan"><i class="fa-solid fa-arrows-split-up-and-left"></i> What does it mean?</div>
+              <p id="insightMeaning">Mexico possesses solid consumer adoption, but creates minimal intangible intellectual property, creating a dependency on foreign AgTech algorithms.</p>
+            </div>
+
+            <div class="sidebar-block">
+              <div class="block-badge amber"><i class="fa-solid fa-circle-exclamation"></i> What can I NOT conclude?</div>
+              <p id="insightLimit">A low national score does not mean Mexican commercial farming is unproductive; it indicates that agricultural technology is imported rather than locally developed.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 3: Executive Diagnosis & Verifiable Dataset -->
+    <section class="bento-row bottom-row">
+      
+      <!-- Executive Diagnosis 5-Point Accordion -->
+      <div class="bento-card diagnosis-bento">
+        <div class="card-glow-edge"></div>
+        <div class="card-title-bar">
+          <div class="title-with-icon">
+            <i class="fa-solid fa-file-signature"></i>
             <div>
-              <h3><i class="fa-solid fa-list-check"></i> Breakdown of the 8 Dimensions</h3>
-              <p class="card-subtitle">Direct impact on agricultural & technology productivity</p>
+              <h3>Executive Strategic Diagnosis</h3>
+              <p>Synthesis of the 5 core assignment questions</p>
             </div>
           </div>
-          <div class="dimensions-list" id="dimensionsList">
-            <!-- Injected dynamically -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tab 3: Innovation vs Exports Scatter -->
-    <div id="tab-scatter" class="tab-content">
-      <div class="glass-card">
-        <div class="card-header">
-          <div>
-            <h3><i class="fa-solid fa-diagram-project"></i> R&D Expenditure (% GDP) vs Digitally Deliverable Services (%)</h3>
-            <p class="card-subtitle">Correlation between domestic research intensity and high-margin intangible trade</p>
-          </div>
-        </div>
-        <div class="chart-container" style="height: 400px;">
-          <canvas id="scatterChart"></canvas>
-        </div>
-        <div class="insight-box">
-          <div class="insight-header"><i class="fa-solid fa-lightbulb"></i> Economic Insight:</div>
-          <div class="insight-body">
-            <strong>Intangible Specialization:</strong> Argentina (64.2%) and the Netherlands (58.4%) prove that economies developing knowledge-intensive software ecosystems capture superior trade margins compared to traditional exporters of physical commodities or low-assembly hardware.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tab 4: AI 4C Readiness Matrix -->
-    <div id="tab-ai4c" class="tab-content">
-      <div class="glass-card">
-        <div class="card-header">
-          <div>
-            <h3><i class="fa-solid fa-microchip"></i> AI Readiness Assessment: The 4C Framework</h3>
-            <p class="card-subtitle">Are these economies ready to train and deploy advanced AI in the agricultural sector?</p>
-          </div>
-        </div>
-        
-        <div class="ai4c-grid">
-          <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-tower-broadcast"></i> Connectivity</div>
-            <p><strong>Requirement:</strong> Rural fiber and 5G networks for high-frequency IoT sensor telemetry and drone computer vision streams.</p>
-            <div class="ai4c-status good">NLD & NZL: Outstanding (Universal rural fiber)</div>
-            <div class="ai4c-status mid">MEX & ARG: Moderate (Rural gap)</div>
-            <div class="ai4c-status low">KEN: Low (Cellular dependency)</div>
-          </div>
-
-          <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-server"></i> Compute & Datacenters</div>
-            <p><strong>Requirement:</strong> Secure servers, GPU clusters, and cloud datacenters for training agricultural predictive AI models.</p>
-            <div class="ai4c-status good">NLD: Absolute Leader (194k servers/1M)</div>
-            <div class="ai4c-status mid">NZL & ARG: Moderate-High</div>
-            <div class="ai4c-status low">MEX: 412/1M (Critical backend deficit)</div>
-          </div>
-
-          <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-database"></i> Context (Agricultural Data)</div>
-            <p><strong>Requirement:</strong> Open, standardized datasets on soil chemistry, historic weather, endemic pests, and calibrated satellite imagery.</p>
-            <div class="ai4c-status good">NLD: Wageningen Open Data Hub</div>
-            <div class="ai4c-status mid">NZL & ARG: Standardized farm records</div>
-            <div class="ai4c-status mid">MEX: Dispersed data (SIAP/INEGI/Conagua)</div>
-          </div>
-
-          <div class="ai4c-box">
-            <div class="ai4c-header"><i class="fa-solid fa-user-graduate"></i> Competency (Talent & R&D)</div>
-            <p><strong>Requirement:</strong> PhDs in AI, AgTech software engineers, and patent protection ecosystems for agricultural algorithms.</p>
-            <div class="ai4c-status good">NLD (118.5 patents/1M) & NZL (63.8)</div>
-            <div class="ai4c-status mid">ARG: High software engineering talent</div>
-            <div class="ai4c-status low">MEX: 8.8 patents/1M & 0.27% GDP in R&D</div>
-          </div>
+          <span class="wordcount-badge"><i class="fa-solid fa-feather"></i> 220 Words (Max: 250)</span>
         </div>
 
-        <div class="ai4c-summary">
-          <strong>4C Conclusion:</strong> Traditional connectivity indicators are not fully sufficient to declare full AI readiness. Metrics tracking <em>GPU clusters per capita</em>, agricultural <em>data governance frameworks</em>, and postgraduate AI talent density are indispensable.
-        </div>
-      </div>
-    </div>
-
-    <!-- Tab 5: Executive Diagnosis -->
-    <div id="tab-diagnosis" class="tab-content">
-      <div class="glass-card">
-        <div class="card-header">
-          <div>
-            <h3><i class="fa-solid fa-file-contract"></i> Executive Diagnosis (Activity 2 · Part I)</h3>
-            <p class="card-subtitle">Direct answers to the 5 core assignment questions in 220 words</p>
-          </div>
-          <span class="badge-wordcount"><i class="fa-solid fa-feather-pointed"></i> 220 Words (Limit: 250)</span>
-        </div>
-
-        <div class="diagnosis-grid">
-          <div class="diag-item">
-            <div class="diag-num">1</div>
-            <div class="diag-text">
-              <h4>How does Mexico compare to the other economies?</h4>
-              <p>Mexico ranks 4th in the group with a Digital Readiness Score of <strong>26.57 points</strong>, lagging significantly behind the Netherlands (92.14), New Zealand (60.91), and Argentina (55.72), while outperforming only Kenya (15.42).</p>
+        <div class="diagnosis-accordion">
+          <div class="diag-card active">
+            <div class="diag-header">
+              <span class="diag-badge">Q1</span>
+              <h4>Mexico's Relative Standing</h4>
+              <i class="fa-solid fa-chevron-down diag-chevron"></i>
+            </div>
+            <div class="diag-body">
+              <p>Mexico ranks 4th in the group with a Digital Readiness Score of <strong>26.57 points</strong>, lagging behind the Netherlands (92.14), New Zealand (60.91), and Argentina (55.72), outperforming only Kenya (15.42).</p>
             </div>
           </div>
 
-          <div class="diag-item">
-            <div class="diag-num">2</div>
-            <div class="diag-text">
-              <h4>What is its primary strength?</h4>
+          <div class="diag-card">
+            <div class="diag-header">
+              <span class="diag-badge">Q2</span>
+              <h4>Primary Competitive Strength</h4>
+              <i class="fa-solid fa-chevron-down diag-chevron"></i>
+            </div>
+            <div class="diag-body">
               <p>Robust internet user penetration (81.2%) and an affordable entry-level broadband basket (1.95% of GNI per capita), supported by established electronics hardware manufacturing.</p>
             </div>
           </div>
 
-          <div class="diag-item">
-            <div class="diag-num">3</div>
-            <div class="diag-text">
-              <h4>What is its primary gap?</h4>
+          <div class="diag-card">
+            <div class="diag-header">
+              <span class="diag-badge">Q3</span>
+              <h4>Primary Structural Gap</h4>
+              <i class="fa-solid fa-chevron-down diag-chevron"></i>
+            </div>
+            <div class="diag-body">
               <p>A severe deficit in backend infrastructure, domestic R&D, and intellectual property: recording only 412 secure servers per million people, 0.27% of GDP in R&D, and 8.8 resident patents per million, preventing the creation of proprietary AgTech software.</p>
             </div>
           </div>
 
-          <div class="diag-item">
-            <div class="diag-num">4</div>
-            <div class="diag-text">
-              <h4>Which country represents the most compelling benchmark and why?</h4>
+          <div class="diag-card">
+            <div class="diag-header">
+              <span class="diag-badge">Q4</span>
+              <h4>Most Compelling Benchmark</h4>
+              <i class="fa-solid fa-chevron-down diag-chevron"></i>
+            </div>
+            <div class="diag-body">
               <p><strong>Argentina</strong>, which as an upper-middle-income Latin American peer exports 64.2% of its services in digitally deliverable format and 15.9% in ICT services, proving Mexico can transition to high-margin knowledge services without waiting for European-level GDP per capita.</p>
             </div>
           </div>
 
-          <div class="diag-item">
-            <div class="diag-num">5</div>
-            <div class="diag-text">
-              <h4>What is the primary limitation of the dataset?</h4>
+          <div class="diag-card">
+            <div class="diag-header">
+              <span class="diag-badge">Q5</span>
+              <h4>Core Dataset Limitation</h4>
+              <i class="fa-solid fa-chevron-down diag-chevron"></i>
+            </div>
+            <div class="diag-body">
               <p>Country-level aggregation masks stark internal regional divides (technified northern agribusiness vs. rural southern smallholders) and lacks direct metrics on IoT-equipped agricultural acreage or dedicated AI GPU infrastructure.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Complete Official Dataset Table -->
-    <section class="glass-card full-table-card">
-      <div class="card-header">
-        <div>
-          <h3><i class="fa-solid fa-table-list"></i> Official Consolidated Dataset Matrix (2023)</h3>
-          <p class="card-subtitle">Verifiable indicators from World Bank (WDI), ITU DataHub, UNCTADstat, and WIPO</p>
+      <!-- Consolidated Official Data Matrix -->
+      <div class="bento-card table-bento">
+        <div class="card-glow-edge"></div>
+        <div class="card-title-bar">
+          <div class="title-with-icon">
+            <i class="fa-solid fa-table-list"></i>
+            <div>
+              <h3>Consolidated Data Matrix</h3>
+              <p>8 official indicators (World Bank, ITU, UNCTAD, WIPO)</p>
+            </div>
+          </div>
+          <div class="table-search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="tableFilterInput" placeholder="Filter economy...">
+          </div>
+        </div>
+
+        <div class="table-scroll-container">
+          <table class="bento-table" id="matrixTable">
+            <thead>
+              <tr>
+                <th>Economy</th>
+                <th>Broadband <br><small>(subs/100)</small></th>
+                <th>Servers <br><small>(/1M pop)</small></th>
+                <th>Users <br><small>(% pop)</small></th>
+                <th>Cost <br><small>(% GNI) [Inv]</small></th>
+                <th>ICT Serv <br><small>(% exp)</small></th>
+                <th>Dig. Serv <br><small>(% exp)</small></th>
+                <th>R&D <br><small>(% GDP)</small></th>
+                <th>Patents <br><small>(/1M pop)</small></th>
+                <th>DRS</th>
+              </tr>
+            </thead>
+            <tbody id="matrixTableBody">
+              <!-- Dynamically populated via JavaScript -->
+            </tbody>
+          </table>
         </div>
       </div>
-      <div class="table-wrapper">
-        <table class="styled-table" id="mainDataTable">
-          <thead>
-            <tr>
-              <th>Economy</th>
-              <th>Region</th>
-              <th>Fixed Broadband <br><small>(per 100 pop)</small></th>
-              <th>Secure Servers <br><small>(per 1M pop)</small></th>
-              <th>Internet Users <br><small>(% pop)</small></th>
-              <th>ICT Basket Cost <br><small>(% GNI p.c.) [Inv]</small></th>
-              <th>ICT Serv. Exports <br><small>(% services)</small></th>
-              <th>Digital Services <br><small>(% services)</small></th>
-              <th>R&D Expenditure <br><small>(% GDP)</small></th>
-              <th>Patents <br><small>(per 1M pop)</small></th>
-              <th>DRS Score</th>
-            </tr>
-          </thead>
-          <tbody id="mainTableBody">
-            <!-- Injected dynamically -->
-          </tbody>
-        </table>
-      </div>
+
     </section>
 
-  </div>
+  </main>
 
-  <!-- Interactive DRS Weight Simulator Drawer / Modal -->
-  <div class="simulator-drawer" id="simulatorDrawer">
+  <!-- Interactive Slide-Over DRS Weight Simulator -->
+  <aside class="simulator-drawer" id="simulatorDrawer" aria-hidden="true">
     <div class="drawer-header">
-      <div>
-        <h3><i class="fa-solid fa-sliders"></i> DRS Weight Simulator</h3>
-        <p>Adjust the weights $w_i$ to simulate policy scenarios and observe real-time score updates.</p>
+      <div class="drawer-titles">
+        <h3><i class="fa-solid fa-sliders"></i> DRS Policy Simulator</h3>
+        <p>Adjust the 8 indicator weights to simulate alternative national strategies.</p>
       </div>
-      <button class="btn-close-drawer" id="btnCloseDrawer"><i class="fa-solid fa-xmark"></i></button>
+      <button class="drawer-close-btn" id="btnCloseSimulator"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Presets Bar -->
+    <div class="simulator-presets">
+      <span class="preset-label">Strategy Presets:</span>
+      <div class="preset-buttons">
+        <button class="btn-preset active" data-preset="equal">Equal (12.5%)</button>
+        <button class="btn-preset" data-preset="innovation">R&D & Patents</button>
+        <button class="btn-preset" data-preset="exports">Digital Exports</button>
+        <button class="btn-preset" data-preset="infrastructure">Compute & Infra</button>
+      </div>
     </div>
 
     <div class="drawer-body">
-      <div class="sliders-grid" id="slidersContainer">
-        <!-- Injected dynamically -->
+      <!-- Sliders List -->
+      <div class="sliders-list" id="simulatorSliders">
+        <!-- Injected via JavaScript -->
       </div>
-      
-      <div class="simulator-results">
-        <h4>Real-Time Simulated Ranking:</h4>
-        <div class="sim-ranking-list" id="simRankingList">
-          <!-- Injected dynamically -->
+
+      <!-- Real-Time Simulated Ranking Box -->
+      <div class="sim-ranking-box">
+        <div class="sim-box-header">
+          <span><i class="fa-solid fa-chart-simple"></i> Simulated Ranking Outcome:</span>
+          <span class="sim-delta-note">Dynamic Realtime</span>
+        </div>
+        <div class="sim-ranking-container" id="simulatedRankingContainer">
+          <!-- Injected via JavaScript -->
         </div>
       </div>
-
-      <div class="drawer-actions">
-        <button id="btnResetWeights" class="btn-control secondary"><i class="fa-solid fa-rotate-left"></i> Reset Equal Weights (12.5% each)</button>
-      </div>
     </div>
-  </div>
-  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  </aside>
+  <div class="drawer-backdrop" id="simulatorBackdrop"></div>
 
-  <!-- Dashboard Footer -->
+  <!-- App Footer -->
   <footer class="app-footer">
-    <div class="footer-content">
+    <div class="footer-inner">
       <p><strong>Digital Economy Intelligence Lab · Activity 2 (Part I) · Team 3: Agriculture</strong></p>
-      <p>Official Sources: World Bank Indicators API · ITU DataHub · UNCTADstat · WIPO IP Statistics · Reproducibility Guaranteed</p>
+      <p>Official Verifiable Sources: World Bank WDI · ITU DataHub · UNCTADstat · WIPO IP Statistics · 100% Reproducible</p>
     </div>
   </footer>
 
