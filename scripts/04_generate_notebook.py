@@ -1,7 +1,7 @@
 """
 Jupyter Notebook Generator: Digital_Economy_Analysis.ipynb
 Builds and executes all cells with in-depth conceptual explanations,
-mathematical formulas, data visualizations with matplotlib/seaborn, and strategic diagnoses.
+mathematical formulas, 6+ Seaborn/Matplotlib data visualizations, and strategic diagnoses.
 Entirely in English.
 """
 
@@ -166,11 +166,11 @@ display(ranking_tbl)"""))
 
     # Section 8: Visualizations
     cells.append(nbf.v4.new_markdown_cell("""---
-## 8. Data Visualizations
+## 8. Data Visualizations Suite
 
-Three analytical visualizations answering specific economic questions, accompanied by the required structured interpretation (*What do I observe? What does it mean? What can I not conclude?*)."""))
+Below is a rich visual suite containing six distinct analytical visualizations answering specific economic questions, accompanied by the required structured interpretation (*What do I observe? What does it mean? What can I not conclude?*)."""))
 
-    # Viz 1
+    # Viz 1: Ranking
     cells.append(nbf.v4.new_code_cell("""# Visualization 1: Relative Global Position (DRS Ranking)
 fig, ax = plt.subplots(figsize=(10, 5))
 df_sorted = df_drs.sort_values(by='DRS', ascending=True)
@@ -194,7 +194,7 @@ plt.show()"""))
 * **What does it mean?:** There is an acute digital gap of over 65 points between Mexico and the global AgTech leader (Netherlands), demonstrating that Mexico's comprehensive digital readiness is structurally lagging behind advanced agricultural economies.
 * **What can I NOT conclude?:** It cannot be concluded that Mexico lacks technology across all farming operations; the DRS measures national average ecosystem capacity rather than isolated export agribusinesses."""))
 
-    # Viz 2
+    # Viz 2: Radar
     cells.append(nbf.v4.new_code_cell("""# Visualization 2: Dimensional Strengths & Gaps (Radar Chart: Mexico vs Peers)
 categories = [
     'Fixed Broadband', 'Secure Servers', 'Internet Users',
@@ -234,7 +234,7 @@ plt.show()"""))
 * **What does it mean?:** Mexico's core digital gap is not consumer internet access, but the **generation of domestic intellectual property, scientific R&D, and exportable software services**.
 * **What can I NOT conclude?:** It cannot be concluded that Mexico exports no technology at all; Mexico exports large volumes of physical electronics (assembled hardware), but fails to capture value in high-margin digital intangibles."""))
 
-    # Viz 3
+    # Viz 3: Scatter R&D vs Digital Exports
     cells.append(nbf.v4.new_code_cell("""# Visualization 3: R&D Expenditure vs Digitally Deliverable Services Exports
 fig, ax = plt.subplots(figsize=(9, 6))
 
@@ -267,6 +267,72 @@ plt.show()"""))
 * **What do I observe?:** The Netherlands combines high R&D (2.27%) with high digital services exports (58.4%). Argentina exhibits a notable niche profile with modest R&D (0.60%) but the group's highest share of digitally deliverable services (64.2%). Mexico occupies the lower-left quadrant (0.27% R&D, 24.5% digital services).
 * **What does it mean?:** Economies that invest in software ecosystems and knowledge-based policies diversify their balance of payments toward resilient, high-margin intangible trade.
 * **What can I NOT conclude?:** One cannot infer simple single-variable causality; digital services exports are also heavily influenced by regulatory frameworks (e.g., Argentina's Knowledge Economy Law) and shared time zones with major markets."""))
+
+    # Viz 4: Diverging Gap Delta Chart
+    cells.append(nbf.v4.new_code_cell("""# Visualization 4: Mexico Structural Gap Delta vs Netherlands Leader (%)
+mex_row = df_clean[df_clean['country_iso3'] == 'MEX'].iloc[0]
+nld_row = df_clean[df_clean['country_iso3'] == 'NLD'].iloc[0]
+
+ind_short = ['Broadband', 'Secure Servers', 'Internet Users', 'ICT Basket Cost', 'ICT Exports', 'Digital Serv. Exp.', 'R&D Spend', 'Patents']
+raw_keys = ['IT_NET_BBND', 'IT_NET_SECR', 'IT_NET_USER', 'ITU_PRICE_BASKET', 'ICT_SERV_EXP', 'DIGIT_DELIV_EXP', 'RD_EXP_GDP', 'PATENT_RES_PM']
+
+deltas = []
+for k in raw_keys:
+    mex_v = mex_row[k]
+    nld_v = nld_row[k]
+    if k == 'ITU_PRICE_BASKET':
+        d = ((nld_v - mex_v) / nld_v) * 100 # Inverted cost
+    else:
+        d = ((mex_v - nld_v) / nld_v) * 100
+    deltas.append(d)
+
+fig, ax = plt.subplots(figsize=(10, 5.5))
+bar_colors = ['#10B981' if d >= 0 else '#EF4444' for d in deltas]
+y_pos = np.arange(len(ind_short))
+
+ax.barh(y_pos, deltas, color=bar_colors, edgecolor='black', linewidth=0.5, height=0.55)
+ax.set_yticks(y_pos)
+ax.set_yticklabels(ind_short, fontweight='bold')
+ax.axvline(0, color='black', linewidth=1, linestyle='--')
+ax.set_xlabel('Percentage Surplus (+) or Deficit (-) Relative to Netherlands Benchmark (%)', fontweight='bold')
+ax.set_title('Visualization 4: Mexico Asymmetry & Structural Gap Delta vs Netherlands', fontweight='bold', pad=15)
+
+for i, v in enumerate(deltas):
+    offset = 2 if v >= 0 else -12
+    ax.text(v + offset, i, f'{v:.1f}%', va='center', fontsize=10, fontweight='bold')
+
+plt.tight_layout()
+plt.show()"""))
+
+    cells.append(nbf.v4.new_markdown_cell("""### Interpretation Visualization 4:
+* **What do I observe?:** Mexico is within -16% in internet user adoption, but exhibits deficits exceeding -88% in scientific R&D, -92% in resident patents, and -99.8% in secure server infrastructure relative to the Netherlands.
+* **What does it mean?:** Mexico's digital challenge is almost completely concentrated in deep backend infrastructure and intellectual property, rather than broad public internet access.
+* **What can I NOT conclude?:** The large server deficit is influenced by the Netherlands' physical role as Europe's central internet exchange (*AMS-IX*)."""))
+
+    # Viz 5: Stacked Pillar Breakdown
+    cells.append(nbf.v4.new_code_cell("""# Visualization 5: DRS Score Decomposition by 4 Strategic Pillars
+pillars_df = pd.DataFrame({
+    'Country': df_drs['country_name'],
+    'Infrastructure (25 pts)': (df_drs['IT_NET_BBND_NORM'] + df_drs['IT_NET_SECR_NORM']) * 0.125,
+    'Access & Affordability (25 pts)': (df_drs['IT_NET_USER_NORM'] + df_drs['ITU_PRICE_BASKET_NORM']) * 0.125,
+    'Economic Activity (25 pts)': (df_drs['ICT_SERV_EXP_NORM'] + df_drs['DIGIT_DELIV_EXP_NORM']) * 0.125,
+    'Innovation & R&D (25 pts)': (df_drs['RD_EXP_GDP_NORM'] + df_drs['PATENT_RES_PM_NORM']) * 0.125
+}).set_index('Country')
+
+fig, ax = plt.subplots(figsize=(10, 5.5))
+pillars_df.plot(kind='bar', stacked=True, ax=ax, colormap='viridis', edgecolor='black', linewidth=0.5)
+ax.set_ylabel('Digital Readiness Score (0 - 100)', fontweight='bold')
+ax.set_title('Visualization 5: DRS Score Contribution Breakdown by Strategic Pillar', fontweight='bold', pad=15)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=0, fontweight='bold')
+ax.legend(title='Strategic Pillars', bbox_to_anchor=(1.02, 1), loc='upper left')
+
+plt.tight_layout()
+plt.show()"""))
+
+    cells.append(nbf.v4.new_markdown_cell("""### Interpretation Visualization 5:
+* **What do I observe?:** Mexico's 26.57 points are almost entirely generated by Access & Affordability (20.5 points out of 26.5), while Innovation and Economic Activity contribute less than 1 point. In contrast, the Netherlands gains 25 full points from Innovation and 25 from Infrastructure.
+* **What does it mean?:** Mexico's overall readiness is heavily unbalanced; closing the gap requires shifting national policy toward digital knowledge production.
+* **What can I NOT conclude?:** Pillar weights assume equal 25% prioritization; specific sector strategies may emphasize different pillars."""))
 
     # Section 9: Correlation & Clustering
     cells.append(nbf.v4.new_markdown_cell("""---
@@ -310,8 +376,8 @@ display(df_drs[['country_name', 'DRS', 'Cluster']].sort_values(by='DRS', ascendi
 
     cells.append(nbf.v4.new_markdown_cell("""### Interpretation of Clustering vs DRS:
 1. **Cluster 0 (Frontier Ecosystem - Netherlands):** Absolute superiority in critical datacenter infrastructure, scientific R&D, and AgTech patents.
-2. **Cluster 1 (Advanced AgTech & Knowledge Niche - New Zealand & Argentina):** New Zealand excels in institutional digitization and rural pasture management; Argentina excels in software export competitiveness.
-3. **Cluster 2 (Transitioning Economies - Mexico & Kenya):** Mexico shows strong consumer internet adoption and hardware trade but low domestic IP; Kenya leads in mobile money (*M-Pesa*) but faces fixed broadband cost barriers."""))
+2. **Cluster 1 (Advanced AgTech & Knowledge Niche - New Zealand & Argentina):** New Zealand excels in institutional farm management and livestock digitization; Argentina excels in software development and knowledge-based services exports.
+3. **Cluster 2 (Transitioning Economies - Mexico & Kenya):** Mexico shows high consumer internet adoption and hardware trade but low domestic IP; Kenya leads in mobile money (*M-Pesa*) but faces fixed broadband cost barriers."""))
 
     # Section 10: Digital Gap
     cells.append(nbf.v4.new_markdown_cell("""---

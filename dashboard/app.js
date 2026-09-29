@@ -1,5 +1,5 @@
 // ==========================================================================
-// AGTECH DIGITAL READINESS INTELLIGENCE - BENTO STUDIO SCRIPT
+// AGTECH DIGITAL READINESS INTELLIGENCE - BENTO STUDIO SCRIPT (7 VIEWS)
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -33,14 +33,20 @@ document.addEventListener('DOMContentLoaded', () => {
         RD_EXP_GDP: 0.00,
         PATENT_RES_PM: 3.77
       },
+      pillars: {
+        infrastructure: 5.62, // (44.92 + 0.06) * 0.125
+        accessAffordability: 20.48, // (75.62 + 88.20) * 0.125
+        economicActivity: 0.00, // (0 + 0) * 0.125
+        innovation: 0.47 // (0 + 3.77) * 0.125
+      },
       profile: {
         strength: "Broad consumer internet penetration (81.2%) and affordable entry-level broadband basket (1.95% of GNI).",
         gap: "Critically low R&D investment (0.27% of GDP) and minimal digital services export share (24.5%).",
         ai4c: {
-          conn: { tag: "Moderate (Rural Gap)", pct: 55, fill: "fill-cyan" },
-          comp: { tag: "Low (412/1M pop)", pct: 15, fill: "fill-rose" },
-          cont: { tag: "Moderate (Fragmented)", pct: 48, fill: "fill-amber" },
-          talent: { tag: "Moderate (0.27% R&D)", pct: 32, fill: "fill-purple" }
+          conn: { tag: "Moderate (Rural Gap)", pct: 55, score: 55, fill: "fill-cyan" },
+          comp: { tag: "Low (412/1M pop)", pct: 15, score: 15, fill: "fill-rose" },
+          cont: { tag: "Moderate (Fragmented)", pct: 48, score: 48, fill: "fill-amber" },
+          talent: { tag: "Moderate (0.27% R&D)", pct: 32, score: 32, fill: "fill-purple" }
         }
       }
     },
@@ -71,14 +77,20 @@ document.addEventListener('DOMContentLoaded', () => {
         RD_EXP_GDP: 100.00,
         PATENT_RES_PM: 100.00
       },
+      pillars: {
+        infrastructure: 25.00,
+        accessAffordability: 25.00,
+        economicActivity: 17.14,
+        innovation: 25.00
+      },
       profile: {
         strength: "Global benchmark in secure cloud servers (194k/1M), R&D intensity (2.27%), and patents (118.5/1M).",
         gap: "No structural gaps identified across the 8 analyzed dimensions.",
         ai4c: {
-          conn: { tag: "Outstanding (100%)", pct: 100, fill: "fill-cyan" },
-          comp: { tag: "World Leader (194k/1M)", pct: 100, fill: "fill-rose" },
-          cont: { tag: "Very High (Open Hub)", pct: 95, fill: "fill-amber" },
-          talent: { tag: "Maximum (2.27% R&D)", pct: 100, fill: "fill-purple" }
+          conn: { tag: "Outstanding (100%)", pct: 100, score: 100, fill: "fill-cyan" },
+          comp: { tag: "World Leader (194k/1M)", pct: 100, score: 100, fill: "fill-rose" },
+          cont: { tag: "Very High (Open Hub)", pct: 95, score: 95, fill: "fill-amber" },
+          talent: { tag: "Maximum (2.27% R&D)", pct: 100, score: 100, fill: "fill-purple" }
         }
       }
     },
@@ -109,14 +121,20 @@ document.addEventListener('DOMContentLoaded', () => {
         RD_EXP_GDP: 64.00,
         PATENT_RES_PM: 52.02
       },
+      pillars: {
+        infrastructure: 12.05,
+        accessAffordability: 24.08,
+        economicActivity: 10.28,
+        innovation: 14.50
+      },
       profile: {
         strength: "High broadband affordability (0.98% GNI), 1.55% GDP in R&D, and 63.8 resident patents per million people.",
         gap: "Moderate ICT services share due to strong trade specialization in dairy and primary commodities.",
         ai4c: {
-          conn: { tag: "Very High (Rural Fiber)", pct: 90, fill: "fill-cyan" },
-          comp: { tag: "High (18.9k/1M)", pct: 75, fill: "fill-rose" },
-          cont: { tag: "Very High (Ag Data)", pct: 88, fill: "fill-amber" },
-          talent: { tag: "High (1.55% R&D)", pct: 80, fill: "fill-purple" }
+          conn: { tag: "Very High (Rural Fiber)", pct: 90, score: 90, fill: "fill-cyan" },
+          comp: { tag: "High (18.9k/1M)", pct: 75, score: 75, fill: "fill-rose" },
+          cont: { tag: "Very High (Ag Data)", pct: 88, score: 88, fill: "fill-amber" },
+          talent: { tag: "High (1.55% R&D)", pct: 80, score: 80, fill: "fill-purple" }
         }
       }
     },
@@ -147,14 +165,20 @@ document.addEventListener('DOMContentLoaded', () => {
         RD_EXP_GDP: 16.50,
         PATENT_RES_PM: 4.12
       },
+      pillars: {
+        infrastructure: 7.36,
+        accessAffordability: 20.79,
+        economicActivity: 25.00,
+        innovation: 2.58
+      },
       profile: {
         strength: "Regional leader in digitally deliverable services exports (64.2%) and ICT services (15.9%).",
         gap: "Modest R&D expenditure compared to OECD benchmarks and macroeconomic currency volatility.",
         ai4c: {
-          conn: { tag: "Moderate-High", pct: 70, fill: "fill-cyan" },
-          comp: { tag: "Moderate (5.4k/1M)", pct: 45, fill: "fill-rose" },
-          cont: { tag: "High (Pampas Data)", pct: 78, fill: "fill-amber" },
-          talent: { tag: "High (Software Talent)", pct: 75, fill: "fill-purple" }
+          conn: { tag: "Moderate-High", pct: 70, score: 70, fill: "fill-cyan" },
+          comp: { tag: "Moderate (5.4k/1M)", pct: 45, score: 45, fill: "fill-rose" },
+          cont: { tag: "High (Pampas Data)", pct: 78, score: 78, fill: "fill-amber" },
+          talent: { tag: "High (Software Talent)", pct: 75, score: 75, fill: "fill-purple" }
         }
       }
     },
@@ -185,14 +209,20 @@ document.addEventListener('DOMContentLoaded', () => {
         RD_EXP_GDP: 26.50,
         PATENT_RES_PM: 0.00
       },
+      pillars: {
+        infrastructure: 0.00,
+        accessAffordability: 0.00,
+        economicActivity: 12.11,
+        innovation: 3.31
+      },
       profile: {
         strength: "World pioneer in mobile money (M-Pesa) and digital financial inclusion for smallholder farmers.",
         gap: "Low fixed broadband penetration (2.39 subs/100) and elevated relative ICT basket cost (10.4% GNI).",
         ai4c: {
-          conn: { tag: "Low (Cellular Dominant)", pct: 30, fill: "fill-cyan" },
-          comp: { tag: "Low (297/1M)", pct: 10, fill: "fill-rose" },
-          cont: { tag: "Targeted (Mobile Data)", pct: 40, fill: "fill-amber" },
-          talent: { tag: "Emerging Tech Hub", pct: 45, fill: "fill-purple" }
+          conn: { tag: "Low (Cellular Dominant)", pct: 30, score: 30, fill: "fill-cyan" },
+          comp: { tag: "Low (297/1M)", pct: 10, score: 10, fill: "fill-rose" },
+          cont: { tag: "Targeted (Mobile Data)", pct: 40, score: 40, fill: "fill-amber" },
+          talent: { tag: "Emerging Tech Hub", pct: 45, score: 45, fill: "fill-purple" }
         }
       }
     }
@@ -317,7 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderStudioChart();
   }
 
-  // 5. Interactive Studio Chart Controller
+  // 5. Interactive Studio Chart Controller (7 Analytics Views)
   const ctx = document.getElementById('studioChartCanvas').getContext('2d');
   const radarPeerControl = document.getElementById('radarPeerControl');
   const heatmapContainer = document.getElementById('heatmapContainer');
@@ -328,7 +358,8 @@ document.addEventListener('DOMContentLoaded', () => {
       studioChartInstance.destroy();
     }
 
-    radarPeerControl.style.display = currentChartType === 'radar' ? 'flex' : 'none';
+    const showPeerControl = (currentChartType === 'radar' || currentChartType === 'gap');
+    radarPeerControl.style.display = showPeerControl ? 'flex' : 'none';
     heatmapContainer.style.display = currentChartType === 'heatmap' ? 'block' : 'none';
     canvasHolder.style.display = currentChartType === 'heatmap' ? 'none' : 'block';
 
@@ -387,6 +418,172 @@ document.addEventListener('DOMContentLoaded', () => {
                 label: (c) => ` ${c.dataset.label}: ${c.raw.toFixed(1)} / 100`
               }
             }
+          }
+        }
+      });
+    } else if (currentChartType === 'gap') {
+      // View 2: Mexico Gap Delta (Diverging horizontal bar chart)
+      document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-arrows-left-right-to-line"></i> Mexico Structural Gap Delta vs ${selectedPeer.name}`;
+      document.getElementById('visualizerMainSubtitle').innerText = "Relative percentage difference: (Mexico - Benchmark) / Benchmark * 100%";
+
+      const mex = countries.find(c => c.iso3 === 'MEX');
+      const deltas = indicatorsMeta.map(ind => {
+        const mexV = mex.raw[ind.code];
+        const peerV = selectedPeer.raw[ind.code];
+        if (ind.code === 'ITU_PRICE_BASKET') {
+          // For inverted cost basket: lower cost in Mex is positive delta
+          return ((peerV - mexV) / peerV) * 100;
+        }
+        return peerV > 0 ? ((mexV - peerV) / peerV) * 100 : 0;
+      });
+
+      document.getElementById('insightObserve').innerText = `Mexico shows positive or competitive surplus in consumer internet user adoption and basic broadband cost, but negative deltas exceeding -80% to -99% in secure servers, R&D intensity, and digital service exports vs ${selectedPeer.name}.`;
+      document.getElementById('insightMeaning').innerText = `Diverging bars demonstrate that Mexico's digital bottleneck is concentrated on the supply-side of technology creation rather than public demand.`;
+      document.getElementById('insightLimit').innerText = `Extremely large negative deltas in servers (/1M) stem from the Netherlands' role as Europe's central datacenter interconnection hub.`;
+
+      studioChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: indicatorsMeta.map(i => i.short),
+          datasets: [{
+            label: `Mexico vs ${selectedPeer.name} Delta (%)`,
+            data: deltas,
+            backgroundColor: deltas.map(d => d >= 0 ? '#10b981' : '#f43f5e'),
+            borderRadius: 6,
+            barThickness: 20
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (c) => ` Relative Delta: ${c.raw > 0 ? '+' : ''}${c.raw.toFixed(1)}%`
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: 'rgba(255,255,255,0.06)' },
+              ticks: { color: '#cbd5e1', callback: (v) => `${v}%` }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { color: '#f8fafc', font: { weight: 'bold' } }
+            }
+          }
+        }
+      });
+    } else if (currentChartType === 'pillars') {
+      // View 3: DRS Pillar Contribution Breakdown (Stacked Bar)
+      document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-layer-group"></i> DRS Pillar Contribution Breakdown`;
+      document.getElementById('visualizerMainSubtitle').innerText = "Deconstructing each economy's total score into 4 strategic pillars";
+
+      document.getElementById('insightObserve').innerText = "Mexico's 26.57 points originate almost entirely (77%) from Access & Affordability. In contrast, the Netherlands earns 50 points from Infrastructure and Innovation alone, and Argentina derives 45% of its score from Digital Economic Activity.";
+      document.getElementById('insightMeaning').innerText = "Two economies with moderate DRS scores can have opposite digital profiles: Mexico is consumer-driven, whereas Argentina is knowledge-export driven.";
+      document.getElementById('insightLimit').innerText = "Equal 25% pillar weightings reflect balanced policy priorities across infrastructure, access, trade, and science.";
+
+      studioChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: countries.map(c => `${c.flag} ${c.name}`),
+          datasets: [
+            {
+              label: 'Infrastructure & Connectivity (25 pts)',
+              data: countries.map(c => c.pillars.infrastructure),
+              backgroundColor: '#06b6d4',
+              borderRadius: 4
+            },
+            {
+              label: 'Access & Affordability (25 pts)',
+              data: countries.map(c => c.pillars.accessAffordability),
+              backgroundColor: '#3b82f6',
+              borderRadius: 4
+            },
+            {
+              label: 'Digital Economic Activity (25 pts)',
+              data: countries.map(c => c.pillars.economicActivity),
+              backgroundColor: '#f59e0b',
+              borderRadius: 4
+            },
+            {
+              label: 'Technological Capacity & Innovation (25 pts)',
+              data: countries.map(c => c.pillars.innovation),
+              backgroundColor: '#10b981',
+              borderRadius: 4
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: {
+              stacked: true,
+              grid: { display: false },
+              ticks: { color: '#cbd5e1', font: { weight: 'bold' } }
+            },
+            y: {
+              stacked: true,
+              max: 100,
+              grid: { color: 'rgba(255,255,255,0.06)' },
+              ticks: { color: '#94a3b8' }
+            }
+          },
+          plugins: {
+            legend: { labels: { color: '#f8fafc', font: { size: 11, weight: 'bold' } } },
+            tooltip: {
+              callbacks: {
+                label: (c) => ` ${c.dataset.label}: ${c.raw.toFixed(2)} pts`
+              }
+            }
+          }
+        }
+      });
+    } else if (currentChartType === 'aiRadar') {
+      // View 4: Comparative AI 4C Readiness Radar
+      document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-brain"></i> Multi-Economy AI 4C Readiness Radar`;
+      document.getElementById('visualizerMainSubtitle').innerText = "Simultaneous benchmark across Connectivity, Compute, Context, and Competency";
+
+      document.getElementById('insightObserve').innerText = "The Netherlands encompasses the full 4C perimeter (100% compute/connectivity). New Zealand and Argentina maintain balanced profiles (70-90%). Mexico contracts sharply on the Compute and Competency axes.";
+      document.getElementById('insightMeaning').innerText = "Developing AI for agriculture requires all 4 vertices: data and algorithms cannot function without rural fiber and datacenter computing clusters.";
+      document.getElementById('insightLimit').innerText = "4C scores synthesize available official indicators; dedicated GPU cluster density metrics would provide deeper granularity.";
+
+      studioChartInstance = new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Connectivity', 'Compute', 'Context (Data)', 'Competency (Talent)'],
+          datasets: countries.map(c => ({
+            label: `${c.flag} ${c.name}`,
+            data: [c.profile.ai4c.conn.score, c.profile.ai4c.comp.score, c.profile.ai4c.cont.score, c.profile.ai4c.talent.score],
+            borderColor: c.iso3 === 'NLD' ? '#10b981' :
+                         c.iso3 === 'NZL' ? '#a855f7' :
+                         c.iso3 === 'ARG' ? '#3b82f6' :
+                         c.iso3 === 'MEX' ? '#f43f5e' : '#f59e0b',
+            backgroundColor: (c.iso3 === selectedCountry.iso3 ? 'rgba(244, 63, 94, 0.25)' : 'rgba(255, 255, 255, 0.03)'),
+            pointBackgroundColor: c.iso3 === 'NLD' ? '#10b981' :
+                                  c.iso3 === 'NZL' ? '#a855f7' :
+                                  c.iso3 === 'ARG' ? '#3b82f6' :
+                                  c.iso3 === 'MEX' ? '#f43f5e' : '#f59e0b',
+            borderWidth: c.iso3 === selectedCountry.iso3 ? 3 : 1.8
+          }))
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            r: {
+              angleLines: { color: 'rgba(255,255,255,0.08)' },
+              grid: { color: 'rgba(255,255,255,0.08)' },
+              pointLabels: { color: '#cbd5e1', font: { size: 12, weight: 'bold', family: "'Plus Jakarta Sans'" } },
+              ticks: { backdropColor: 'transparent', color: '#64748b', min: 0, max: 100 }
+            }
+          },
+          plugins: {
+            legend: { labels: { color: '#f8fafc', font: { size: 11, weight: 'bold' } } }
           }
         }
       });
@@ -525,13 +722,13 @@ document.addEventListener('DOMContentLoaded', () => {
     heatmapContainer.innerHTML = html;
   }
 
-  // Peer dropdown for Radar
+  // Peer dropdown for Radar & Gap
   document.getElementById('selectRadarPeer').addEventListener('change', (e) => {
     selectedPeer = countries.find(c => c.iso3 === e.target.value);
     renderStudioChart();
   });
 
-  // Studio View Switcher Tabs
+  // Studio View Switcher Tabs (7 Visualizations)
   document.querySelectorAll('.studio-tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.studio-tab-btn').forEach(b => b.classList.remove('active'));

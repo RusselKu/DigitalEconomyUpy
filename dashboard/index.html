@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgTech Digital Intelligence Hub | Team 3: Agriculture</title>
+  <title>AgTech & Digital Economy Intelligence | Team 3: Agriculture</title>
   
   <!-- Meta SEO -->
   <meta name="description" content="State-of-the-art interactive intelligence platform for digital economy, AgTech readiness, and AI 4C diagnostics across Mexico, Netherlands, Kenya, Argentina, and New Zealand.">
@@ -203,7 +203,7 @@
 
     </section>
 
-    <!-- INTERACTIVE VISUAL ANALYTICS STUDIO ROW -->
+    <!-- INTERACTIVE VISUAL ANALYTICS STUDIO ROW (7 DYNAMIC VIEWS) -->
     <section class="bento-row studio-row">
       <div class="bento-card visualizer-bento">
         <div class="card-glow-edge"></div>
@@ -212,19 +212,28 @@
         <div class="studio-header">
           <div class="studio-titles">
             <h3 id="visualizerMainTitle"><i class="fa-solid fa-chart-line"></i> Dimensional Intelligence Studio</h3>
-            <p id="visualizerMainSubtitle">Explore multidimensional distributions, radar profiles, and innovation clusters</p>
+            <p id="visualizerMainSubtitle">Explore multidimensional distributions, radar profiles, pillar contributions, and gap analysis</p>
           </div>
 
-          <!-- Interactive View Switcher Tabs -->
+          <!-- Interactive View Switcher Tabs (7 Visualizations) -->
           <div class="studio-tabs">
             <button class="studio-tab-btn active" data-chart="radar">
               <i class="fa-solid fa-spider"></i> <span>Radar Benchmark</span>
             </button>
+            <button class="studio-tab-btn" data-chart="gap">
+              <i class="fa-solid fa-arrows-left-right-to-line"></i> <span>Mexico Gap Delta</span>
+            </button>
+            <button class="studio-tab-btn" data-chart="pillars">
+              <i class="fa-solid fa-layer-group"></i> <span>Pillar Breakdown</span>
+            </button>
+            <button class="studio-tab-btn" data-chart="aiRadar">
+              <i class="fa-solid fa-brain"></i> <span>AI 4C Radar</span>
+            </button>
             <button class="studio-tab-btn" data-chart="scatter">
-              <i class="fa-solid fa-cubes"></i> <span>R&D vs Digital Exports</span>
+              <i class="fa-solid fa-cubes"></i> <span>R&D vs Exports</span>
             </button>
             <button class="studio-tab-btn" data-chart="bars">
-              <i class="fa-solid fa-chart-bar"></i> <span>Normalized Profile</span>
+              <i class="fa-solid fa-chart-bar"></i> <span>Normalized Bars</span>
             </button>
             <button class="studio-tab-btn" data-chart="heatmap">
               <i class="fa-solid fa-table-cells"></i> <span>AgTech Matrix</span>
@@ -237,7 +246,7 @@
           
           <!-- Chart Container -->
           <div class="studio-chart-wrapper">
-            <!-- Dynamic Peer Select Overlay for Radar -->
+            <!-- Dynamic Peer Select Overlay for Radar & Gap -->
             <div class="radar-peer-control" id="radarPeerControl">
               <label for="selectRadarPeer">Benchmark Target:</label>
               <select id="selectRadarPeer" class="peer-select-dropdown">
