@@ -5,11 +5,11 @@
 
 ### 6. Modelo de Negocio
 
-* **Creación de Valor:** Soluciona el desperdicio de agua y fertirriego mediante recomendaciones automatizadas de riego prescriptivo basadas en telemetría IoT y modelos evapotranspirativos. Dirigido a agroexportadores de alto valor (aguacate, berries, tomate, cítricos) y distritos de riego technificados.
+* **Creación de Valor:** Soluciona el desperdicio de agua y fertirriego mediante recomendaciones automatizadas de riego prescriptivo basadas en telemetría IoT y modelos evapotranspirativos. Dirigido a agroexportadores de alto valor (aguacate, berries, tomate, cítricos) y distritos de riego tecnificados.
 * **Entrega de Valor:** El agrónomo o productor accede al valor a través de una aplicación web/móvil responsiva (*AgTech Command Center*) y alertas push/SMS enviadas directamente al regador de campo.
 * **Captura de Valor:** Modelo híbrido **B2B SaaS (Software as a Service) + Data-driven On-Demand**:
-  - *Suscripción mensual/anual por hectárea monitoreada* (\$12 USD/ha/mes para acceso a plataforma y analítica prescriptiva).
-  - *Venta/Arrendamiento de nodos IoT y sensores de suelo* con mantenimiento preventivo incluido.
+  - *Suscripción mensual/anual por hectárea monitoreada:* **$12 USD/ha/mes** *(Supuesto financiero proyectado por el equipo de trabajo para viabilidad comercial)* para acceso a plataforma y analítica prescriptiva.
+  - *Venta/Arrendamiento de nodos IoT y sensores de suelo:* **$180 USD por nodo sensor** *(Supuesto de costo de hardware estimado por el equipo)* con mantenimiento preventivo incluido.
 
 ---
 
@@ -17,7 +17,7 @@
 
 * **Naturaleza de Plataforma:** Sí, opera como una **Plataforma Digital Bilateral (Two-Sided Platform)**:
   - *Lado A:* Productores agrícolas y agrónomos de campo.
-  - *Lado B:* Proveedores de insumos agrícolas (fertilizantes solutos, bioestimulantes), casas de seguros agrícolas y compradores de cosechas (agregadores exportadores).
+  - *Lado B:* Proveedores de insumos agrícolas (fertilizantes solubles, bioestimulantes), casas de seguros agrícolas y compradores de cosechas (agregadores exportadores).
 * **Interacción Facilitada:** Conexión automatizada entre prescripciones agronómicas de nitrógeno/agua y ordenamiento automático de fertilizantes con proveedores locales.
 * **Efectos de Red:**
   - *Efecto Directo (Same-side):* A mayor número de agricultores en una cuenca hidrográfica, mayor precisión acumulada en los modelos hidrológicos compartidos (calibración regional colectiva).
