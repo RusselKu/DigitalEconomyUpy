@@ -1,6 +1,6 @@
 country_iso3,country_name,indicator_id,indicator_name,year,value,source
-ARG,Argentina,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,9.2,WIPO IP Statistics Data Center
-KEN,Kenya,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,4.5,WIPO IP Statistics Data Center
-MEX,Mexico,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,8.8,WIPO IP Statistics Data Center
-NLD,Netherlands,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,118.5,WIPO IP Statistics Data Center
-NZL,New Zealand,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,63.8,WIPO IP Statistics Data Center
+MEX,Mexico,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,8.8,WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)
+NLD,Netherlands,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,118.5,WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)
+KEN,Kenya,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,4.5,WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)
+ARG,Argentina,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,9.2,WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)
+NZL,New Zealand,WIPO_PATENT_RES_PM,Patent applications by residents per million population,2023,63.8,WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)
