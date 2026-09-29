@@ -1,0 +1,47 @@
+[
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "UNCTAD_DIGIT_DELIV_EXP",
+    "indicator_name": "Digitally deliverable services exports (% of total service exports)",
+    "year": 2023,
+    "value": 64.2,
+    "source": "UNCTADstat Data Centre"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "UNCTAD_DIGIT_DELIV_EXP",
+    "indicator_name": "Digitally deliverable services exports (% of total service exports)",
+    "year": 2023,
+    "value": 39.2,
+    "source": "UNCTADstat Data Centre"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "UNCTAD_DIGIT_DELIV_EXP",
+    "indicator_name": "Digitally deliverable services exports (% of total service exports)",
+    "year": 2023,
+    "value": 24.5,
+    "source": "UNCTADstat Data Centre"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "UNCTAD_DIGIT_DELIV_EXP",
+    "indicator_name": "Digitally deliverable services exports (% of total service exports)",
+    "year": 2023,
+    "value": 58.4,
+    "source": "UNCTADstat Data Centre"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "UNCTAD_DIGIT_DELIV_EXP",
+    "indicator_name": "Digitally deliverable services exports (% of total service exports)",
+    "year": 2023,
+    "value": 44.8,
+    "source": "UNCTADstat Data Centre"
+  }
+]

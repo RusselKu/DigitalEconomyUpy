@@ -1,0 +1,211 @@
+country_iso3,country_name,indicator_id,indicator_name,year,value,source
+ARG,Argentina,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2024,26.0976420359532,World Bank WDI
+ARG,Argentina,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2023,25.3580730689248,World Bank WDI
+ARG,Argentina,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2022,24.6831785056628,World Bank WDI
+ARG,Argentina,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2021,23.1500020932515,World Bank WDI
+ARG,Argentina,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2020,21.1797871590669,World Bank WDI
+ARG,Argentina,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2019,19.551931344405,World Bank WDI
+KEN,Kenya,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2024,3.04382666975517,World Bank WDI
+KEN,Kenya,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2023,2.38882511128724,World Bank WDI
+KEN,Kenya,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2022,1.47646942688922,World Bank WDI
+KEN,Kenya,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2021,1.48254108303764,World Bank WDI
+KEN,Kenya,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2020,1.29112489733773,World Bank WDI
+KEN,Kenya,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2019,0.959288829892146,World Bank WDI
+MEX,Mexico,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2024,21.7367225364543,World Bank WDI
+MEX,Mexico,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2023,20.752917384408,World Bank WDI
+MEX,Mexico,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2022,20.6070256426489,World Bank WDI
+MEX,Mexico,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2021,19.2796725887476,World Bank WDI
+MEX,Mexico,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2020,17.7520559419946,World Bank WDI
+MEX,Mexico,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2019,15.3885155172291,World Bank WDI
+NLD,Netherlands,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2024,42.9782483069868,World Bank WDI
+NLD,Netherlands,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2023,43.2644444744139,World Bank WDI
+NLD,Netherlands,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2022,43.5643185557355,World Bank WDI
+NLD,Netherlands,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2021,42.9460563127039,World Bank WDI
+NLD,Netherlands,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2020,42.6667277513049,World Bank WDI
+NLD,Netherlands,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2019,42.5292659897442,World Bank WDI
+NZL,New Zealand,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2024,38.048298946057,World Bank WDI
+NZL,New Zealand,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2023,37.8530848455277,World Bank WDI
+NZL,New Zealand,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2022,36.3044927893768,World Bank WDI
+NZL,New Zealand,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2021,35.262820014578,World Bank WDI
+NZL,New Zealand,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2020,34.8130286721914,World Bank WDI
+NZL,New Zealand,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),2019,34.0227878966682,World Bank WDI
+ARG,Argentina,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2024,5453.43428098629,World Bank WDI
+ARG,Argentina,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2023,5451.20150353984,World Bank WDI
+ARG,Argentina,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2022,5287.33940240888,World Bank WDI
+ARG,Argentina,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2021,5116.36127962748,World Bank WDI
+ARG,Argentina,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2020,3700.83487186273,World Bank WDI
+ARG,Argentina,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2019,3016.15630461206,World Bank WDI
+KEN,Kenya,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2024,399.695610422168,World Bank WDI
+KEN,Kenya,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2023,297.132205291086,World Bank WDI
+KEN,Kenya,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2022,280.15318973272,World Bank WDI
+KEN,Kenya,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2021,260.207008880973,World Bank WDI
+KEN,Kenya,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2020,246.584783512693,World Bank WDI
+KEN,Kenya,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2019,254.810149447412,World Bank WDI
+MEX,Mexico,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2024,531.655697865752,World Bank WDI
+MEX,Mexico,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2023,412.117306307005,World Bank WDI
+MEX,Mexico,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2022,381.889508206228,World Bank WDI
+MEX,Mexico,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2021,348.79471968524,World Bank WDI
+MEX,Mexico,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2020,328.196454841059,World Bank WDI
+MEX,Mexico,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2019,275.399004136209,World Bank WDI
+NLD,Netherlands,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2024,198682.41199523,World Bank WDI
+NLD,Netherlands,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2023,194962.867894191,World Bank WDI
+NLD,Netherlands,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2022,181183.789690312,World Bank WDI
+NLD,Netherlands,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2021,164133.506993994,World Bank WDI
+NLD,Netherlands,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2020,136862.999168649,World Bank WDI
+NLD,Netherlands,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2019,130279.470464876,World Bank WDI
+NZL,New Zealand,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2024,18709.4517958412,World Bank WDI
+NZL,New Zealand,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2023,18993.6538461538,World Bank WDI
+NZL,New Zealand,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2022,18499.3210933349,World Bank WDI
+NZL,New Zealand,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2021,16145.0261574165,World Bank WDI
+NZL,New Zealand,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2020,20581.3815945115,World Bank WDI
+NZL,New Zealand,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),2019,20156.9321771322,World Bank WDI
+ARG,Argentina,IT.NET.USER.ZS,Individuals using the Internet (% of population),2024,89.66715228,World Bank WDI
+ARG,Argentina,IT.NET.USER.ZS,Individuals using the Internet (% of population),2023,89.22897166,World Bank WDI
+ARG,Argentina,IT.NET.USER.ZS,Individuals using the Internet (% of population),2022,88.37535691,World Bank WDI
+ARG,Argentina,IT.NET.USER.ZS,Individuals using the Internet (% of population),2021,87.15070683,World Bank WDI
+ARG,Argentina,IT.NET.USER.ZS,Individuals using the Internet (% of population),2020,85.51438646,World Bank WDI
+ARG,Argentina,IT.NET.USER.ZS,Individuals using the Internet (% of population),2019,79.9469520347551,World Bank WDI
+KEN,Kenya,IT.NET.USER.ZS,Individuals using the Internet (% of population),2024,34.97622513,World Bank WDI
+KEN,Kenya,IT.NET.USER.ZS,Individuals using the Internet (% of population),2023,32.07040024,World Bank WDI
+KEN,Kenya,IT.NET.USER.ZS,Individuals using the Internet (% of population),2022,29.40589905,World Bank WDI
+KEN,Kenya,IT.NET.USER.ZS,Individuals using the Internet (% of population),2021,26.96290016,World Bank WDI
+KEN,Kenya,IT.NET.USER.ZS,Individuals using the Internet (% of population),2020,24.7227993,World Bank WDI
+KEN,Kenya,IT.NET.USER.ZS,Individuals using the Internet (% of population),2019,22.6687733618171,World Bank WDI
+MEX,Mexico,IT.NET.USER.ZS,Individuals using the Internet (% of population),2024,83.12233799,World Bank WDI
+MEX,Mexico,IT.NET.USER.ZS,Individuals using the Internet (% of population),2023,81.18318755,World Bank WDI
+MEX,Mexico,IT.NET.USER.ZS,Individuals using the Internet (% of population),2022,78.63217894,World Bank WDI
+MEX,Mexico,IT.NET.USER.ZS,Individuals using the Internet (% of population),2021,75.62650476,World Bank WDI
+MEX,Mexico,IT.NET.USER.ZS,Individuals using the Internet (% of population),2020,71.49017499,World Bank WDI
+MEX,Mexico,IT.NET.USER.ZS,Individuals using the Internet (% of population),2019,69.6321092705209,World Bank WDI
+NLD,Netherlands,IT.NET.USER.ZS,Individuals using the Internet (% of population),2024,97.00679779,World Bank WDI
+NLD,Netherlands,IT.NET.USER.ZS,Individuals using the Internet (% of population),2023,97.00680272,World Bank WDI
+NLD,Netherlands,IT.NET.USER.ZS,Individuals using the Internet (% of population),2022,92.51968504,World Bank WDI
+NLD,Netherlands,IT.NET.USER.ZS,Individuals using the Internet (% of population),2021,92.05298013,World Bank WDI
+NLD,Netherlands,IT.NET.USER.ZS,Individuals using the Internet (% of population),2020,91.33333333,World Bank WDI
+NLD,Netherlands,IT.NET.USER.ZS,Individuals using the Internet (% of population),2019,93.2885906040269,World Bank WDI
+NZL,New Zealand,IT.NET.USER.ZS,Individuals using the Internet (% of population),2024,93.51930237,World Bank WDI
+NZL,New Zealand,IT.NET.USER.ZS,Individuals using the Internet (% of population),2023,93.32610321,World Bank WDI
+NZL,New Zealand,IT.NET.USER.ZS,Individuals using the Internet (% of population),2022,93.07289886,World Bank WDI
+NZL,New Zealand,IT.NET.USER.ZS,Individuals using the Internet (% of population),2021,91.99060059,World Bank WDI
+NZL,New Zealand,IT.NET.USER.ZS,Individuals using the Internet (% of population),2020,90.92099762,World Bank WDI
+NZL,New Zealand,IT.NET.USER.ZS,Individuals using the Internet (% of population),2019,89.86370087,World Bank WDI
+ARG,Argentina,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2024,15.7406131318319,World Bank WDI
+ARG,Argentina,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2023,15.8712142708089,World Bank WDI
+ARG,Argentina,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2022,18.8253969663899,World Bank WDI
+ARG,Argentina,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2021,24.6135588460075,World Bank WDI
+ARG,Argentina,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2020,20.9927501850159,World Bank WDI
+ARG,Argentina,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2019,14.1219207494781,World Bank WDI
+KEN,Kenya,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2024,10.6089745270793,World Bank WDI
+KEN,Kenya,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2023,10.6693311703942,World Bank WDI
+KEN,Kenya,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2022,13.6700327166816,World Bank WDI
+KEN,Kenya,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2021,18.1228370586067,World Bank WDI
+KEN,Kenya,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2020,14.6641042592603,World Bank WDI
+KEN,Kenya,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2019,11.2280460031494,World Bank WDI
+MEX,Mexico,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2024,3.85322686953104,World Bank WDI
+MEX,Mexico,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2023,2.92240599051662,World Bank WDI
+MEX,Mexico,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2022,3.18153696635504,World Bank WDI
+MEX,Mexico,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2021,3.81024580111441,World Bank WDI
+MEX,Mexico,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2020,4.51911221083939,World Bank WDI
+MEX,Mexico,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2019,2.97428590716616,World Bank WDI
+NLD,Netherlands,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2024,9.5248739661686,World Bank WDI
+NLD,Netherlands,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2023,9.61692170716839,World Bank WDI
+NLD,Netherlands,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2022,9.32668416810955,World Bank WDI
+NLD,Netherlands,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2021,9.03397806424711,World Bank WDI
+NLD,Netherlands,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2020,10.5718348190651,World Bank WDI
+NLD,Netherlands,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2019,9.19705544094303,World Bank WDI
+NZL,New Zealand,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2024,6.23885230872959,World Bank WDI
+NZL,New Zealand,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2023,6.95102745056589,World Bank WDI
+NZL,New Zealand,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2022,9.90124819836026,World Bank WDI
+NZL,New Zealand,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2021,11.3408088401434,World Bank WDI
+NZL,New Zealand,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2020,8.04626882542399,World Bank WDI
+NZL,New Zealand,BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP 6)",2019,4.96236198247989,World Bank WDI
+ARG,Argentina,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2024,,World Bank WDI
+ARG,Argentina,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2023,0.60111,World Bank WDI
+ARG,Argentina,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2022,0.54951,World Bank WDI
+ARG,Argentina,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2021,0.5236,World Bank WDI
+ARG,Argentina,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2020,0.54126,World Bank WDI
+ARG,Argentina,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2019,0.47813,World Bank WDI
+KEN,Kenya,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2024,0.81069,World Bank WDI
+KEN,Kenya,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2023,0.80427,World Bank WDI
+KEN,Kenya,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2022,0.40651,World Bank WDI
+KEN,Kenya,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2021,,World Bank WDI
+KEN,Kenya,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2020,,World Bank WDI
+KEN,Kenya,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2019,,World Bank WDI
+MEX,Mexico,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2024,0.25372,World Bank WDI
+MEX,Mexico,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2023,0.26746,World Bank WDI
+MEX,Mexico,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2022,0.25727,World Bank WDI
+MEX,Mexico,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2021,0.27305,World Bank WDI
+MEX,Mexico,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2020,0.29185,World Bank WDI
+MEX,Mexico,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2019,0.27629,World Bank WDI
+NLD,Netherlands,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2024,,World Bank WDI
+NLD,Netherlands,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2023,2.26719,World Bank WDI
+NLD,Netherlands,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2022,2.17529,World Bank WDI
+NLD,Netherlands,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2021,2.21542,World Bank WDI
+NLD,Netherlands,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2020,2.26514,World Bank WDI
+NLD,Netherlands,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2019,2.14036,World Bank WDI
+NZL,New Zealand,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2024,,World Bank WDI
+NZL,New Zealand,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2023,1.54848,World Bank WDI
+NZL,New Zealand,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2022,,World Bank WDI
+NZL,New Zealand,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2021,1.48604,World Bank WDI
+NZL,New Zealand,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2020,,World Bank WDI
+NZL,New Zealand,GB.XPD.RSDV.GD.ZS,Research and development expenditure (% of GDP),2019,1.4642,World Bank WDI
+ARG,Argentina,NY.GDP.PCAP.CD,GDP per capita (current US$),2024,13969.7836603737,World Bank WDI
+ARG,Argentina,NY.GDP.PCAP.CD,GDP per capita (current US$),2023,14261.8465667948,World Bank WDI
+ARG,Argentina,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,13962.1894087223,World Bank WDI
+ARG,Argentina,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,10738.0179223384,World Bank WDI
+ARG,Argentina,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,8535.59938004389,World Bank WDI
+ARG,Argentina,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,9955.97478680428,World Bank WDI
+KEN,Kenya,NY.GDP.PCAP.CD,GDP per capita (current US$),2024,2133.46193404026,World Bank WDI
+KEN,Kenya,NY.GDP.PCAP.CD,GDP per capita (current US$),2023,1942.58802756191,World Bank WDI
+KEN,Kenya,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,2109.56288513137,World Bank WDI
+KEN,Kenya,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,2061.35622089594,World Bank WDI
+KEN,Kenya,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,1927.66459027849,World Bank WDI
+KEN,Kenya,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,1960.40808854893,World Bank WDI
+MEX,Mexico,NY.GDP.PCAP.CD,GDP per capita (current US$),2024,13988.0423745241,World Bank WDI
+MEX,Mexico,NY.GDP.PCAP.CD,GDP per capita (current US$),2023,13830.843848864,World Bank WDI
+MEX,Mexico,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,11405.7940469896,World Bank WDI
+MEX,Mexico,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,10314.0506733708,World Bank WDI
+MEX,Mexico,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,8841.27074929751,World Bank WDI
+MEX,Mexico,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,10369.5553593527,World Bank WDI
+NLD,Netherlands,NY.GDP.PCAP.CD,GDP per capita (current US$),2024,67465.3208126875,World Bank WDI
+NLD,Netherlands,NY.GDP.PCAP.CD,GDP per capita (current US$),2023,63515.6030780019,World Bank WDI
+NLD,Netherlands,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,59123.318556487,World Bank WDI
+NLD,Netherlands,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,60141.9880911492,World Bank WDI
+NLD,Netherlands,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,53467.9277413737,World Bank WDI
+NLD,Netherlands,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,53554.9007491475,World Bank WDI
+NZL,New Zealand,NY.GDP.PCAP.CD,GDP per capita (current US$),2024,49432.3626396797,World Bank WDI
+NZL,New Zealand,NY.GDP.PCAP.CD,GDP per capita (current US$),2023,49302.341876493,World Bank WDI
+NZL,New Zealand,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,49141.6316294227,World Bank WDI
+NZL,New Zealand,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,49902.154346032,World Bank WDI
+NZL,New Zealand,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,42054.6743136586,World Bank WDI
+NZL,New Zealand,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,42872.2681243427,World Bank WDI
+ARG,Argentina,SP.POP.TOTL,"Population, total",2024,45696159.0,World Bank WDI
+ARG,Argentina,SP.POP.TOTL,"Population, total",2023,45538401.0,World Bank WDI
+ARG,Argentina,SP.POP.TOTL,"Population, total",2022,45407904.0,World Bank WDI
+ARG,Argentina,SP.POP.TOTL,"Population, total",2021,45312281.0,World Bank WDI
+ARG,Argentina,SP.POP.TOTL,"Population, total",2020,45191965.0,World Bank WDI
+ARG,Argentina,SP.POP.TOTL,"Population, total",2019,44973465.0,World Bank WDI
+KEN,Kenya,SP.POP.TOTL,"Population, total",2024,56432944.0,World Bank WDI
+KEN,Kenya,SP.POP.TOTL,"Population, total",2023,55339003.0,World Bank WDI
+KEN,Kenya,SP.POP.TOTL,"Population, total",2022,54252461.0,World Bank WDI
+KEN,Kenya,SP.POP.TOTL,"Population, total",2021,53219166.0,World Bank WDI
+KEN,Kenya,SP.POP.TOTL,"Population, total",2020,52217334.0,World Bank WDI
+KEN,Kenya,SP.POP.TOTL,"Population, total",2019,51202827.0,World Bank WDI
+MEX,Mexico,SP.POP.TOTL,"Population, total",2024,130861007.0,World Bank WDI
+MEX,Mexico,SP.POP.TOTL,"Population, total",2023,129739759.0,World Bank WDI
+MEX,Mexico,SP.POP.TOTL,"Population, total",2022,128613117.0,World Bank WDI
+MEX,Mexico,SP.POP.TOTL,"Population, total",2021,127648148.0,World Bank WDI
+MEX,Mexico,SP.POP.TOTL,"Population, total",2020,126799054.0,World Bank WDI
+MEX,Mexico,SP.POP.TOTL,"Population, total",2019,125762982.0,World Bank WDI
+NLD,Netherlands,SP.POP.TOTL,"Population, total",2024,17993485.0,World Bank WDI
+NLD,Netherlands,SP.POP.TOTL,"Population, total",2023,17877117.0,World Bank WDI
+NLD,Netherlands,SP.POP.TOTL,"Population, total",2022,17700982.0,World Bank WDI
+NLD,Netherlands,SP.POP.TOTL,"Population, total",2021,17533044.0,World Bank WDI
+NLD,Netherlands,SP.POP.TOTL,"Population, total",2020,17441500.0,World Bank WDI
+NLD,Netherlands,SP.POP.TOTL,"Population, total",2019,17344874.0,World Bank WDI
+NZL,New Zealand,SP.POP.TOTL,"Population, total",2024,5290000.0,World Bank WDI
+NZL,New Zealand,SP.POP.TOTL,"Population, total",2023,5200000.0,World Bank WDI
+NZL,New Zealand,SP.POP.TOTL,"Population, total",2022,5081700.0,World Bank WDI
+NZL,New Zealand,SP.POP.TOTL,"Population, total",2021,5084600.0,World Bank WDI
+NZL,New Zealand,SP.POP.TOTL,"Population, total",2020,5072400.0,World Bank WDI
+NZL,New Zealand,SP.POP.TOTL,"Population, total",2019,4970300.0,World Bank WDI

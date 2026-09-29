@@ -1,0 +1,1892 @@
+[
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2024,
+    "value": 26.0976420359532,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2023,
+    "value": 25.3580730689248,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2022,
+    "value": 24.6831785056628,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2021,
+    "value": 23.1500020932515,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2020,
+    "value": 21.1797871590669,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2019,
+    "value": 19.551931344405,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2024,
+    "value": 3.04382666975517,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2023,
+    "value": 2.38882511128724,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2022,
+    "value": 1.47646942688922,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2021,
+    "value": 1.48254108303764,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2020,
+    "value": 1.29112489733773,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2019,
+    "value": 0.959288829892146,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2024,
+    "value": 21.7367225364543,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2023,
+    "value": 20.752917384408,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2022,
+    "value": 20.6070256426489,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2021,
+    "value": 19.2796725887476,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2020,
+    "value": 17.7520559419946,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2019,
+    "value": 15.3885155172291,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2024,
+    "value": 42.9782483069868,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2023,
+    "value": 43.2644444744139,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2022,
+    "value": 43.5643185557355,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2021,
+    "value": 42.9460563127039,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2020,
+    "value": 42.6667277513049,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2019,
+    "value": 42.5292659897442,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2024,
+    "value": 38.048298946057,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2023,
+    "value": 37.8530848455277,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2022,
+    "value": 36.3044927893768,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2021,
+    "value": 35.262820014578,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2020,
+    "value": 34.8130286721914,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.BBND.P2",
+    "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+    "year": 2019,
+    "value": 34.0227878966682,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2024,
+    "value": 5453.43428098629,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2023,
+    "value": 5451.20150353984,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2022,
+    "value": 5287.33940240888,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2021,
+    "value": 5116.36127962748,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2020,
+    "value": 3700.83487186273,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2019,
+    "value": 3016.15630461206,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2024,
+    "value": 399.695610422168,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2023,
+    "value": 297.132205291086,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2022,
+    "value": 280.15318973272,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2021,
+    "value": 260.207008880973,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2020,
+    "value": 246.584783512693,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2019,
+    "value": 254.810149447412,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2024,
+    "value": 531.655697865752,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2023,
+    "value": 412.117306307005,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2022,
+    "value": 381.889508206228,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2021,
+    "value": 348.79471968524,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2020,
+    "value": 328.196454841059,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2019,
+    "value": 275.399004136209,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2024,
+    "value": 198682.41199523,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2023,
+    "value": 194962.867894191,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2022,
+    "value": 181183.789690312,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2021,
+    "value": 164133.506993994,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2020,
+    "value": 136862.999168649,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2019,
+    "value": 130279.470464876,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2024,
+    "value": 18709.4517958412,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2023,
+    "value": 18993.6538461538,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2022,
+    "value": 18499.3210933349,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2021,
+    "value": 16145.0261574165,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2020,
+    "value": 20581.3815945115,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.SECR.P6",
+    "indicator_name": "Secure Internet servers (per 1 million people)",
+    "year": 2019,
+    "value": 20156.9321771322,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2024,
+    "value": 89.66715228,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2023,
+    "value": 89.22897166,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2022,
+    "value": 88.37535691,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2021,
+    "value": 87.15070683,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2020,
+    "value": 85.51438646,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2019,
+    "value": 79.9469520347551,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2024,
+    "value": 34.97622513,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2023,
+    "value": 32.07040024,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2022,
+    "value": 29.40589905,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2021,
+    "value": 26.96290016,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2020,
+    "value": 24.7227993,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2019,
+    "value": 22.6687733618171,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2024,
+    "value": 83.12233799,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2023,
+    "value": 81.18318755,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2022,
+    "value": 78.63217894,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2021,
+    "value": 75.62650476,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2020,
+    "value": 71.49017499,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2019,
+    "value": 69.6321092705209,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2024,
+    "value": 97.00679779,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2023,
+    "value": 97.00680272,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2022,
+    "value": 92.51968504,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2021,
+    "value": 92.05298013,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2020,
+    "value": 91.33333333,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2019,
+    "value": 93.2885906040269,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2024,
+    "value": 93.51930237,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2023,
+    "value": 93.32610321,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2022,
+    "value": 93.07289886,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2021,
+    "value": 91.99060059,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2020,
+    "value": 90.92099762,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "IT.NET.USER.ZS",
+    "indicator_name": "Individuals using the Internet (% of population)",
+    "year": 2019,
+    "value": 89.86370087,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2024,
+    "value": 15.7406131318319,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2023,
+    "value": 15.8712142708089,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2022,
+    "value": 18.8253969663899,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2021,
+    "value": 24.6135588460075,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2020,
+    "value": 20.9927501850159,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2019,
+    "value": 14.1219207494781,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2024,
+    "value": 10.6089745270793,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2023,
+    "value": 10.6693311703942,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2022,
+    "value": 13.6700327166816,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2021,
+    "value": 18.1228370586067,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2020,
+    "value": 14.6641042592603,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2019,
+    "value": 11.2280460031494,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2024,
+    "value": 3.85322686953104,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2023,
+    "value": 2.92240599051662,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2022,
+    "value": 3.18153696635504,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2021,
+    "value": 3.81024580111441,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2020,
+    "value": 4.51911221083939,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2019,
+    "value": 2.97428590716616,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2024,
+    "value": 9.5248739661686,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2023,
+    "value": 9.61692170716839,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2022,
+    "value": 9.32668416810955,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2021,
+    "value": 9.03397806424711,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2020,
+    "value": 10.5718348190651,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2019,
+    "value": 9.19705544094303,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2024,
+    "value": 6.23885230872959,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2023,
+    "value": 6.95102745056589,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2022,
+    "value": 9.90124819836026,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2021,
+    "value": 11.3408088401434,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2020,
+    "value": 8.04626882542399,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "BX.GSR.CCIS.ZS",
+    "indicator_name": "ICT service exports (% of service exports, BoP 6)",
+    "year": 2019,
+    "value": 4.96236198247989,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2024,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2023,
+    "value": 0.60111,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2022,
+    "value": 0.54951,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2021,
+    "value": 0.5236,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2020,
+    "value": 0.54126,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2019,
+    "value": 0.47813,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2024,
+    "value": 0.81069,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2023,
+    "value": 0.80427,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2022,
+    "value": 0.40651,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2021,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2020,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2019,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2024,
+    "value": 0.25372,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2023,
+    "value": 0.26746,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2022,
+    "value": 0.25727,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2021,
+    "value": 0.27305,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2020,
+    "value": 0.29185,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2019,
+    "value": 0.27629,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2024,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2023,
+    "value": 2.26719,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2022,
+    "value": 2.17529,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2021,
+    "value": 2.21542,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2020,
+    "value": 2.26514,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2019,
+    "value": 2.14036,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2024,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2023,
+    "value": 1.54848,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2022,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2021,
+    "value": 1.48604,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2020,
+    "value": null,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "GB.XPD.RSDV.GD.ZS",
+    "indicator_name": "Research and development expenditure (% of GDP)",
+    "year": 2019,
+    "value": 1.4642,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2024,
+    "value": 13969.7836603737,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2023,
+    "value": 14261.8465667948,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2022,
+    "value": 13962.1894087223,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2021,
+    "value": 10738.0179223384,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2020,
+    "value": 8535.59938004389,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2019,
+    "value": 9955.97478680428,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2024,
+    "value": 2133.46193404026,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2023,
+    "value": 1942.58802756191,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2022,
+    "value": 2109.56288513137,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2021,
+    "value": 2061.35622089594,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2020,
+    "value": 1927.66459027849,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2019,
+    "value": 1960.40808854893,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2024,
+    "value": 13988.0423745241,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2023,
+    "value": 13830.843848864,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2022,
+    "value": 11405.7940469896,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2021,
+    "value": 10314.0506733708,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2020,
+    "value": 8841.27074929751,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2019,
+    "value": 10369.5553593527,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2024,
+    "value": 67465.3208126875,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2023,
+    "value": 63515.6030780019,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2022,
+    "value": 59123.318556487,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2021,
+    "value": 60141.9880911492,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2020,
+    "value": 53467.9277413737,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2019,
+    "value": 53554.9007491475,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2024,
+    "value": 49432.3626396797,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2023,
+    "value": 49302.341876493,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2022,
+    "value": 49141.6316294227,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2021,
+    "value": 49902.154346032,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2020,
+    "value": 42054.6743136586,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "NY.GDP.PCAP.CD",
+    "indicator_name": "GDP per capita (current US$)",
+    "year": 2019,
+    "value": 42872.2681243427,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2024,
+    "value": 45696159,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2023,
+    "value": 45538401,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2022,
+    "value": 45407904,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2021,
+    "value": 45312281,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2020,
+    "value": 45191965,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2019,
+    "value": 44973465,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2024,
+    "value": 56432944,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2023,
+    "value": 55339003,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2022,
+    "value": 54252461,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2021,
+    "value": 53219166,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2020,
+    "value": 52217334,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2019,
+    "value": 51202827,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2024,
+    "value": 130861007,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2023,
+    "value": 129739759,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2022,
+    "value": 128613117,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2021,
+    "value": 127648148,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2020,
+    "value": 126799054,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2019,
+    "value": 125762982,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2024,
+    "value": 17993485,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2023,
+    "value": 17877117,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2022,
+    "value": 17700982,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2021,
+    "value": 17533044,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2020,
+    "value": 17441500,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2019,
+    "value": 17344874,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2024,
+    "value": 5290000,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2023,
+    "value": 5200000,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2022,
+    "value": 5081700,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2021,
+    "value": 5084600,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2020,
+    "value": 5072400,
+    "source": "World Bank WDI"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "SP.POP.TOTL",
+    "indicator_name": "Population, total",
+    "year": 2019,
+    "value": 4970300,
+    "source": "World Bank WDI"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "country_iso3": "ARG",
+    "country_name": "Argentina",
+    "indicator_id": "WIPO_PATENT_RES_PM",
+    "indicator_name": "Patent applications by residents per million population",
+    "year": 2023,
+    "value": 9.2,
+    "source": "WIPO IP Statistics Data Center"
+  },
+  {
+    "country_iso3": "KEN",
+    "country_name": "Kenya",
+    "indicator_id": "WIPO_PATENT_RES_PM",
+    "indicator_name": "Patent applications by residents per million population",
+    "year": 2023,
+    "value": 4.5,
+    "source": "WIPO IP Statistics Data Center"
+  },
+  {
+    "country_iso3": "MEX",
+    "country_name": "Mexico",
+    "indicator_id": "WIPO_PATENT_RES_PM",
+    "indicator_name": "Patent applications by residents per million population",
+    "year": 2023,
+    "value": 8.8,
+    "source": "WIPO IP Statistics Data Center"
+  },
+  {
+    "country_iso3": "NLD",
+    "country_name": "Netherlands",
+    "indicator_id": "WIPO_PATENT_RES_PM",
+    "indicator_name": "Patent applications by residents per million population",
+    "year": 2023,
+    "value": 118.5,
+    "source": "WIPO IP Statistics Data Center"
+  },
+  {
+    "country_iso3": "NZL",
+    "country_name": "New Zealand",
+    "indicator_id": "WIPO_PATENT_RES_PM",
+    "indicator_name": "Patent applications by residents per million population",
+    "year": 2023,
+    "value": 63.8,
+    "source": "WIPO IP Statistics Data Center"
+  }
+]

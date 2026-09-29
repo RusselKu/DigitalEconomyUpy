@@ -1,0 +1,6 @@
+country_iso3,country_name,indicator_id,indicator_name,year,value,source
+ARG,Argentina,ITU_PRICE_BASKET_FBB,Fixed broadband basket (% of GNI per capita),2023,2.9,ITU DataHub (ICT Price Basket)
+KEN,Kenya,ITU_PRICE_BASKET_FBB,Fixed broadband basket (% of GNI per capita),2023,10.4,ITU DataHub (ICT Price Basket)
+MEX,Mexico,ITU_PRICE_BASKET_FBB,Fixed broadband basket (% of GNI per capita),2023,1.95,ITU DataHub (ICT Price Basket)
+NLD,Netherlands,ITU_PRICE_BASKET_FBB,Fixed broadband basket (% of GNI per capita),2023,0.82,ITU DataHub (ICT Price Basket)
+NZL,New Zealand,ITU_PRICE_BASKET_FBB,Fixed broadband basket (% of GNI per capita),2023,0.98,ITU DataHub (ICT Price Basket)

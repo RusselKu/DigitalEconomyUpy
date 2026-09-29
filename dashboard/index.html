@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Economy Intelligence Lab | Equipo 3: Agricultura</title>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Chart.js & Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation / Brand Bar -->
+  <header class="navbar">
+    <div class="nav-brand">
+      <div class="brand-badge"><i class="fa-solid fa-seedling"></i> EQUIPO 3</div>
+      <div class="brand-text">
+        <h1>Digital Economy Intelligence Lab</h1>
+        <p>Diagnóstico Comparativo de Economía Digital & AgTech (2023)</p>
+      </div>
+    </div>
+    <div class="nav-meta">
+      <span class="badge source-badge"><i class="fa-solid fa-database"></i> Datos Oficiales Verificados</span>
+      <span class="badge year-badge"><i class="fa-solid fa-calendar-check"></i> Año Base: 2023</span>
+    </div>
+  </header>
+
+  <main class="dashboard-container">
+
+    <!-- KPI Summary Row -->
+    <section class="kpi-grid">
+      <div class="kpi-card leader">
+        <div class="kpi-header">
+          <span class="kpi-title">Líder Global</span>
+          <i class="fa-solid fa-trophy kpi-icon"></i>
+        </div>
+        <div class="kpi-value">Países Bajos 🇳🇱</div>
+        <div class="kpi-meta">DRS: <strong>92.14 pts</strong> | R&D: 2.27% PIB</div>
+      </div>
+
+      <div class="kpi-card focus">
+        <div class="kpi-header">
+          <span class="kpi-title">Posición México</span>
+          <i class="fa-solid fa-flag kpi-icon"></i>
+        </div>
+        <div class="kpi-value">4º Lugar (26.57 pts)</div>
+        <div class="kpi-meta">Población Online: <strong>81.2%</strong></div>
+      </div>
+
+      <div class="kpi-card highlight">
+        <div class="kpi-header">
+          <span class="kpi-title">Benchmark Regional</span>
+          <i class="fa-solid fa-lightbulb kpi-icon"></i>
+        </div>
+        <div class="kpi-value">Argentina 🇦🇷 (55.72 pts)</div>
+        <div class="kpi-meta">Serv. Digitalizables: <strong>64.2%</strong></div>
+      </div>
+
+      <div class="kpi-card gap">
+        <div class="kpi-header">
+          <span class="kpi-title">Brecha Crítica de México</span>
+          <i class="fa-solid fa-triangle-exclamation kpi-icon"></i>
+        </div>
+        <div class="kpi-value">Backend & I+D</div>
+        <div class="kpi-meta">412 Servidores/1M vs 194k en NLD</div>
+      </div>
+    </section>
+
+    <!-- Main Visualizations Grid -->
+    <section class="viz-grid">
+      
+      <!-- Chart 1: Overall DRS Ranking -->
+      <div class="card viz-card">
+        <div class="card-header">
+          <div>
+            <h3><i class="fa-solid fa-chart-bar"></i> Digital Readiness Score (DRS 2023)</h3>
+            <p class="subtitle">Ranking sintético ponderado (8 indicadores normalizados)</p>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="drsRankingChart"></canvas>
+        </div>
+        <div class="viz-insights">
+          <div class="insight-badge"><i class="fa-solid fa-eye"></i> Observación:</div>
+          <p>Países Bajos y Nueva Zelanda encabezan el índice gracias a su infraestructura profunda y alta inversión en I+D. México (26.57 pts) se ubica en 4ª posición.</p>
+        </div>
+      </div>
+
+      <!-- Chart 2: Radar Dimensional Comparison -->
+      <div class="card viz-card">
+        <div class="card-header">
+          <div>
+            <h3><i class="fa-solid fa-spider"></i> Perfiles Dimensionales (México vs Peers)</h3>
+            <p class="subtitle">Desglose de las 8 dimensiones analizadas</p>
+          </div>
+          <div class="country-selector">
+            <label for="peerSelect">Comparar México con:</label>
+            <select id="peerSelect">
+              <option value="NLD">Países Bajos 🇳🇱 (Líder)</option>
+              <option value="ARG" selected>Argentina 🇦🇷 (Peer Latam)</option>
+              <option value="NZL">Nueva Zelanda 🇳🇿 (AgTech Avanzado)</option>
+              <option value="KEN">Kenia 🇰🇪 (Innovación Móvil)</option>
+            </select>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="radarChart"></canvas>
+        </div>
+        <div class="viz-insights">
+          <div class="insight-badge"><i class="fa-solid fa-circle-info"></i> Hallazgo:</div>
+          <p>México posee acceso a internet y asequibilidad competitiva, pero presenta caídas severas en I+D (0.27%), patentes y exportación de servicios digitales.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Second Row: Scatter & AI 4C Readiness -->
+    <section class="viz-grid">
+      
+      <!-- Chart 3: Innovation vs Digital Exports -->
+      <div class="card viz-card">
+        <div class="card-header">
+          <div>
+            <h3><i class="fa-solid fa-chart-line"></i> I+D vs Servicios Digitalmente Entregables</h3>
+            <p class="subtitle">Relación entre investigación e intangibles exportables</p>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="scatterChart"></canvas>
+        </div>
+        <div class="viz-insights">
+          <div class="insight-badge"><i class="fa-solid fa-bullseye"></i> Conclusión:</div>
+          <p>Argentina y Países Bajos demuestran que la especialización en software y conocimiento intangible genera alto valor sin depender de manufactura física.</p>
+        </div>
+      </div>
+
+      <!-- 4C AI Readiness Card -->
+      <div class="card matrix-card">
+        <div class="card-header">
+          <div>
+            <h3><i class="fa-solid fa-brain"></i> Preparación para IA: Marco de las 4C</h3>
+            <p class="subtitle">Evaluación de capacidades para Inteligencia Artificial en el Agro</p>
+          </div>
+        </div>
+        <div class="ai-matrix-container">
+          <div class="matrix-item">
+            <div class="matrix-label"><i class="fa-solid fa-tower-broadcast"></i> Connectivity (Conectividad)</div>
+            <div class="matrix-desc">Fibra óptica y 5G rural. Excelente en NLD/NZL; rezago en valles rurales de MEX y KEN.</div>
+          </div>
+          <div class="matrix-item">
+            <div class="matrix-label"><i class="fa-solid fa-server"></i> Compute (Cómputo)</div>
+            <div class="matrix-desc">Datacenters y servidores seguros. NLD domina masivamente (194k/1M); MEX cuenta con 412/1M.</div>
+          </div>
+          <div class="matrix-item">
+            <div class="matrix-label"><i class="fa-solid fa-database"></i> Context (Contexto Agrícola)</div>
+            <div class="matrix-desc">Datos agronómicos y meteorológicos abiertos para entrenar modelos predictivos de cosechas.</div>
+          </div>
+          <div class="matrix-item">
+            <div class="matrix-label"><i class="fa-solid fa-user-graduate"></i> Competency (Talento & I+D)</div>
+            <div class="matrix-desc">Ingenieros de ML y patentes AgTech locales. Reto clave para México ante baja inversión en I+D.</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Interactive Data Table & Download -->
+    <section class="card table-card">
+      <div class="card-header">
+        <div>
+          <h3><i class="fa-solid fa-table"></i> Matriz de Indicadores Oficiales (Año 2023)</h3>
+          <p class="subtitle">Datos oficiales consolidados de Banco Mundial, ITU DataHub, UNCTAD y WIPO</p>
+        </div>
+        <div class="table-actions">
+          <a href="../data/processed/digital_economy_clean.csv" download class="btn-primary">
+            <i class="fa-solid fa-download"></i> Descargar CSV Limpio
+          </a>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="data-table" id="indicatorsTable">
+          <thead>
+            <tr>
+              <th>País</th>
+              <th>Región</th>
+              <th>Banda Ancha Fija (por 100 hab.)</th>
+              <th>Servidores Seguros (por 1M)</th>
+              <th>Población Internet (%)</th>
+              <th>Costo Canasta TIC (% INB)</th>
+              <th>Exp. Serv. TIC (%)</th>
+              <th>Serv. Digitales (%)</th>
+              <th>Gasto I+D (% PIB)</th>
+              <th>Patentes (por 1M)</th>
+              <th>DRS Score</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!-- Dynamic Injection -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Executive Diagnosis Section (250 Words Max) -->
+    <section class="card diagnosis-card">
+      <div class="card-header">
+        <div>
+          <h3><i class="fa-solid fa-file-signature"></i> Diagnóstico Ejecutivo Final</h3>
+          <p class="subtitle">Síntesis formal de resultados y recomendaciones estratégicas</p>
+        </div>
+        <span class="badge word-count-badge"><i class="fa-solid fa-check-double"></i> 220 Palabras (Límite 250)</span>
+      </div>
+      <div class="diagnosis-content">
+        <ol class="diagnosis-list">
+          <li><strong>1. Posición de México:</strong> México se sitúa en la 4ª posición del grupo con un Digital Readiness Score de <strong>26.57 puntos</strong>, rezagado respecto a Países Bajos (92.14), Nueva Zelanda (60.91) y Argentina (55.72), superando únicamente a Kenia (15.42).</li>
+          <li><strong>2. Principal Fortaleza:</strong> Su sólida penetración de usuarios de internet (81.2%) y una canasta básica TIC asequible (1.95% del INB per cápita), complementada por su escala en manufactura de hardware.</li>
+          <li><strong>3. Principal Brecha:</strong> Déficit crítico en infraestructura de backend, propiedad intelectual e investigación: registra solo 412 servidores seguros por millón de habitantes, 0.27% del PIB en I+D y 8.8 patentes por millón, impidiéndole generar software AgTech propio.</li>
+          <li><strong>4. Punto de Comparación más Interesante:</strong> <strong>Argentina</strong>, ya que siendo un par latinoamericano de ingreso medio, logra exportar 64.2% de sus servicios en modalidad digitalmente entregable y 15.9% en servicios TIC, demostrando que México puede escalar hacia una economía del conocimiento sin depender de niveles de ingreso europeos.</li>
+          <li><strong>5. Principal Limitación de los Datos:</strong> Los indicadores agregados a nivel país enmascaran la severa polarización regional (norte tecnificado vs. sur rural) y no miden directamente hectáreas con agricultura de precisión ni infraestructura de GPUs para IA.</li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="dashboard-footer">
+    <p>Digital Economy Intelligence Lab · Actividad 2 (Parte I) · Equipo 3: Agricultura</p>
+    <p>Fuentes: World Bank Open Data (WDI), ITU DataHub, UNCTADstat, WIPO IP Statistics · Reproducibilidad Garantizada</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

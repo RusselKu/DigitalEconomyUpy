@@ -1,0 +1,6 @@
+country_iso3,country_name,indicator_id,indicator_name,year,value,source
+ARG,Argentina,UNCTAD_DIGIT_DELIV_EXP,Digitally deliverable services exports (% of total service exports),2023,64.2,UNCTADstat Data Centre
+KEN,Kenya,UNCTAD_DIGIT_DELIV_EXP,Digitally deliverable services exports (% of total service exports),2023,39.2,UNCTADstat Data Centre
+MEX,Mexico,UNCTAD_DIGIT_DELIV_EXP,Digitally deliverable services exports (% of total service exports),2023,24.5,UNCTADstat Data Centre
+NLD,Netherlands,UNCTAD_DIGIT_DELIV_EXP,Digitally deliverable services exports (% of total service exports),2023,58.4,UNCTADstat Data Centre
+NZL,New Zealand,UNCTAD_DIGIT_DELIV_EXP,Digitally deliverable services exports (% of total service exports),2023,44.8,UNCTADstat Data Centre
