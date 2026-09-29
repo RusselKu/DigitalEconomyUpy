@@ -8,7 +8,7 @@
 ## 📌 EXECUTIVE SUMMARY & PROBLEM STATEMENT
 Mexico's agricultural sector consumes **76% of national freshwater resources** *(Fuente oficial: CONAGUA, Estadísticas del Agua en México)*, yet suffers from an operational efficiency below **45%** due to uncalibrated flood irrigation, unmonitored soil percolation, and fixed-calendar watering practices. This inefficiency degrades soil through salinization, drains regional aquifers, and costs agroexportation producers an estimated **$45,000 USD/ha** in lost yield and excessive energy pumping bills *(Supuesto de diseño del equipo, no validado con fuente oficial)*.
 
-Building upon the Part I **Digital Readiness Score (DRS)** diagnosis—where Mexico ranked **4th (26.57 pts)** with severe bottlenecks in secure server density (**412/1M pop**) and scientific R&D (**0.27% GDP**)—this brief proposes a scalable **IoT & Telemetry-Driven Precision Fertigation Platform**. By transforming raw soil moisture tension into automated prescripted irrigation pulses, the solution aims for a **25% reduction in water consumption** *(Supuesto de diseño del equipo, no validado con fuente oficial)* while safeguarding crop yield.
+The repository reports a provisional DRS result for Mexico of 26.57 points (4th). Source traceability remains incomplete for several indicators. Secure-server certificates do not measure AI compute capacity; farm connectivity, local data and skills require direct assessment. The proposed IoT precision irrigation platform targets a 25% reduction in applied irrigation water, to be tested in a pilot while maintaining yield and quality.
 
 ```
 +---------------------------------------------------------------------------------------------------+
@@ -32,9 +32,9 @@ Building upon the Part I **Digital Readiness Score (DRS)** diagnosis—where Mex
 ---
 
 ## ⚙️ BUSINESS MODEL, PLATFORM & SCALABILITY
-* **Value Proposition & Model:** B2B SaaS + Data-driven subscription at **$12 USD/ha/month** *(Supuesto de diseño del equipo, no validado con fuente oficial)* for prescripted fertigation alerts, coupled with modular IoT node leasing *(Estimado en $180 USD por nodo sensor - Supuesto de diseño del equipo, no validado con fuente oficial)*.
-* **Two-Sided Network Effects:** Connects agricultural producers with bio-input suppliers and crop insurers. As farmer density increases on a watershed, shared hydrological models improve precision, driving down insurance premiums for all members.
-* **10x Scalability:** Serverless compute architecture scales with sublinear cost ($\mathcal{O}(\log N)$), while physical sensor maintenance scales linearly ($\mathcal{O}(N)$), mitigated through certified local technical distributor networks.
+* **Value Proposition & Model:** Proposed subscription at USD 12/ha/month plus node sales at USD 180/node, both unvalidated design assumptions. Installation, gateways, connectivity and maintenance require separate quotations. A 100-ha farm with 10 nodes would pay USD 16,200 for software and nodes in year one, before those additional costs.
+* **Two-Sided Network Effects:** A proposed second stage connects producers with suppliers and field technicians through quotations and contracting. More producers may attract suppliers; better supplier availability may attract producers. These effects require validation. Improved model accuracy and lower insurance premiums are not guaranteed.
+* **10x Scalability:** Growing from 1,000 to 10,000 farms with 10 nodes each increases monthly readings from 28.8 million to 288 million and raw new data from 28.8 GB to 288 GB (15-minute readings, 30 days, 1 kB/record). Processing and storage grow approximately tenfold; shared fixed costs may reduce average cost per customer. Serverless billing depends on requests and execution duration, not guaranteed logarithmic costs. See the [detailed model, formulas and sources](docs/02_modelo_negocio_plataforma_escalabilidad.md).
 
 ---
 
