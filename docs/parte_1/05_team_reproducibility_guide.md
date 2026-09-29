@@ -34,12 +34,12 @@ DigitalEconomyUpy/
 │   ├── styles.css                    # Glassmorphic AgTech CSS design system
 │   ├── app.js                        # Dynamic Chart.js logic & DRS Simulator
 │   └── data.json                     # JSON data for frontend consumption
-├── docs/                             # In-depth guides for team study
-│   ├── 01_conceptual_framework.md
-│   ├── 02_indicator_selection_and_breakdown.md
-│   ├── 03_drs_methodology_and_modeling.md
-│   ├── 04_strategic_diagnosis_and_gaps.md
-│   └── 05_team_reproducibility_guide.md
+├── docs/parte_1/                     # In-depth guides for team study
+│       ├── 01_conceptual_framework.md
+│       ├── 02_indicator_selection_and_breakdown.md
+│       ├── 03_drs_methodology_and_modeling.md
+│       ├── 04_strategic_diagnosis_and_gaps.md
+│       └── 05_team_reproducibility_guide.md
 ├── scripts/
 │   ├── 01_fetch_data.py              # Automated API acquisition
 │   ├── 02_process_data.py            # Data cleaning & DRS computation
