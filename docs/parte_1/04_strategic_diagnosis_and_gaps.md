@@ -10,9 +10,9 @@ The DRS compares eight national indicators; it does not directly measure agricul
 | Economy | Repository DRS | Rank | Interpretation limited to the dataset |
 |---|---:|---:|---|
 | Netherlands | 92.14 | 1 | Highest fixed broadband and R&D figures in the group; a national infrastructure and innovation benchmark. |
-| New Zealand | 60.91 | 2 | Second aggregate result; an additional infrastructure and innovation benchmark. |
-| Argentina | 55.72 | 3 | Highest share of ICT service exports (15.87%); a regional reference for studying digital services. |
-| Mexico | 26.57 | 4 | Stronger relative performance in internet use and affordability than in innovation and digital service exports. |
+| New Zealand | 55.77 | 2 | Second aggregate result; an additional infrastructure and innovation benchmark. |
+| Argentina | 55.26 | 3 | Highest share of ICT service exports (15.87%); a regional reference for studying digital services. |
+| Mexico | 26.13 | 4 | Stronger relative performance in internet use and affordability than in innovation and digital service exports. |
 | Kenya | 15.42 | 5 | Lowest fixed broadband figure; the index excludes mobile money and cannot assess that area. |
 
 These differences do not establish causal effects on agricultural productivity, universal farm coverage or complete digitization of production chains.
@@ -37,7 +37,7 @@ The assessments are design judgments rather than a second index. Insufficient ev
 
 ## 4. Executive Diagnosis (Maximum 250 Words)
 
-Mexico ranks fourth among the five economies in the repository, with a DRS of 26.57. This result remains provisional until source traceability and reference years are documented. The index shows relatively stronger performance in internet use and affordability than in innovation and digital service exports; it does not directly measure agricultural AI readiness.
+Mexico ranks fourth among the five economies in the repository, with a DRS of 26.13. This result remains provisional until source traceability and reference years are documented. The index shows relatively stronger performance in internet use and affordability than in innovation and digital service exports; it does not directly measure agricultural AI readiness.
 
 ENDUTIH 2023 documents a 19.5 percentage point gap between urban and rural internet use. For smart irrigation, this supports testing connectivity at each farm and planning for interruptions. Computing capacity, local agronomic data and staff skills require specific assessments: server certificates, national R&D spending and patents cannot replace those measurements.
 

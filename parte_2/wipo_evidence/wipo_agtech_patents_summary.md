@@ -1,36 +1,90 @@
-# WIPO PATENTSCOPE Evidence & Patent Analysis
+# WIPO IP Statistics Evidence & Patent Analysis
 ## Activity 2 · Part II: From Data to Digital Transformation
-**Team 3: Agriculture** | **Economies:** Mexico 🇲🇽, Netherlands 🇳🇱, Kenya 🇰🇪, Argentina 🇦🇷, New Zealand 🇳🇿
+
+**Team 3: Agriculture**
+**Economies:** Mexico, Netherlands, Kenya, Argentina, New Zealand
 
 ---
 
-### Official Databases Consulted
-1. **WIPO IP Statistics Data Center:** [https://www3.wipo.int/ipstats/](https://www3.wipo.int/ipstats/) *(Used for macro-level national aggregate indicators: Resident patent applications per million population)*.
-2. **WIPO PATENTSCOPE Database:** [https://patentscope.wipo.int/](https://patentscope.wipo.int/) *(Used for micro-level individual patent searches, publication numbers, IPC classifications, applicants, and patent titles)*.
+### Official Sources Consulted
+
+1. **WIPO IP Statistics Data Center**
+   https://www3.wipo.int/ipstats/
+
+2. **WIPO World Intellectual Property Indicators 2024**
+   https://www.wipo.int/edocs/pubdocs/en/wipo-pub-941-2024-en-world-intellectual-property-indicators-2024.pdf
+
+3. **WIPO Patent Analytics - Agritech**
+   https://www.wipo.int/en/web/patent-analytics/agritech
+
+4. **WIPO Patents FAQ**
+   https://www.wipo.int/en/web/patents/faq_patents
+
+An additional official statistical cross-check was performed using the German Federal Statistical Office international comparison table, which identifies the WIPO Statistics Database as its source.
 
 ---
 
-### Verifiable Patent Search Results in PATENTSCOPE
+### Verified 2023 Patent Indicator
 
-* **Search Parameters:** IPC Classes `G05D 7/00` (*Control of flow of liquids*) and `A01G 25/00` / `A01G 25/16` (*Irrigation/Fertigation systems*).
-* **Date of Query:** 2026-09-29
+The innovation indicator used in Part I is:
 
-| Publication Number | Country | IPC Classification | Title | Applicant | PATENTSCOPE Link |
-|---|:---:|---|---|---|---|
-| `WO2021080415A1` | 🇳🇱 NLD | `G05D 7/00; A01G 25/16` | Subsurface Irrigation Control and Soil Telemetry System | Priva Holding B.V. / Wageningen UR | [View Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2021080415) |
-| `WO2020145828A1` | 🇳🇿 NZL | `A01G 25/00; G05D 7/00` | Soil Moisture Sensor Network and Automated Pasture Irrigation Controller | CropX Ltd / Gallagher Group Ltd | [View Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2020145828) |
-| `WO2019182456A1` | 🇦🇷 ARG | `A01G 25/16; G06V 20/10` | Sistema de programación de riego de tasa variable basado en sensores de suelo e imágenes espectrales | INTA / Kilimo SA | [View Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019182456) |
-| `MX2021008912A` | 🇲🇽 MEX | `A01G 25/16; G05D 7/00` | Sistema automatizado de control de fertirriego basado en tensión matricial de suelo y balance hídrico | Instituto Mexicano de Tecnología del Agua (IMTA) | [View Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=MX2021008912) |
-| `WO2022015148A1` | 🇰🇪 KEN | `A01G 25/00; G06Q 20/32` | Solar-powered automated micro-irrigation controller with mobile money payment system | SunCulture Kenya Ltd | [View Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022015148) |
+**Resident patent applications per million population.**
+
+| Economy | ISO3 | 2023 value |
+|---|---|---:|
+| Mexico | MEX | 8 |
+| Netherlands | NLD | 495 |
+| Kenya | KEN | 7 |
+| Argentina | ARG | 9 |
+| New Zealand | NZL | 60 |
+
+For cross-country reproducibility, the project uses the 2023 values from the German Federal Statistical Office international comparison table, which identifies the WIPO Statistics Database as its source.
+
+**Verification note:** WIPO's *World Intellectual Property Indicators 2024*, Figure A38, reports 495 resident patent applications per million population for the Netherlands in 2023, consistent with the value used in the project.
+
+The complete consultation record is stored in `wipo_patent_query_log.csv`.
 
 ---
 
-### Key Findings & Legal/Technical Analysis
+### Relevance to the Precision-Irrigation Proposal
 
-1. **Distinction between Macro & Micro Sources:**
-   - Macro-level resident patent statistics ($8.8\text{ patents/1M pop}$ in Mexico vs $118.5\text{ patents/1M pop}$ in Netherlands) originate from the **WIPO IP Statistics Data Center**.
-   - Specific patent publication records, claims, IPC classifications, and applicant identities are queried directly in **WIPO PATENTSCOPE**.
-2. **Relevance to Proposed AgTech Solution:**
-   - The proposed precision irrigation algorithm combines soil tension sensors with satellite evapotranspiration data ($ET_c$), fitting squarely into **IPC Class G05D 7/00** and **A01G 25/16**.
-   - Resident patenting in Mexico is heavily led by public research institutes (e.g., IMTA), whereas in the Netherlands and New Zealand, patenting is driven by private AgTech spinoffs and corporate leaders (Priva, CropX).
-3. **Traceability File:** See full query log with direct search parameters in [wipo_patent_query_log.csv](file:///c:/Users/russe/Documents/github_repo/DigitalEconomyUpy/parte_2/wipo_evidence/wipo_patent_query_log.csv).
+The WIPO consultation places the project within the broader **AgriTech and precision-agriculture** innovation landscape. WIPO Patent Analytics identifies technologies such as precision farming and smart irrigation as relevant technological developments in this sector.
+
+For this activity, the proposed solution is principally related to **computer technology**, because its differentiating digital component is an algorithm that processes soil-sensor, evapotranspiration, and operating-condition data and transforms them into irrigation-control decisions.
+
+Sensors, communication networks, gateways, pumps, and data infrastructure act as enabling technologies.
+
+---
+
+### Potential Inventive Component
+
+A potentially inventive component would be a control method that dynamically combines:
+
+- soil matric-tension measurements;
+- evapotranspiration information;
+- local operating conditions; and
+- automated irrigation commands.
+
+This project description alone is not sufficient to conclude that the component is patentable. A patentability assessment would require a prior-art search and evaluation of novelty, inventive step, industrial applicability, and the applicable legal requirements.
+
+---
+
+### Interpretation of Patent Activity
+
+Patent counts are useful indicators of technological and inventive activity, but they do not by themselves demonstrate:
+
+- market adoption;
+- commercial success;
+- economic impact;
+- technological superiority; or
+- successful implementation.
+
+For this reason, patent activity is interpreted together with R&D capacity, digital infrastructure, adoption conditions, and the proposed business model.
+
+---
+
+### Evidence Integrity
+
+No individual patent publication number, applicant, title, or IPC classification is presented as project evidence unless it has been directly verified against the corresponding official record.
+
+The mandatory WIPO consultation is therefore documented through official statistical, patent-analysis, and conceptual WIPO resources without attributing unverified individual patent records.

@@ -1,6 +1,6 @@
 # 03. Digital Readiness Score (DRS) Methodology & Modeling
 
-**Team 3: Agriculture**  
+**Team 3: Agriculture**
 **Assigned Economies:** Mexico 🇲🇽, Netherlands 🇳🇱, Kenya 🇰🇪, Argentina 🇦🇷, New Zealand 🇳🇿
 
 ---
@@ -42,9 +42,9 @@ $$I_{\text{ITU\_PRICE\_BASKET},\text{norm}} = \frac{x_{\max} - x_i}{x_{\max} - x
 | Economy | Broadband | Servers | Users | Affordability | ICT Exp. | Digital Serv. | R&D | Patents | **Final DRS** | **Rank** |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 🇳🇱 **Netherlands** | 100.00 | 100.00 | 100.00 | 100.00 | 51.74 | 85.39 | 100.00 | 100.00 | **92.14** | **#1** |
-| 🇳🇿 **New Zealand** | 86.77 | 9.60 | 94.33 | 98.33 | 31.12 | 51.13 | 64.00 | 52.02 | **60.91** | **#2** |
-| 🇦🇷 **Argentina** | 56.20 | 2.65 | 88.02 | 78.29 | 100.00 | 100.00 | 16.50 | 4.12 | **55.72** | **#3** |
-| 🇲🇽 **Mexico** | 44.92 | 0.06 | 75.62 | 88.20 | 0.00 | 0.00 | 0.00 | 3.77 | **26.57** | **#4** |
+| 🇳🇿 **New Zealand** | 86.77 | 9.60 | 94.33 | 98.33 | 31.12 | 51.13 | 64.00 | 10.86 | **55.77** | **#2** |
+| 🇦🇷 **Argentina** | 56.20 | 2.65 | 88.02 | 78.29 | 100.00 | 100.00 | 16.50 | 0.41 | **55.26** | **#3** |
+| 🇲🇽 **Mexico** | 44.92 | 0.06 | 75.62 | 88.20 | 0.00 | 0.00 | 0.00 | 0.20 | **26.13** | **#4** |
 | 🇰🇪 **Kenya** | 0.00 | 0.00 | 0.00 | 0.00 | 59.85 | 37.03 | 26.50 | 0.00 | **15.42** | **#5** |
 
 ---
@@ -52,13 +52,15 @@ $$I_{\text{ITU\_PRICE\_BASKET},\text{norm}} = \frac{x_{\max} - x_i}{x_{\max} - x
 ## 4. Complementary Analysis: Pearson Correlations & K-Means Clustering
 
 ### A. Key Pearson Correlations
-* **Secure Servers & Resident Patents ($r = 0.94$):** Almost perfect correlation. Economies with world-class cloud server backbones exhibit the highest density of domestic patent filings and technological IP.
+* **Secure Servers & Resident Patents ($r = 0.9996$):** The five-economy sample shows an extremely high positive descriptive correlation. Because $n=5$, this result is exploratory and should not be interpreted as evidence of causality or as a stable population estimate.
 * **Internet Users & ICT Affordability ($r = 0.96$):** Low relative broadband basket cost is the primary empirical determinant of widespread societal internet adoption.
 
 ### B. Cluster Profiles (K-Means on 8 Normalized Features)
-1. **Cluster 0: Frontier Innovation Ecosystem (Netherlands - DRS: 92.14)**  
-   Decisive leadership in datacenter density, scientific R&D intensity, and high-tech greenhouse AgTech.
-2. **Cluster 1: Advanced Agricultural Adopters & Knowledge Exporters (New Zealand - DRS: 60.91 | Argentina - DRS: 55.72)**  
-   New Zealand excels in institutional farm management and livestock digitization; Argentina excels in software development and knowledge-based services exports.
-3. **Cluster 2: Transitioning Economies with Structural Asymmetries (Mexico - DRS: 26.57 | Kenya - DRS: 15.42)**  
-   Mexico shows high consumer adoption and hardware trade but suffers from low R&D and negligible digital services exports; Kenya leads in mobile money (*M-Pesa*) but faces fixed broadband deficits.
+1. **Cluster 1: Frontier Innovation Ecosystem (Netherlands - DRS: 92.14)**
+   Netherlands forms its own cluster because of its exceptional server density, R&D intensity, and patent indicator.
+2. **Cluster 0: Mixed Intermediate Profiles (New Zealand - DRS: 55.77 | Argentina - DRS: 55.26 | Mexico - DRS: 26.13)**
+   These economies share intermediate multidimensional profiles despite substantial differences in their individual strengths: New Zealand in R&D and adoption, Argentina in digital-service exports, and Mexico in access and affordability.
+3. **Cluster 2: Connectivity-Constrained Profile (Kenya - DRS: 15.42)**
+   Kenya forms a separate profile because of its comparatively low fixed-broadband, server, internet-use, and affordability scores.
+
+**Interpretation caution:** With only five economies and $k=3$, K-Means is exploratory; the clusters should be treated as descriptive groupings rather than robust population segments.

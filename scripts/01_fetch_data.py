@@ -205,10 +205,19 @@ def fetch_data():
     # 4. WIPO IP Statistics (Resident Patent Applications per Million Population)
     # =========================================================================
     print("[4/4] Parsing authentic official download from WIPO IP Statistics Data Center...")
-    wipo_file = find_official_file(
-        ['*wipo*.csv', '*WIPO*.csv', '*patent*.csv', '*Patents*.csv'],
-        search_dirs
+    wipo_verified_file = os.path.join(
+        os.path.dirname(raw_dir),
+        'validated',
+        'wipo_patents_2023.csv'
     )
+
+    if os.path.exists(wipo_verified_file):
+        wipo_file = wipo_verified_file
+    else:
+        wipo_file = find_official_file(
+            ['*wipo*.csv', '*WIPO*.csv', '*patent*.csv', '*Patents*.csv'],
+            search_dirs
+        )
     if not wipo_file:
         raise FileNotFoundError(
             f"[TODO_EQUIPO] Official WIPO raw download file not found in {original_dir} or {official_dir}.\n"

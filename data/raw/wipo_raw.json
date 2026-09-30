@@ -5,8 +5,8 @@
     "indicator_id": "WIPO_PATENT_RES_PM",
     "indicator_name": "Patent applications by residents per million population",
     "year": 2023,
-    "value": 8.8,
-    "source": "WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)"
+    "value": 8.0,
+    "source": "WIPO IP Statistics Data Center (wipo_patents_2023.csv)"
   },
   {
     "country_iso3": "NLD",
@@ -14,8 +14,8 @@
     "indicator_id": "WIPO_PATENT_RES_PM",
     "indicator_name": "Patent applications by residents per million population",
     "year": 2023,
-    "value": 118.5,
-    "source": "WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)"
+    "value": 495.0,
+    "source": "WIPO IP Statistics Data Center (wipo_patents_2023.csv)"
   },
   {
     "country_iso3": "KEN",
@@ -23,8 +23,8 @@
     "indicator_id": "WIPO_PATENT_RES_PM",
     "indicator_name": "Patent applications by residents per million population",
     "year": 2023,
-    "value": 4.5,
-    "source": "WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)"
+    "value": 7.0,
+    "source": "WIPO IP Statistics Data Center (wipo_patents_2023.csv)"
   },
   {
     "country_iso3": "ARG",
@@ -32,8 +32,8 @@
     "indicator_id": "WIPO_PATENT_RES_PM",
     "indicator_name": "Patent applications by residents per million population",
     "year": 2023,
-    "value": 9.2,
-    "source": "WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)"
+    "value": 9.0,
+    "source": "WIPO IP Statistics Data Center (wipo_patents_2023.csv)"
   },
   {
     "country_iso3": "NZL",
@@ -41,7 +41,7 @@
     "indicator_id": "WIPO_PATENT_RES_PM",
     "indicator_name": "Patent applications by residents per million population",
     "year": 2023,
-    "value": 63.8,
-    "source": "WIPO IP Statistics Data Center (WIPO_IP_Statistics_Resident_Patents_2015_2023.csv)"
+    "value": 60.0,
+    "source": "WIPO IP Statistics Data Center (wipo_patents_2023.csv)"
   }
 ]

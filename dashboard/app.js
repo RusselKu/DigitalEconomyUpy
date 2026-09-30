@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Mexico",
       flag: "🇲🇽",
       region: "Latin America · Upper-middle income",
-      drs: 26.57,
+      drs: 26.13,
       rank: 4,
       raw: {
         IT_NET_BBND: 20.75,
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 2.92,
         DIGIT_DELIV_EXP: 24.50,
         RD_EXP_GDP: 0.27,
-        PATENT_RES_PM: 8.80
+        PATENT_RES_PM: 8.00
       },
       norm: {
         IT_NET_BBND: 44.92,
@@ -31,13 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 0.00,
         DIGIT_DELIV_EXP: 0.00,
         RD_EXP_GDP: 0.00,
-        PATENT_RES_PM: 3.77
+        PATENT_RES_PM: 0.20
       },
       pillars: {
         infrastructure: 5.62, // (44.92 + 0.06) * 0.125
         accessAffordability: 20.48, // (75.62 + 88.20) * 0.125
         economicActivity: 0.00, // (0 + 0) * 0.125
-        innovation: 0.47 // (0 + 3.77) * 0.125
+        innovation: 0.03 // (0 + 0.20) * 0.125
       },
       profile: {
         strength: "Broad consumer internet penetration (81.2%) and affordable entry-level broadband basket (1.95% of GNI).",
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 9.62,
         DIGIT_DELIV_EXP: 58.40,
         RD_EXP_GDP: 2.27,
-        PATENT_RES_PM: 118.50
+        PATENT_RES_PM: 495.00
       },
       norm: {
         IT_NET_BBND: 100.00,
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
         innovation: 25.00
       },
       profile: {
-        strength: "Global benchmark in secure cloud servers (194k/1M), R&D intensity (2.27%), and patents (118.5/1M).",
+        strength: "Global benchmark in secure cloud servers (194k/1M), R&D intensity (2.27%), and patents (495/1M).",
         gap: "No structural gaps identified across the 8 analyzed dimensions.",
         ai4c: {
           conn: { tag: "Outstanding (100%)", pct: 100, score: 100, fill: "fill-cyan" },
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "New Zealand",
       flag: "🇳🇿",
       region: "Asia-Pacific · High income",
-      drs: 60.91,
+      drs: 55.77,
       rank: 2,
       raw: {
         IT_NET_BBND: 37.85,
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 6.95,
         DIGIT_DELIV_EXP: 44.80,
         RD_EXP_GDP: 1.55,
-        PATENT_RES_PM: 63.80
+        PATENT_RES_PM: 60.00
       },
       norm: {
         IT_NET_BBND: 86.77,
@@ -119,16 +119,16 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 31.12,
         DIGIT_DELIV_EXP: 51.13,
         RD_EXP_GDP: 64.00,
-        PATENT_RES_PM: 52.02
+        PATENT_RES_PM: 10.86
       },
       pillars: {
         infrastructure: 12.05,
         accessAffordability: 24.08,
         economicActivity: 10.28,
-        innovation: 14.50
+        innovation: 9.36
       },
       profile: {
-        strength: "High broadband affordability (0.98% GNI), 1.55% GDP in R&D, and 63.8 resident patents per million people.",
+        strength: "High broadband affordability (0.98% GNI), 1.55% GDP in R&D, and 60 resident patents per million people.",
         gap: "Moderate ICT services share due to strong trade specialization in dairy and primary commodities.",
         ai4c: {
           conn: { tag: "Very High (Rural Fiber)", pct: 90, score: 90, fill: "fill-cyan" },
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Argentina",
       flag: "🇦🇷",
       region: "Latin America · Upper-middle income",
-      drs: 55.72,
+      drs: 55.26,
       rank: 3,
       raw: {
         IT_NET_BBND: 25.36,
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 15.87,
         DIGIT_DELIV_EXP: 64.20,
         RD_EXP_GDP: 0.60,
-        PATENT_RES_PM: 9.20
+        PATENT_RES_PM: 9.00
       },
       norm: {
         IT_NET_BBND: 56.20,
@@ -163,13 +163,13 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 100.00,
         DIGIT_DELIV_EXP: 100.00,
         RD_EXP_GDP: 16.50,
-        PATENT_RES_PM: 4.12
+        PATENT_RES_PM: 0.41
       },
       pillars: {
         infrastructure: 7.36,
         accessAffordability: 20.79,
         economicActivity: 25.00,
-        innovation: 2.58
+        innovation: 2.11
       },
       profile: {
         strength: "Regional leader in digitally deliverable services exports (64.2%) and ICT services (15.9%).",
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ICT_SERV_EXP: 10.67,
         DIGIT_DELIV_EXP: 39.20,
         RD_EXP_GDP: 0.80,
-        PATENT_RES_PM: 4.50
+        PATENT_RES_PM: 7.00
       },
       norm: {
         IT_NET_BBND: 0.00,
@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-layer-group"></i> DRS Pillar Contribution Breakdown`;
       document.getElementById('visualizerMainSubtitle').innerText = "Deconstructing each economy's total score into 4 strategic pillars";
 
-      document.getElementById('insightObserve').innerText = "Mexico's 26.57 points originate almost entirely (77%) from Access & Affordability. In contrast, the Netherlands earns 50 points from Infrastructure and Innovation alone, and Argentina derives 45% of its score from Digital Economic Activity.";
+      document.getElementById('insightObserve').innerText = "Mexico's 26.13 points originate almost entirely (77%) from Access & Affordability. In contrast, the Netherlands earns 50 points from Infrastructure and Innovation alone, and Argentina derives 45% of its score from Digital Economic Activity.";
       document.getElementById('insightMeaning').innerText = "Two economies with moderate DRS scores can have opposite digital profiles: Mexico is consumer-driven, whereas Argentina is knowledge-export driven.";
       document.getElementById('insightLimit').innerText = "Equal 25% pillar weightings reflect balanced policy priorities across infrastructure, access, trade, and science.";
 

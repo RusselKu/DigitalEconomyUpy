@@ -5,12 +5,17 @@
 
 ### 12. Inteligencia Artificial y Energía
 
-* **La IA como Optimizador del Sistema Energético:**
-  - *Mecanismo:* Algoritmos de Machine Learning pueden predecir la demanda eléctrica con minutos de anticipación y coordinar el encendido diferido de bombas de riego agrícola fuera de las horas pico de tarifa eléctrica de la red nacional.
-  - *Ejemplo:* Un modelo de optimización tarifaria que programa el llenado de reservorios agrícolas a las 2:00 AM (tarifa valle), reduciendo la tensión sobre la red eléctrica durante las horas de consumo industrial pico.
-* **La IA como Consumidor Intensivo de Energía:**
-  - *Mecanismo:* El entrenamiento de modelos fundacionales de Visión por Computadora para detección de plagas exige gigavatios-hora de electricidad en datacenters, sobrecargando la infraestructura de generación y transmisión.
-  - *Ejemplo:* El entrenamiento continuo de un modelo YOLOv8 con millones de imágenes foliares consume energía equivalente al uso diario de cientos de hogares, aumentando las emisiones si la matriz energética depende de combustibles fósiles.
+La relación entre inteligencia artificial y energía funciona en ambas direcciones: la IA puede ayudar a optimizar sistemas energéticos, pero su crecimiento también incrementa la demanda de electricidad asociada con infraestructura digital.
+
+* **La IA como herramienta de optimización energética:**
+  - **Mecanismo:** modelos de Machine Learning pueden analizar patrones históricos, condiciones operativas y pronósticos para anticipar demanda y coordinar de forma más eficiente equipos eléctricos.
+  - **Ejemplo aplicado:** en la propuesta AgTech, un modelo podría programar bombeo de agua y llenado de reservorios en periodos de menor demanda eléctrica, siempre que las condiciones agronómicas lo permitan.
+
+* **La IA como fuente adicional de demanda energética:**
+  - **Mecanismo:** entrenamiento y ejecución de modelos de IA requieren servidores, almacenamiento, redes y refrigeración en centros de datos.
+  - **Ejemplo aplicado:** procesar continuamente imágenes agrícolas, telemetría IoT y modelos predictivos en infraestructura cloud añade consumo energético. Si aumenta el número de usuarios o tareas, también puede crecer la capacidad computacional necesaria.
+
+La materialidad energética debe considerar tanto las eficiencias obtenidas mediante IA como la electricidad necesaria para operar la infraestructura digital.
 
 ---
 

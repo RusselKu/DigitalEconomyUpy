@@ -8,7 +8,7 @@
 ## 📌 EXECUTIVE SUMMARY & PROBLEM STATEMENT
 Mexico's agricultural sector consumes **76% of national freshwater resources** *(Fuente oficial: CONAGUA, Estadísticas del Agua en México)*, yet suffers from an operational efficiency below **45%** due to uncalibrated flood irrigation, unmonitored soil percolation, and fixed-calendar watering practices. This inefficiency degrades soil through salinization, drains regional aquifers, and costs agroexportation producers an estimated **$45,000 USD/ha** in lost yield and excessive energy pumping bills *(Supuesto de diseño del equipo, no validado con fuente oficial)*.
 
-The repository reports a provisional DRS result for Mexico of 26.57 points (4th). Source traceability remains incomplete for several indicators. Secure-server certificates do not measure AI compute capacity; farm connectivity, local data and skills require direct assessment. The proposed IoT precision irrigation platform targets a 25% reduction in applied irrigation water, to be tested in a pilot while maintaining yield and quality.
+The repository reports a provisional DRS result for Mexico of 26.13 points (4th). Source traceability remains incomplete for several indicators. Secure-server certificates do not measure AI compute capacity; farm connectivity, local data and skills require direct assessment. The proposed IoT precision irrigation platform targets a 25% reduction in applied irrigation water, to be tested in a pilot while maintaining yield and quality.
 
 ```
 +---------------------------------------------------------------------------------------------------+
@@ -40,5 +40,5 @@ The repository reports a provisional DRS result for Mexico of 26.57 points (4th)
 
 ## 🔒 DATA RESPONSIBILITY, WIPO PATENTS & AI-ENERGY NEXUS
 * **Data Quality & Causality:** Sensor drift from saline corrosion is mitigated by automated anomaly detection. High correlation ($r=0.89$, *Supuesto de diseño del equipo, no validado con fuente oficial*) between IoT data packets and crop yield is recognized as non-causal; yield is driven by water availability and soil physics, not data transmission.
-* **WIPO Patent Alignment:** Macro-level patent indicators from WIPO IP Statistics show Mexico lagging (8.8/1M pop). Micro-level queries in **WIPO PATENTSCOPE** confirm active precision irrigation patents (e.g. `MX2021008912A`, `WO2021080415A1` under **IPC Class G05D 7/00** and `A01G 25/16`), highlighting the need to protect domestic AgTech IP.
+* **WIPO Patent Alignment:** Macro-level patent indicators from WIPO IP Statistics show Mexico lagging (8/1M pop). Micro-level queries in **WIPO PATENTSCOPE** confirm active precision irrigation patents (e.g. `MX2021008912A`, `WO2021080415A1` under **IPC Class G05D 7/00** and `A01G 25/16`), highlighting the need to protect domestic AgTech IP.
 * **Materiality & AI-Energy Nexus:** IoT hardware requires lithium batteries and generates e-waste. AI model training consumes datacenter energy, but machine learning optimizes pump scheduling during off-peak electrical grid hours (2:00 AM), reducing national grid stress.
