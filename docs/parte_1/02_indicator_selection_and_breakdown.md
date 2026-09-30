@@ -76,7 +76,7 @@ Category Quota Distribution:
 * **Definition:** Total patent applications filed with national patent offices by resident inventors per 1 million population.
 * **Official Source:** WIPO IP Statistics Data Center
 * **Agricultural Relevance:** Quantifies domestic proprietary innovation in agricultural machinery, automated irrigation hardware, and biotechnology.
-* **2023 Values:** Netherlands (118.50), New Zealand (63.80), Argentina (9.20), Mexico (8.80), Kenya (4.50).
+* **2023 Values:** Netherlands (495.00), New Zealand (60.00), Argentina (9.00), Mexico (8.00), Kenya (7.00).
 
 ---
 
@@ -84,8 +84,8 @@ Category Quota Distribution:
 
 | Economy | ISO3 | IT_NET_BBND | IT_NET_SECR | IT_NET_USER | ITU_PRICE_BASKET | ICT_SERV_EXP | DIGIT_DELIV_EXP | RD_EXP_GDP | PATENT_RES_PM |
 |---|---|---|---|---|---|---|---|---|---|
-| **Mexico** | `MEX` | 20.75 | 412.12 | 81.18% | 1.95% | 2.92% | 24.50% | 0.27% | 8.80 |
-| **Netherlands** | `NLD` | 43.26 | 194962.90 | 97.01% | 0.82% | 9.62% | 58.40% | 2.27% | 118.50 |
-| **Kenya** | `KEN` | 2.39 | 297.13 | 32.07% | 10.40% | 10.67% | 39.20% | 0.80% | 4.50 |
-| **Argentina** | `ARG` | 25.36 | 5451.20 | 89.23% | 2.90% | 15.87% | 64.20% | 0.60% | 9.20 |
-| **New Zealand** | `NZL` | 37.85 | 18993.65 | 93.33% | 0.98% | 6.95% | 44.80% | 1.55% | 63.80 |
+| **Mexico** | `MEX` | 20.75 | 412.12 | 81.18% | 1.95% | 2.92% | 24.50% | 0.27% | 8.00 |
+| **Netherlands** | `NLD` | 43.26 | 194962.90 | 97.01% | 0.82% | 9.62% | 58.40% | 2.27% | 495.00 |
+| **Kenya** | `KEN` | 2.39 | 297.13 | 32.07% | 10.40% | 10.67% | 39.20% | 0.80% | 7.00 |
+| **Argentina** | `ARG` | 25.36 | 5451.20 | 89.23% | 2.90% | 15.87% | 64.20% | 0.60% | 9.00 |
+| **New Zealand** | `NZL` | 37.85 | 18993.65 | 93.33% | 0.98% | 6.95% | 44.80% | 1.55% | 60.00 |

@@ -13,28 +13,34 @@
 
 ---
 
-### 10. Patentes e Innovación (Consulta en WIPO IP Statistics y PATENTSCOPE)
+### 10. Patentes e Innovación (Consulta en WIPO)
 
-1. **Distinción entre Fuentes WIPO Consultadas:**
-   - *WIPO IP Statistics Data Center:* Fuente oficial utilizada para indicadores macroeconómicos agregados por país (solicitudes de patentes por residentes por millón de habitantes: México 8.8/1M vs Países Bajos 118.5/1M).
-   - *WIPO PATENTSCOPE (patentscope.wipo.int):* Base de datos de patentes individuales consultada para extraer números reales de publicación, títulos, solicitantes y clasificaciones IPC (ej. `WO2021080415A1` de Priva/Wageningen UR, `MX2021008912A` del IMTA).
-2. **¿Qué es una patente y qué busca proteger?:** Un título de propiedad intelectual otorgado por el Estado que concede el derecho exclusivo de explotar comercialmente una invención durante 20 años, impidiendo que terceros la fabriquen, usen o vendan sin consentimiento.
-3. **Conceptos Fundamentales:**
-   - *Novedad:* La invención no debe existir en el estado de la técnica accesible públicamente a nivel mundial antes de la fecha de solicitud.
-   - *Actividad Inventiva:* La solución no debe ser evidente ni deducible de forma trivial por un experto en la materia.
-   - *Aplicación Industrial:* La invención puede ser fabricada o utilizada en cualquier tipo de industria.
-4. **Componente de Actividad Inventiva en la Propuesta:** Algoritmo dinámico de control distribuido para fertirriego autorregulado que combina lecturas de tensión matricial en suelo con tasas instantáneas de transpiración calculadas mediante sensores foliares ópticos.
-5. **Clasificación Tecnológica Principal WIPO (IPC):**
-   - *IPC Class G05D 7/00 / A01G 25/16:* Tecnología computacional aplicada al control automático de flujo de líquidos, riego y procesamiento de datos agrícolas.
-6. **¿Registrar patentes garantiza éxito económico?:** No. Una patente protege la propiedad intelectual, pero no garantiza adopción en el mercado, viabilidad financiera, usabilidad ni rendimiento agronómico superior.
+1. **¿Qué es una patente y qué busca proteger?**
+   Una patente es un derecho exclusivo concedido sobre una invención. Permite a su titular decidir si terceros pueden utilizar comercialmente la invención durante el periodo y territorio de protección, a cambio de divulgar públicamente la información técnica de la invención.
+
+2. **Conceptos fundamentales:**
+   - **Novedad:** la invención debe incorporar una característica que no forme parte del estado de la técnica previo.
+   - **Actividad inventiva:** la solución no debe resultar obvia para una persona con conocimientos ordinarios en el campo técnico correspondiente.
+   - **Aplicación industrial:** la invención debe poder fabricarse o utilizarse para una finalidad práctica o industrial.
+
+3. **Componente con posible actividad inventiva en la propuesta:**
+   El componente con mayor potencial inventivo sería el método de control que combina datos de tensión matricial del suelo, información de evapotranspiración y condiciones operativas para generar dinámicamente órdenes de riego. Que sea realmente patentable requeriría una búsqueda del estado de la técnica previo y una evaluación formal.
+
+4. **Área tecnológica principal:**
+   **Tecnología computacional.** El elemento central es el procesamiento algorítmico de datos provenientes de sensores y otras fuentes para convertirlos en decisiones automáticas de riego. Las comunicaciones digitales y redes son tecnologías habilitadoras.
+
+5. **¿Registrar varias patentes garantiza alta innovación, adopción o éxito económico?**
+   No. El número de patentes refleja actividad inventiva o esfuerzos de protección de propiedad intelectual, pero no demuestra por sí solo adopción, rentabilidad, impacto productivo, superioridad tecnológica ni éxito comercial.
+
+La evidencia de la consulta WIPO se encuentra en `parte_2/wipo_evidence/`.
 
 ---
 
 ### 11. Digital No Significa Inmaterial
 
-La economía digital requiere una infraestructura física intensiva con costos materiales y energéticos concretos:
+La propuesta digital depende de infraestructura física y, por lo tanto, tiene costos materiales, energéticos y ambientales.
 
-* **Elementos Físicos Necesarios:** Sensores de capacitancia TDR en acero inoxidable, microcontroladores ARM, radiobases LoRaWAN, baterías de litio, módulos fotovoltaicos, servidores en datacenters y cables subterráneos.
-* **Costo Material:** Reemplazo periódico de sondas de suelo degradadas por corrosión química y fertilizantes solubles (**$180 USD por nodo sensor** cada 24 meses, *Supuesto de diseño del equipo, no validado con fuente oficial*).
-* **Costo Energético:** Consumo continuo de energía eléctrica en datacenters para procesamiento de imágenes de satélite NDVI y entrenamiento de modelos de Deep Learning en clústeres GPU.
-* **Externalidad Ambiental:** Generación de e-waste (basura electrónica con metales pesados como litio, cobalto y cobre) al desechar sensores y baterías al final de su vida útil en zonas rurales.
+- **Elementos físicos necesarios:** sensores de humedad o tensión de suelo, microcontroladores, válvulas y bombas, gateways o radiobases LoRaWAN, baterías o sistemas fotovoltaicos, infraestructura de red y servidores.
+- **Costo material:** adquisición, instalación, mantenimiento y eventual sustitución de sensores, baterías, válvulas y gateways expuestos a humedad, salinidad, temperatura y condiciones de campo.
+- **Costo energético:** las bombas de riego requieren electricidad; además, transmisión, almacenamiento y procesamiento de telemetría e imágenes agrícolas consumen energía.
+- **Externalidad ambiental:** el reemplazo de sensores, componentes electrónicos y baterías puede generar residuos electrónicos y demanda de materiales, por lo que deben contemplarse mantenimiento, recuperación y disposición responsable.

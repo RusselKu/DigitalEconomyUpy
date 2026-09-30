@@ -13,7 +13,7 @@
 |---|---|---|---|:---:|
 | **Russel Ku** | **Lead Data Architect & DRS Modeling** | Data Acquisition Pipeline (`01_fetch_data.py`), DRS Synthetic Index Calculation, Weight Normalization & Clustering (K-Means / PCA). | Digital Transformation Pipeline (Fenómeno $\rightarrow$ Captura $\rightarrow$ Datos $\rightarrow$ Análisis $\rightarrow$ Acción) & Analytical Level Formulations. | **COMPLETED** ✅ |
 | **Jonathan** | **Senior AgTech & AI Solutions Specialist** | AI 4C Readiness Assessment (Connectivity, Compute, Context, Competency) & Strategic Gap Diagnosis. | Business Model Design (Value Creation, Delivery, Capture), Two-Sided Platform & Network Effects, 10x Scalability Analysis. | **COMPLETED** — documentation complete; data validation pending |
-| **Damian** | **IP & Innovation Lead** | Technological Capacity & Innovation Analysis (R&D Expenditure % GDP, Resident Patents per 1M pop). | WIPO IP Statistics Analysis (`wipo_agtech_patents_summary.md`), Patent Classification & AI-Energy Nexus Materiality. | In Progress 🔄 |
+| **Damian** | **IP & Innovation Lead** | Technological Capacity & Innovation Analysis (R&D Expenditure % GDP, Resident Patents per 1M pop). | WIPO IP Statistics Analysis (`wipo_agtech_patents_summary.md`), Patent Classification & AI-Energy Nexus Materiality. | **COMPLETED** ✅ |
 | **Bianca** | **Frontend & Visual Analytics Engineer** | Bento Grid Interactive Dashboard (`dashboard/index.html`), Chart.js Visual Studio & UI/UX Design System. | Digital Economy Brief Layout Design (`Digital_Economy_Brief.md`), Pipeline & Matrix Visual Synthesis. | In Progress 🔄 |
 | **Rivaldo** | **Data Governance & Source Traceability Lead** | Data Dictionary (`data_dictionary.csv`), Official Source Log (`source_log.csv`), Data Preparation & Quality Audit. | Sector Transformation Comparison Matrix (5 Sectors), Data Ethics, Privacy, Bias & Correlation vs. Causality Audit. | **COMPLETED** ✅ |
 
@@ -93,9 +93,9 @@ $$\text{DRS} = \sum_{i=1}^{8} w_i \cdot I_{i,\text{norm}} \quad (w_i = 0.125)$$
 | Rank | Economy | Flag | DRS Score | Digital Profile Summary |
 |:---:|---|:---:|:---:|---|
 | **#1** | **Netherlands** | 🇳🇱 | **92.14** | Global Benchmark in Datacenter Infrastructure & Precision AgTech |
-| **#2** | **New Zealand** | 🇳🇿 | **60.91** | Advanced Agricultural Exporter with Institutional Digitization |
-| **#3** | **Argentina** | 🇦🇷 | **55.72** | Regional Leader in Software & Knowledge-Based Services Exports |
-| **#4** | **Mexico** | 🇲🇽 | **26.57** | High Consumer Internet Adoption, but Critical Deficit in R&D & IP |
+| **#2** | **New Zealand** | 🇳🇿 | **55.77** | Advanced Agricultural Exporter with Institutional Digitization |
+| **#3** | **Argentina** | 🇦🇷 | **55.26** | Regional Leader in Software & Knowledge-Based Services Exports |
+| **#4** | **Mexico** | 🇲🇽 | **26.13** | High Consumer Internet Adoption, but Critical Deficit in R&D & IP |
 | **#5** | **Kenya** | 🇰🇪 | **15.42** | Pioneer in Mobile Money (*M-Pesa*), Constrained by Fixed Broadband |
 
 ---
@@ -126,8 +126,8 @@ python scripts/03_validate_provenance.py
 
 ## 📝 Final Executive Diagnosis (Parte I & Parte II Synthesis)
 
-1. **Mexico's Relative Position:** Mexico ranks 4th in the group with a Digital Readiness Score of **26.57 points**, lagging significantly behind the Netherlands (92.14), New Zealand (60.91), and Argentina (55.72), while outperforming only Kenya (15.42).
+1. **Mexico's Relative Position:** Mexico ranks 4th in the group with a Digital Readiness Score of **26.13 points**, lagging significantly behind the Netherlands (92.14), New Zealand (55.77), and Argentina (55.26), while outperforming only Kenya (15.42).
 2. **Primary Strength:** Robust internet user penetration (81.2%) and an affordable entry-level broadband basket (1.95% of GNI per capita), supported by established electronics hardware manufacturing.
-3. **Primary Gap:** A severe deficit in backend infrastructure, domestic R&D, and intellectual property: recording only 412 secure servers per million people, 0.27% of GDP in R&D, and 8.8 resident patents per million, preventing the creation of proprietary AgTech software.
+3. **Primary Gap:** A severe deficit in backend infrastructure, domestic R&D, and intellectual property: recording only 412 secure servers per million people, 0.27% of GDP in R&D, and 8 resident patents per million, preventing the creation of proprietary AgTech software.
 4. **Most Compelling Benchmark:** **Argentina**, which as an upper-middle-income Latin American peer exports 64.2% of its services in digitally deliverable format and 15.9% in ICT services, proving Mexico can transition to high-margin knowledge services without waiting for European-level GDP per capita.
 5. **Applied Transformation Proposal (Parte II):** Implementation of an IoT & Telemetry Precision Irrigation Platform targeting avocado and high-value horticulture export regions, transforming soil water tension data into prescripted watering pulses to reduce water consumption by 25% and protect aquifers.

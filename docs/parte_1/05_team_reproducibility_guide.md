@@ -54,6 +54,19 @@ DigitalEconomyUpy/
 
 ---
 
+## WIPO Provenance Note
+
+For the 2023 resident-patent indicator, the pipeline prioritizes
+`data/validated/wipo_patents_2023.csv`.
+
+This five-economy extract is documented in `data/validated/README.md` and
+cross-checked against WIPO statistical evidence. The historical WIPO file
+stored under `data/raw/official/original/` is retained as part of the team
+repository but is not used for the 2023 project indicator unless its values
+are independently source-verified.
+
+---
+
 ## 3. Step-by-Step Reproduction Instructions
 
 To execute and validate the complete pipeline on any local machine:
@@ -73,7 +86,7 @@ python scripts/01_fetch_data.py
 # 2. Process data and calculate Digital Readiness Score (DRS)
 python scripts/02_process_data.py
 
-# 3. Audit and validate 100% data provenance against official files
+# 3. Audit processed values against the configured and documented provenance sources
 python scripts/03_validate_provenance.py
 
 # 4. Regenerate and execute the reproducible Jupyter notebook

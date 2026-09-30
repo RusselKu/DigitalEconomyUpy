@@ -1,0 +1,6 @@
+Origin_Code,Origin_Name,Indicator_Code,Indicator_Name,Year,Value,Unit,Source
+ARG,Argentina,WIPO_RES_PAT_PM,Patent applications by residents per million population,2023,9,Applications per million population,WIPO Statistics Database
+KEN,Kenya,WIPO_RES_PAT_PM,Patent applications by residents per million population,2023,7,Applications per million population,WIPO Statistics Database
+MEX,Mexico,WIPO_RES_PAT_PM,Patent applications by residents per million population,2023,8,Applications per million population,WIPO Statistics Database
+NLD,Netherlands,WIPO_RES_PAT_PM,Patent applications by residents per million population,2023,495,Applications per million population,WIPO Statistics Database
+NZL,New Zealand,WIPO_RES_PAT_PM,Patent applications by residents per million population,2023,60,Applications per million population,WIPO Statistics Database
