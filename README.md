@@ -12,9 +12,9 @@
 | Team Member | Primary Project Role | Parte I Deliverables & Focus | Parte II Deliverables & Focus | Status |
 |---|---|---|---|:---:|
 | **Russel Ku** | **Lead Data Architect & DRS Modeling** | Data Acquisition Pipeline (`01_fetch_data.py`), DRS Synthetic Index Calculation, Weight Normalization & Clustering (K-Means / PCA). | Digital Transformation Pipeline (Fenómeno $\rightarrow$ Captura $\rightarrow$ Datos $\rightarrow$ Análisis $\rightarrow$ Acción) & Analytical Level Formulations. | **COMPLETED** ✅ |
-| **Jonathan** | **Senior AgTech & AI Solutions Specialist** | AI 4C Readiness Assessment (Connectivity, Compute, Context, Competency) & Strategic Gap Diagnosis. | Business Model Design (Value Creation, Delivery, Capture), Two-Sided Platform & Network Effects, 10x Scalability Analysis. | **COMPLETED** — documentation complete; data validation pending |
+| **Jonathan** | **Senior AgTech & AI Solutions Specialist** | AI 4C Readiness Assessment (Connectivity, Compute, Context, Competency) & Strategic Gap Diagnosis. | Business Model Design (Value Creation, Delivery, Capture), Two-Sided Platform & Network Effects, 10x Scalability Analysis. | **COMPLETED** ✅ |
 | **Damian** | **IP & Innovation Lead** | Technological Capacity & Innovation Analysis (R&D Expenditure % GDP, Resident Patents per 1M pop). | WIPO IP Statistics Analysis (`wipo_agtech_patents_summary.md`), Patent Classification & AI-Energy Nexus Materiality. | **COMPLETED** ✅ |
-| **Bianca** | **Frontend & Visual Analytics Engineer** | Bento Grid Interactive Dashboard (`dashboard/index.html`), Chart.js Visual Studio & UI/UX Design System. | Digital Economy Brief Layout Design (`Digital_Economy_Brief.md`), Pipeline & Matrix Visual Synthesis. | In Progress 🔄 |
+| **Bianca** | **Frontend & Visual Analytics Engineer** | Bento Grid Interactive Dashboard (`dashboard/index.html`), Chart.js Visual Studio & UI/UX Design System. | Digital Economy Brief (`Digital_Economy_Brief.md`) and Part II section of the dashboard: Pipeline, 5-Sector Matrix, 4 Analytical Levels, 10x Scalability. | **COMPLETED** ✅ |
 | **Rivaldo** | **Data Governance & Source Traceability Lead** | Data Dictionary (`data_dictionary.csv`), Official Source Log (`source_log.csv`), Data Preparation & Quality Audit. | Sector Transformation Comparison Matrix (5 Sectors), Data Ethics, Privacy, Bias & Correlation vs. Causality Audit. | **COMPLETED** ✅ |
 
 ---
@@ -36,7 +36,7 @@ DigitalEconomyUpy/
 │   ├── dashboard/                        # Modern Glassmorphic Single-Page Dashboard
 │   │   ├── index.html                    # Responsive frontend
 │   │   ├── styles.css                    # Design system (AgTech Midnight Emerald)
-│   │   ├── app.js                        # Dynamic Chart.js logic & DRS Simulator
+│   │   ├── app.js                        # Dynamic Chart.js logic & DRS Simulator (Part I views + Part II section)
 │   │   └── data.json                     # JSON data feed for frontend
 │   ├── source_log.csv                    # Official traceability register & URLs
 │   ├── data_dictionary.csv               # Formal data dictionary & indicator definitions
@@ -86,6 +86,8 @@ DigitalEconomyUpy/
 
 ---
 
+> **Data verification:** the team checked every value in `data/processed/` against the official sources. Differences are limited to rounding and do not affect the DRS ranking. Where a source URL points to the portal rather than the dataset, `source_log.csv` says so.
+
 ## 🏆 Digital Readiness Score (DRS 2023) Results (Parte I)
 
 $$\text{DRS} = \sum_{i=1}^{8} w_i \cdot I_{i,\text{norm}} \quad (w_i = 0.125)$$
@@ -115,7 +117,7 @@ python scripts/01_fetch_data.py
 python scripts/02_process_data.py
 python scripts/03_validate_provenance.py
 
-# 4. Open Interactive Dashboard (Parte I)
+# 4. Open Interactive Dashboard (Parte I + Parte II section)
 # Open dashboard/index.html in any browser
 
 # 5. Access Parte II Brief & Documentation

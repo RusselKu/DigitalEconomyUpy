@@ -96,7 +96,7 @@ def fetch_data():
     )
     if not itu_file:
         raise FileNotFoundError(
-            f"[TODO_EQUIPO] Official ITU raw download file not found in {original_dir} or {official_dir}.\n"
+            f"[ERROR] Official ITU raw download file not found in {original_dir} or {official_dir}.\n"
             "Please download the original CSV/XLSX from ITU DataHub and place it in data/raw/official/original/."
         )
 
@@ -154,7 +154,7 @@ def fetch_data():
     )
     if not unctad_file:
         raise FileNotFoundError(
-            f"[TODO_EQUIPO] Official UNCTAD raw download file not found in {original_dir} or {official_dir}.\n"
+            f"[ERROR] Official UNCTAD raw download file not found in {original_dir} or {official_dir}.\n"
             "Please download the original CSV from UNCTADstat Data Centre and place it in data/raw/official/original/."
         )
 
@@ -220,7 +220,7 @@ def fetch_data():
         )
     if not wipo_file:
         raise FileNotFoundError(
-            f"[TODO_EQUIPO] Official WIPO raw download file not found in {original_dir} or {official_dir}.\n"
+            f"[ERROR] Official WIPO raw download file not found in {original_dir} or {official_dir}.\n"
             "Please download the original CSV from WIPO IP Statistics and place it in data/raw/official/original/."
         )
 

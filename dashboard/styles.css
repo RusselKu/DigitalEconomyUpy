@@ -1189,3 +1189,11 @@ body.app-body {
   color: var(--text-muted);
   font-size: 0.78rem;
 }
+
+/* Part II section */
+.p2-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.25rem;margin-top:1.25rem}
+.p2-row .bento-card:first-child{grid-column:1/-1}
+.pipeline{display:flex;flex-wrap:wrap;gap:.6rem;padding:1rem 1.25rem}
+.pipe-step{flex:1 1 140px;padding:.7rem .8rem;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.04);font-size:.8rem}
+.pipe-step b{display:block;color:var(--emerald-neon);margin-bottom:.2rem}
+.p2-note{padding:0 1.25rem 1rem;font-size:.72rem;color:var(--text-muted)}

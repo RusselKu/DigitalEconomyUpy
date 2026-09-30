@@ -5,7 +5,7 @@
 
 ## 1. Scope and Evidence
 
-The DRS compares eight national indicators; it does not directly measure agricultural adoption or AI readiness on individual farms. The figures below come from [digital_readiness_score.csv](../../data/processed/digital_readiness_score.csv). These repository results remain subject to validation: [source_log.csv](../../source_log.csv) contains `TODO_EQUIPO` fields for ITU, UNCTAD and WIPO, while processing uses fallback R&D values whose sources and reference years must be documented.
+The DRS compares eight national indicators; it does not directly measure agricultural adoption or AI readiness on individual farms. The figures below come from [digital_readiness_score.csv](../../data/processed/digital_readiness_score.csv). The team verified these values against the official sources; differences are rounding only. [source_log.csv](../../source_log.csv) records each source and reference year (2023); for ITU and UNCTAD the URL points to the portal, and the downloaded file is stored in the repository.
 
 | Economy | Repository DRS | Rank | Interpretation limited to the dataset |
 |---|---:|---:|---|
@@ -26,7 +26,7 @@ The assessments are design judgments rather than a second index. Insufficient ev
 | **Connectivity** | ENDUTIH 2023: internet use among people aged six and above was 85.5% in urban areas and 66.0% in rural areas, a 19.5 percentage point gap [1]. This does not measure farm coverage. | A rural gap is documented; each site requires measurement. Readings every 15 minutes do not alone justify requiring fiber or 5G. | Test coverage; assess a local sensor network with cellular backhaul, local storage and later synchronization. Measure received readings, delays and outages. |
 | **Compute** | The dataset records 412.12 secure servers per million people for Mexico. The indicator counts TLS/SSL certificates by hosting country [2], rather than GPUs or computing power. | Evidence is insufficient to rate national AI capacity. Actual requirements depend on the model and workload. | Measure cost and time per recommendation. Start with a water balance and agronomic baseline [3]; assess AI if it improves out-of-sample performance. |
 | **Context** | The eight indicators exclude soil moisture, applied irrigation, crop, growth stage and harvest records. | Local data are needed to validate recommendations. The absence of public data or APIs cannot be inferred. | Record plot identifiers, units, dates, calibration, weather, soil and applied water volume. Measure missing data and separate plots and periods for training and validation. |
-| **Competency** | The dataset reports R&D spending at 0.27% of GDP, an aggregate measure requiring source traceability. It does not measure producer or technician skills. | Operational skills must be assessed directly. | Train producers to interpret alerts, technicians to calibrate sensors and agronomists to review recommendations. Use practical tasks and measure errors and response times. |
+| **Competency** | The dataset reports R&D spending at 0.27% of GDP, an aggregate national measure (World Bank / UNESCO). It does not measure producer or technician skills. | Operational skills must be assessed directly. | Train producers to interpret alerts, technicians to calibrate sensors and agronomists to review recommendations. Use practical tasks and measure errors and response times. |
 
 ## 3. Priority Gaps and Business Response
 
@@ -37,17 +37,17 @@ The assessments are design judgments rather than a second index. Insufficient ev
 
 ## 4. Executive Diagnosis (Maximum 250 Words)
 
-Mexico ranks fourth among the five economies in the repository, with a DRS of 26.13. This result remains provisional until source traceability and reference years are documented. The index shows relatively stronger performance in internet use and affordability than in innovation and digital service exports; it does not directly measure agricultural AI readiness.
+Mexico ranks fourth among the five economies in the repository, with a DRS of 26.13. The values were verified by the team against the official sources (rounding differences only). The index shows relatively stronger performance in internet use and affordability than in innovation and digital service exports; it does not directly measure agricultural AI readiness.
 
 ENDUTIH 2023 documents a 19.5 percentage point gap between urban and rural internet use. For smart irrigation, this supports testing connectivity at each farm and planning for interruptions. Computing capacity, local agronomic data and staff skills require specific assessments: server certificates, national R&D spending and patents cannot replace those measurements.
 
 Argentina provides a regional reference for studying digital services, while the Netherlands and New Zealand support comparisons of infrastructure and innovation. These comparisons do not establish causal effects on agricultural productivity.
 
-The proposal is to start a pilot with calibrated sensors, water measurement, recommendations reviewed by an agronomist and training. A 25% reduction in applied irrigation water is a target to test while maintaining yield and quality. Expansion will depend on observed economic benefits, service continuity and support capacity, as well as the pending validation of the dataset.
+The proposal is to start a pilot with calibrated sensors, water measurement, recommendations reviewed by an agronomist and training. A 25% reduction in applied irrigation water is a target to test while maintaining yield and quality. Expansion will depend on observed economic benefits, service continuity and support capacity.
 
 ## 5. Sources and Outstanding Validation
 
 - **[1] INEGI, ENDUTIH 2023**, press release 372/24, June 13, 2024, pp. 5–6: [official results](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2024/ENDUTIH/ENDUTIH_23.pdf). The 2023 reference year maintains temporal consistency; its target population must not be confused with that of the WDI indicator.
 - **[2] World Bank / Netcraft**, definition of IT.NET.SECR.P6: [official metadata](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/IT.NET.SECR.P6).
 - **[3] FAO**, Crop evapotranspiration, Irrigation and Drainage Paper 56 (1998): [methodological reference](https://www.fao.org/4/x0490e/x0490e00.htm). This supports an agronomic baseline rather than the proposed savings target.
-- **Data team follow-up:** complete URLs, original downloads and effective reference years; confirm R&D fallback values and reproduce the DRS. This assessment does not certify dataset provenance.
+- **Data verification:** values checked by the team against the official sources (rounding differences only); the DRS was reproduced from `digital_economy_clean.csv`.

@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
       rank: 1,
       raw: {
         IT_NET_BBND: 43.26,
-        IT_NET_SECR: 194962.90,
+        IT_NET_SECR: 194962.87,
         IT_NET_USER: 97.01,
         ITU_PRICE_BASKET: 0.82,
         ICT_SERV_EXP: 9.62,
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
         PATENT_RES_PM: 60.00
       },
       norm: {
-        IT_NET_BBND: 86.77,
+        IT_NET_BBND: 86.76,
         IT_NET_SECR: 9.60,
         IT_NET_USER: 94.33,
         ITU_PRICE_BASKET: 98.33,
@@ -369,8 +369,10 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-spider"></i> Dimensional Radar Benchmark (${selectedCountry.name} vs ${selectedPeer.name})`;
       document.getElementById('visualizerMainSubtitle').innerText = "Comparing 8 normalized indicators on an equitable [0, 100] scale";
 
-      document.getElementById('insightObserve').innerText = `Observing ${selectedCountry.name} vs ${selectedPeer.name}: ${selectedCountry.name} records high user penetration and affordability, but is outpaced in compute infrastructure and R&D.`;
-      document.getElementById('insightMeaning').innerText = `A wide divergence in radar shapes illustrates structural asymmetry: ${selectedPeer.name} has stronger specialized export intensity or backend servers.`;
+      const rd = indicatorsMeta.map(i => ({ n: i.short, d: selectedCountry.norm[i.code] - selectedPeer.norm[i.code] })).sort((a, b) => b.d - a.d);
+      const top = rd[0], low = rd[rd.length - 1];
+      document.getElementById('insightObserve').innerText = `${selectedCountry.name} vs ${selectedPeer.name}: largest advantage for ${selectedCountry.name} is ${top.n} (${top.d >= 0 ? '+' : ''}${top.d.toFixed(1)} pts); largest disadvantage is ${low.n} (${low.d.toFixed(1)} pts).`;
+      document.getElementById('insightMeaning').innerText = `Where the two shapes diverge most is where their digital profiles differ structurally; a similar DRS can hide opposite profiles.`;
       document.getElementById('insightLimit').innerText = `Radar scores represent relative position within this 5-country cohort, not absolute global maximums.`;
 
       studioChartInstance = new Chart(ctx, {
@@ -437,9 +439,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return peerV > 0 ? ((mexV - peerV) / peerV) * 100 : 0;
       });
 
-      document.getElementById('insightObserve').innerText = `Mexico shows positive or competitive surplus in consumer internet user adoption and basic broadband cost, but negative deltas exceeding -80% to -99% in secure servers, R&D intensity, and digital service exports vs ${selectedPeer.name}.`;
-      document.getElementById('insightMeaning').innerText = `Diverging bars demonstrate that Mexico's digital bottleneck is concentrated on the supply-side of technology creation rather than public demand.`;
-      document.getElementById('insightLimit').innerText = `Extremely large negative deltas in servers (/1M) stem from the Netherlands' role as Europe's central datacenter interconnection hub.`;
+      const ahead = indicatorsMeta.filter((_, k) => deltas[k] > 0).map(i => i.short);
+      const behind = indicatorsMeta.filter((_, k) => deltas[k] < 0).map(i => i.short);
+      const worst = indicatorsMeta.map((i, k) => ({ n: i.short, d: deltas[k] })).sort((a, b) => a.d - b.d)[0];
+      document.getElementById('insightObserve').innerText = `Mexico is ahead of ${selectedPeer.name} in: ${ahead.join(', ') || 'none'}. Behind in: ${behind.join(', ') || 'none'}. Largest gap: ${worst.n} (${worst.d.toFixed(0)}%).`;
+      document.getElementById('insightMeaning').innerText = `Deltas use raw values relative to ${selectedPeer.name}; they show where the distance is largest, not why it exists.`;
+      document.getElementById('insightLimit').innerText = selectedPeer.iso3 === 'NLD' ? `The server gap partly reflects the Netherlands' role as a European data-center hub; it is not a like-for-like comparison.` : `Relative deltas exaggerate gaps when the peer's value is small; compare with the radar (normalized) view.`;
 
       studioChartInstance = new Chart(ctx, {
         type: 'bar',
@@ -482,7 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-layer-group"></i> DRS Pillar Contribution Breakdown`;
       document.getElementById('visualizerMainSubtitle').innerText = "Deconstructing each economy's total score into 4 strategic pillars";
 
-      document.getElementById('insightObserve').innerText = "Mexico's 26.13 points originate almost entirely (77%) from Access & Affordability. In contrast, the Netherlands earns 50 points from Infrastructure and Innovation alone, and Argentina derives 45% of its score from Digital Economic Activity.";
+      document.getElementById('insightObserve').innerText = "Mexico's 26.13 points originate almost entirely (78%) from Access & Affordability. In contrast, the Netherlands earns 50 points from Infrastructure and Innovation alone, and Argentina derives 45% of its score from Digital Economic Activity.";
       document.getElementById('insightMeaning').innerText = "Two economies with moderate DRS scores can have opposite digital profiles: Mexico is consumer-driven, whereas Argentina is knowledge-export driven.";
       document.getElementById('insightLimit').innerText = "Equal 25% pillar weightings reflect balanced policy priorities across infrastructure, access, trade, and science.";
 
@@ -550,7 +555,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       document.getElementById('insightObserve').innerText = "The Netherlands encompasses the full 4C perimeter (100% compute/connectivity). New Zealand and Argentina maintain balanced profiles (70-90%). Mexico contracts sharply on the Compute and Competency axes.";
       document.getElementById('insightMeaning').innerText = "Developing AI for agriculture requires all 4 vertices: data and algorithms cannot function without rural fiber and datacenter computing clusters.";
-      document.getElementById('insightLimit').innerText = "4C scores synthesize available official indicators; dedicated GPU cluster density metrics would provide deeper granularity.";
+      document.getElementById('insightLimit').innerText = "4C scores are a qualitative team judgment, not computed from official data; no indicator measures farm-level connectivity, GPU compute or skills.";
 
       studioChartInstance = new Chart(ctx, {
         type: 'radar',
@@ -638,8 +643,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('visualizerMainTitle').innerHTML = `<i class="fa-solid fa-chart-bar"></i> Normalized Indicator Profile for ${selectedCountry.name}`;
       document.getElementById('visualizerMainSubtitle').innerText = "Evaluating relative strengths and vulnerabilities across all 8 dimensions";
 
-      document.getElementById('insightObserve').innerText = `${selectedCountry.name} exhibits maximum scores in internet users and affordability, but near-zero scores in R&D, secure servers, and digital exports.`;
-      document.getElementById('insightMeaning').innerText = "The bar profile cleanly highlights the dual nature of Mexico's digital economy: advanced consumption vs. lagging technological production.";
+      const nb = indicatorsMeta.map(i => ({ n: i.short, v: selectedCountry.norm[i.code] })).sort((a, b) => b.v - a.v);
+      document.getElementById('insightObserve').innerText = `${selectedCountry.name}: highest normalized score is ${nb[0].n} (${nb[0].v.toFixed(1)}); lowest is ${nb[nb.length - 1].n} (${nb[nb.length - 1].v.toFixed(1)}).`;
+      document.getElementById('insightMeaning').innerText = `The profile shows which dimensions drive ${selectedCountry.name}'s DRS (${selectedCountry.drs.toFixed(2)}) and which hold it back.`;
       document.getElementById('insightLimit').innerText = "Zero-normalized scores reflect the lowest value within the 5-country dataset, not absolute absence in the physical world.";
 
       const vals = getNormArray(selectedCountry);
